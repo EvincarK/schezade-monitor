@@ -49,7 +49,6 @@ def fetch_one(name: str, url: str, now: datetime) -> dict:
     r = requests.get(request_url, headers=headers, timeout=TIMEOUT, allow_redirects=True)
     r.raise_for_status()
 
-    # requests occasionally guesses legacy Korean encodings poorly.
     if not r.encoding or r.encoding.lower() == "iso-8859-1":
         r.encoding = r.apparent_encoding or "utf-8"
 
@@ -74,6 +73,7 @@ def fetch_one(name: str, url: str, now: datetime) -> dict:
     sha256 = hashlib.sha256(html.encode("utf-8", errors="replace")).hexdigest()
     meta = {
         "name": name,
+        "ok": True,
         "source_url": url,
         "request_url": request_url,
         "final_url": r.url,
@@ -103,26 +103,28 @@ def fetch_one(name: str, url: str, now: datetime) -> dict:
 def main() -> None:
     now = datetime.now(timezone.utc)
     results = {}
-    errors = {}
 
     for name, url in TARGETS.items():
         try:
             results[name] = fetch_one(name, url, now)
         except Exception as exc:
-            errors[name] = f"{type(exc).__name__}: {exc}"
+            results[name] = {
+                "name": name,
+                "ok": False,
+                "source_url": url,
+                "fetched_at_utc": now.isoformat(),
+                "error": f"{type(exc).__name__}: {exc}",
+            }
 
     status = {
         "fetched_at_utc": now.isoformat(),
-        "ok": not errors and len(results) == len(TARGETS),
+        "ok": all(item.get("ok") for item in results.values()),
         "targets": results,
-        "errors": errors,
     }
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "status.json").write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(json.dumps(status, ensure_ascii=False, indent=2))
-    if errors:
-        raise SystemExit(1)
 
 
 if __name__ == "__main__":
