@@ -5,7 +5,7 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import parse_qs, parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -15,6 +15,7 @@ TARGETS = {
     "step_sale": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php",
 }
 
+SITE_ROOT = "https://www.schezade.co.kr/"
 OUT = Path("snapshots")
 TIMEOUT = 30
 
@@ -35,11 +36,137 @@ def normalize_text(text: str) -> str:
     return "\n".join(lines)
 
 
+def parse_money(value: str | None) -> int | None:
+    if not value:
+        return None
+    digits = re.sub(r"[^0-9]", "", value)
+    return int(digits) if digits else None
+
+
+def query_int(url: str, key: str) -> int | None:
+    values = parse_qs(urlsplit(url).query).get(key)
+    if not values:
+        return None
+    try:
+        return int(values[0])
+    except (TypeError, ValueError):
+        return None
+
+
+def element_text(node, selector: str) -> str | None:
+    el = node.select_one(selector)
+    if not el:
+        return None
+    text = normalize_text(el.get_text(" ", strip=True))
+    return text or None
+
+
+def parse_display_items(soup: BeautifulSoup) -> list[dict]:
+    items_by_id: dict[int, dict] = {}
+
+    for card in soup.select("article.card"):
+        name_el = card.select_one("a.card__name[href*='/board/old_goods/g_detail2.html']")
+        if not name_el:
+            continue
+
+        href = urljoin(SITE_ROOT, name_el.get("href", ""))
+        listing_id = query_int(href, "no")
+        if listing_id is None:
+            continue
+
+        current_price = parse_money(card.get("data-now"))
+        if current_price is None:
+            current_price = parse_money(element_text(card, ".price-sale"))
+
+        discount_percent = parse_money(card.get("data-pct"))
+        if discount_percent is None:
+            discount_percent = parse_money(element_text(card, ".price-pct"))
+
+        item = {
+            "listing_id": listing_id,
+            "product_gid": parse_money(card.get("data-pg-product-gid")),
+            "brand": element_text(card, ".card__brand"),
+            "product_name": normalize_text(name_el.get_text(" ", strip=True)),
+            "category": card.get("data-cat") or element_text(card, ".card__meta"),
+            "grade": card.get("data-grade") or element_text(card, ".badge"),
+            "current_price": current_price,
+            "original_price": parse_money(element_text(card, ".price-was")),
+            "discount_percent": discount_percent,
+            "condition": element_text(card, ".outlet-stock"),
+            "url": href,
+        }
+        items_by_id[listing_id] = item
+
+    return sorted(items_by_id.values(), key=lambda x: x["listing_id"], reverse=True)
+
+
+def parse_step_sale_items(soup: BeautifulSoup) -> list[dict]:
+    items_by_id: dict[int, dict] = {}
+
+    # ss-card is the canonical desktop grid card. The page also contains
+    # list/mobile representations of the same products, so only this class is parsed.
+    for card in soup.select("article.ss-card"):
+        hit = card.select_one("a.ss-hit[href*='/rauction/g_detail.html']")
+        if not hit:
+            continue
+
+        href = urljoin(SITE_ROOT, hit.get("href", ""))
+        sale_id = query_int(href, "ano")
+        if sale_id is None:
+            continue
+
+        specs: dict[str, str] = {}
+        for row in card.select(".ss-spec__row"):
+            key = element_text(row, ".k")
+            value = element_text(row, ".v")
+            if key and value:
+                specs[key] = value
+
+        current_price = parse_money(card.get("data-ss-cur"))
+        if current_price is None:
+            current_price = parse_money(element_text(card, ".ss-now .amt"))
+
+        item = {
+            "sale_id": sale_id,
+            "brand": element_text(card, ".ss-card__brand"),
+            "product_name": element_text(card, ".ss-card__name"),
+            "current_price": current_price,
+            "discount_percent": parse_money(card.get("data-ss-rate")),
+            "start_at": specs.get("시작일"),
+            "discount_interval": specs.get("할인 주기"),
+            "discount_amount": parse_money(specs.get("할인 단위")),
+            "start_price": parse_money(specs.get("시작가")),
+            "url": href,
+        }
+        items_by_id[sale_id] = item
+
+    return sorted(items_by_id.values(), key=lambda x: x["sale_id"], reverse=True)
+
+
+def write_structured_snapshot(name: str, meta: dict, soup: BeautifulSoup) -> int:
+    if name == "display":
+        items = parse_display_items(soup)
+    elif name == "step_sale":
+        items = parse_step_sale_items(soup)
+    else:
+        return 0
+
+    payload = {
+        "meta": meta,
+        "count": len(items),
+        "items": items,
+    }
+    (OUT / f"{name}_items.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    return len(items)
+
+
 def fetch_one(name: str, url: str, now: datetime) -> dict:
     stamp = int(now.timestamp())
     request_url = cache_busted(url, stamp)
     headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; schezade-monitor/1.0; +https://github.com/EvincarK/schezade-monitor)",
+        "User-Agent": "Mozilla/5.0 (compatible; schezade-monitor/1.1; +https://github.com/EvincarK/schezade-monitor)",
         "Cache-Control": "no-cache, no-store, max-age=0",
         "Pragma": "no-cache",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -97,6 +224,9 @@ def fetch_one(name: str, url: str, now: datetime) -> dict:
         json.dumps({"meta": meta, "page_text": page_text, "links": links}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+    item_count = write_structured_snapshot(name, meta, soup)
+    meta["item_count"] = item_count
     return meta
 
 
@@ -108,6 +238,7 @@ def main() -> None:
         try:
             results[name] = fetch_one(name, url, now)
         except Exception as exc:
+            # Do not overwrite that target's last good HTML/JSON/items snapshot on failure.
             results[name] = {
                 "name": name,
                 "ok": False,
