@@ -1,0 +1,45 @@
+name: Schezade monitor
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: schezade-monitor
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch live Schezade pages
+        run: python monitor.py
+
+      - name: Commit fresh snapshots
+        if: success()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add snapshots/
+          if git diff --cached --quiet; then
+            echo 'No snapshot changes.'
+          else
+            git commit -m "Update Schezade snapshots"
+            git push
+          fi
