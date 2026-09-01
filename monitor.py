@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -18,6 +19,7 @@ TARGETS = {
 SITE_ROOT = "https://www.schezade.co.kr/"
 OUT = Path("snapshots")
 TIMEOUT = 30
+SUPABASE_TABLE_SCHEZADE = "schezade_auction"
 
 
 def cache_busted(url: str, stamp: int) -> str:
@@ -143,14 +145,86 @@ def parse_step_sale_items(soup: BeautifulSoup) -> list[dict]:
     return sorted(items_by_id.values(), key=lambda x: x["sale_id"], reverse=True)
 
 
-def write_structured_snapshot(name: str, meta: dict, soup: BeautifulSoup) -> int:
-    if name == "display":
-        items = parse_display_items(soup)
-    elif name == "step_sale":
-        items = parse_step_sale_items(soup)
-    else:
+def load_previous_items(name: str) -> list[dict]:
+    path = OUT / f"{name}_items.json"
+    if not path.exists():
+        return []
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        items = payload.get("items", [])
+        return items if isinstance(items, list) else []
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
+def supabase_config() -> tuple[str, str]:
+    url = os.environ.get("SUPABASE_URL", "").strip().rstrip("/")
+    key = os.environ.get("SUPABASE_KEY", "").strip()
+    if not url or not key:
+        raise RuntimeError("SUPABASE_URL or SUPABASE_KEY is missing")
+    return url, key
+
+
+def verify_supabase() -> None:
+    url, key = supabase_config()
+    endpoint = f"{url}/rest/v1/{SUPABASE_TABLE_SCHEZADE}"
+    r = requests.get(
+        endpoint,
+        params={"select": "id", "limit": "1"},
+        headers={"apikey": key, "Accept": "application/json"},
+        timeout=TIMEOUT,
+    )
+    r.raise_for_status()
+
+
+def record_ended_schezade_sales(previous_items: list[dict], current_items: list[dict]) -> int:
+    # Always verify the DB connection before accepting a new step-sale snapshot.
+    # If Supabase is unavailable, the old snapshot is preserved so an ended auction
+    # cannot be silently lost on the next run.
+    verify_supabase()
+
+    previous_by_id = {
+        item.get("sale_id"): item
+        for item in previous_items
+        if isinstance(item.get("sale_id"), int)
+    }
+    current_ids = {
+        item.get("sale_id")
+        for item in current_items
+        if isinstance(item.get("sale_id"), int)
+    }
+    ended_ids = sorted(set(previous_by_id) - current_ids)
+    if not ended_ids:
         return 0
 
+    rows = []
+    for sale_id in ended_ids:
+        item = previous_by_id[sale_id]
+        item_name = item.get("product_name")
+        bid_price = item.get("current_price")
+        if not item_name or not isinstance(bid_price, int):
+            raise RuntimeError(f"ended auction {sale_id} is missing name or final observed price")
+        rows.append({"id": sale_id, "item_name": item_name, "bid_price": bid_price})
+
+    url, key = supabase_config()
+    endpoint = f"{url}/rest/v1/{SUPABASE_TABLE_SCHEZADE}"
+    r = requests.post(
+        endpoint,
+        params={"on_conflict": "id"},
+        headers={
+            "apikey": key,
+            "Content-Type": "application/json",
+            "Prefer": "resolution=ignore-duplicates,return=minimal",
+        },
+        json=rows,
+        timeout=TIMEOUT,
+    )
+    r.raise_for_status()
+    print(f"Recorded {len(rows)} ended Schezade auction(s) in Supabase")
+    return len(rows)
+
+
+def write_structured_snapshot(name: str, meta: dict, items: list[dict]) -> int:
     payload = {
         "meta": meta,
         "count": len(items),
@@ -163,10 +237,12 @@ def write_structured_snapshot(name: str, meta: dict, soup: BeautifulSoup) -> int
 
 
 def fetch_one(name: str, url: str, now: datetime) -> dict:
+    previous_items = load_previous_items(name)
+
     stamp = int(now.timestamp())
     request_url = cache_busted(url, stamp)
     headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; schezade-monitor/1.1; +https://github.com/EvincarK/schezade-monitor)",
+        "User-Agent": "Mozilla/5.0 (compatible; schezade-monitor/1.2; +https://github.com/EvincarK/schezade-monitor)",
         "Cache-Control": "no-cache, no-store, max-age=0",
         "Pragma": "no-cache",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -187,14 +263,24 @@ def fetch_one(name: str, url: str, now: datetime) -> dict:
     title = soup.title.get_text(" ", strip=True) if soup.title else ""
     page_text = normalize_text(soup.get_text("\n", strip=True))
 
+    if name == "display":
+        items = parse_display_items(soup)
+    elif name == "step_sale":
+        items = parse_step_sale_items(soup)
+        if not items:
+            raise RuntimeError("step_sale: parser returned zero items")
+        record_ended_schezade_sales(previous_items, items)
+    else:
+        items = []
+
     links = []
     seen = set()
     for a in soup.find_all("a", href=True):
         href = a.get("href", "").strip()
         text = normalize_text(a.get_text(" ", strip=True))
-        key = (href, text)
-        if href and key not in seen:
-            seen.add(key)
+        link_key = (href, text)
+        if href and link_key not in seen:
+            seen.add(link_key)
             links.append({"text": text, "href": href})
 
     sha256 = hashlib.sha256(html.encode("utf-8", errors="replace")).hexdigest()
@@ -225,7 +311,7 @@ def fetch_one(name: str, url: str, now: datetime) -> dict:
         encoding="utf-8",
     )
 
-    item_count = write_structured_snapshot(name, meta, soup)
+    item_count = write_structured_snapshot(name, meta, items)
     meta["item_count"] = item_count
     return meta
 
