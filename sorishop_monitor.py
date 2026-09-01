@@ -6,7 +6,7 @@ import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qs, parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -19,196 +19,169 @@ HTML_PATH = OUT / "sorishop.html"
 PAGE_PATH = OUT / "sorishop.json"
 STATUS_PATH = OUT / "sorishop_status.json"
 TIMEOUT = 30
-SUPABASE_TABLE = "sorishop_auction"
+TABLE = "sorishop_auction"
+
+
+def normalize(text: str) -> str:
+    return "\n".join(
+        line for line in (re.sub(r"\s+", " ", x).strip() for x in text.splitlines()) if line
+    )
+
+
+def money(text: str | None) -> int | None:
+    if not text:
+        return None
+    digits = re.sub(r"\D", "", text)
+    return int(digits) if digits else None
 
 
 def cache_busted(url: str, stamp: int) -> str:
     parts = urlsplit(url)
-    query = dict(parse_qsl(parts.query, keep_blank_values=True))
-    query["_sorishop_monitor_ts"] = str(stamp)
-    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
+    q = dict(parse_qsl(parts.query, keep_blank_values=True))
+    q["_sorishop_monitor_ts"] = str(stamp)
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(q), parts.fragment))
 
 
-def normalize_text(text: str) -> str:
-    lines: list[str] = []
-    for line in text.splitlines():
-        line = re.sub(r"\s+", " ", line).strip()
-        if line:
-            lines.append(line)
-    return "\n".join(lines)
+def auction_id(href: str) -> int | None:
+    m = re.search(r"(?:[?&]|&amp;)ano=(\d+)", href, re.I)
+    return int(m.group(1)) if m else None
 
 
-def parse_money(value: str | None) -> int | None:
-    if not value:
-        return None
-    digits = re.sub(r"[^0-9]", "", value)
-    return int(digits) if digits else None
+def ids_in(node: Tag) -> set[int]:
+    out = set()
+    for a in node.find_all("a", href=True):
+        value = auction_id(str(a.get("href", "")))
+        if value is not None:
+            out.add(value)
+    return out
 
 
-def query_int(url: str, key: str) -> int | None:
-    values = parse_qs(urlsplit(url).query).get(key)
-    if not values:
-        return None
-    try:
-        return int(values[0])
-    except (TypeError, ValueError):
-        return None
-
-
-def auction_id_from_href(href: str) -> int | None:
-    absolute = urljoin(SITE_ROOT, href)
-    if "/rauction/g_detail.html" not in urlsplit(absolute).path:
-        return None
-    return query_int(absolute, "ano")
-
-
-def unique_auction_ids(node: Tag) -> set[int]:
-    ids: set[int] = set()
-    for link in node.find_all("a", href=True):
-        auction_id = auction_id_from_href(link.get("href", ""))
-        if auction_id is not None:
-            ids.add(auction_id)
-    return ids
-
-
-def find_item_container(anchor: Tag, auction_id: int) -> Tag | None:
-    """Find the smallest ancestor that looks like exactly one auction card.
-
-    Sorishop has changed card class names over time, so the parser intentionally
-    keys off stable user-visible labels and the detail URL instead of a CSS class.
-    """
+def card_for(anchor: Tag, aid: int) -> Tag | None:
     node: Tag | None = anchor
-    for _ in range(14):
+    for _ in range(16):
         parent = node.parent if node else None
         if not isinstance(parent, Tag):
-            break
+            return None
         node = parent
-        text = normalize_text(node.get_text("\n", strip=True))
-        if not ("시작" in text and ("현재가" in text or "주문시각" in text or "주문가" in text)):
+        text = normalize(node.get_text("\n", strip=True))
+        if "시작" not in text:
             continue
-        ids = unique_auction_ids(node)
-        if ids == {auction_id}:
+        if not any(label in text for label in ("현재가", "주문 시각", "주문시각", "주문가")):
+            continue
+        if ids_in(node) == {aid}:
             return node
     return None
 
 
-def regex_money(text: str, label: str) -> int | None:
-    # Examples: "현재가 1,234,000원", "주문가 850,000원".
-    # Masked values such as "주문가 ****원" intentionally return None.
+def labeled_money(text: str, label: str) -> int | None:
     m = re.search(rf"{re.escape(label)}\s*([0-9][0-9,]*)\s*원", text)
-    return parse_money(m.group(1)) if m else None
+    return money(m.group(1)) if m else None
 
 
-def regex_value(text: str, label: str) -> str | None:
-    m = re.search(rf"{re.escape(label)}\s*[:：]?\s*([^\n]+)", text)
-    return m.group(1).strip() if m else None
+def labeled_line(text: str, *labels: str) -> str | None:
+    for label in labels:
+        m = re.search(rf"{re.escape(label)}\s*[:：]?\s*([^\n]+)", text)
+        if m:
+            return m.group(1).strip()
+    return None
 
 
-def numeric_order_price_attr(node: Tag) -> int | None:
-    """Use a numeric order/bid-price data attribute if Sorishop exposes one.
-
-    This is deliberately conservative: generic data-price attributes are ignored
-    because they can be the list/start/current price instead of the paid price.
-    """
+def exposed_order_price(node: Tag) -> int | None:
     for tag in [node, *node.find_all(True)]:
         for key, value in tag.attrs.items():
-            key_l = str(key).lower().replace("-", "_")
-            if not ("price" in key_l and ("order" in key_l or "bid" in key_l or "paid" in key_l)):
+            k = str(key).lower().replace("-", "_")
+            if "price" not in k or not any(word in k for word in ("order", "bid", "paid")):
                 continue
             if isinstance(value, list):
-                value = " ".join(str(x) for x in value)
-            parsed = parse_money(str(value))
+                value = " ".join(map(str, value))
+            parsed = money(str(value))
             if parsed is not None:
                 return parsed
     return None
 
 
-def best_item_name(anchors: list[Tag]) -> str | None:
-    candidates = [normalize_text(a.get_text(" ", strip=True)) for a in anchors]
-    candidates = [x for x in candidates if x]
-    return max(candidates, key=len) if candidates else None
+def parse_items(soup: BeautifulSoup) -> tuple[list[dict], list[dict], dict]:
+    anchors: dict[int, list[Tag]] = {}
+    all_hrefs: list[str] = []
+    for a in soup.find_all("a", href=True):
+        href = str(a.get("href", ""))
+        all_hrefs.append(href)
+        aid = auction_id(href)
+        if aid is not None:
+            anchors.setdefault(aid, []).append(a)
 
+    active: dict[int, dict] = {}
+    completed: dict[int, dict] = {}
+    unresolved: list[int] = []
 
-def parse_auction_items(soup: BeautifulSoup) -> tuple[list[dict], list[dict], dict]:
-    anchors_by_id: dict[int, list[Tag]] = {}
-    for anchor in soup.find_all("a", href=True):
-        auction_id = auction_id_from_href(anchor.get("href", ""))
-        if auction_id is not None:
-            anchors_by_id.setdefault(auction_id, []).append(anchor)
-
-    active_by_id: dict[int, dict] = {}
-    completed_by_id: dict[int, dict] = {}
-    unresolved_ids: list[int] = []
-
-    for auction_id, anchors in anchors_by_id.items():
-        named_anchors = [a for a in anchors if normalize_text(a.get_text(" ", strip=True))]
-        search_anchors = named_anchors + [a for a in anchors if a not in named_anchors]
-        container = None
-        for anchor in search_anchors:
-            container = find_item_container(anchor, auction_id)
-            if container is not None:
+    for aid, links in anchors.items():
+        card = None
+        for a in sorted(links, key=lambda x: bool(normalize(x.get_text(" ", strip=True))), reverse=True):
+            card = card_for(a, aid)
+            if card is not None:
                 break
-        if container is None:
-            unresolved_ids.append(auction_id)
+        if card is None:
+            unresolved.append(aid)
             continue
 
-        text = normalize_text(container.get_text("\n", strip=True))
-        item_name = best_item_name(anchors)
-        href = urljoin(SITE_ROOT, anchors[0].get("href", ""))
-
-        current_price = regex_money(text, "현재가")
-        order_price = regex_money(text, "주문가")
-        if order_price is None and "주문가" in text:
-            order_price = numeric_order_price_attr(container)
-
+        text = normalize(card.get_text("\n", strip=True))
+        names = [normalize(a.get_text(" ", strip=True)) for a in links]
+        names = [x for x in names if x]
+        name = max(names, key=len) if names else None
+        href = urljoin(SITE_ROOT, str(links[0].get("href", "")))
         common = {
-            "auction_id": auction_id,
-            "item_name": item_name,
-            "start_at": regex_value(text, "시작 일시") or regex_value(text, "시작일시"),
-            "discount_interval": regex_value(text, "할인"),
-            "discount_amount": regex_money(text, "할인 단위"),
+            "auction_id": aid,
+            "item_name": name,
+            "start_at": labeled_line(text, "시작 일시", "시작일시"),
+            "discount_amount": labeled_money(text, "할인 단위"),
             "url": href,
         }
 
-        if current_price is not None and "현재가" in text:
-            active_by_id[auction_id] = {
-                **common,
-                "current_price": current_price,
-            }
-        elif "주문시각" in text or "주문가" in text:
-            completed_by_id[auction_id] = {
-                **common,
-                "order_at": regex_value(text, "주문시각"),
-                "order_price": order_price,
-                "order_price_masked": order_price is None,
-            }
-        else:
-            unresolved_ids.append(auction_id)
+        current = labeled_money(text, "현재가")
+        if current is not None:
+            active[aid] = {**common, "current_price": current}
+            continue
 
-    diagnostics = {
-        "detail_id_count": len(anchors_by_id),
-        "active_count": len(active_by_id),
-        "completed_count": len(completed_by_id),
-        "unresolved_count": len(unresolved_ids),
-        "unresolved_ids_sample": sorted(unresolved_ids, reverse=True)[:20],
+        if any(label in text for label in ("주문 시각", "주문시각", "주문가")):
+            order = labeled_money(text, "주문가")
+            if order is None:
+                order = exposed_order_price(card)
+            completed[aid] = {
+                **common,
+                "order_at": labeled_line(text, "주문 시각", "주문시각"),
+                "order_price": order,
+                "order_price_masked": order is None,
+            }
+            continue
+
+        unresolved.append(aid)
+
+    diag = {
+        "detail_id_count": len(anchors),
+        "active_count": len(active),
+        "completed_count": len(completed),
+        "unresolved_count": len(unresolved),
+        "unresolved_ids_sample": sorted(unresolved, reverse=True)[:20],
+        "href_sample": [x for x in all_hrefs if "detail" in x.lower() or "ano" in x.lower()][:20],
     }
-    active = sorted(active_by_id.values(), key=lambda x: x["auction_id"], reverse=True)
-    completed = sorted(completed_by_id.values(), key=lambda x: x["auction_id"], reverse=True)
-    return active, completed, diagnostics
+    return (
+        sorted(active.values(), key=lambda x: x["auction_id"], reverse=True),
+        sorted(completed.values(), key=lambda x: x["auction_id"], reverse=True),
+        diag,
+    )
 
 
-def load_previous_items() -> list[dict]:
+def previous_items() -> list[dict]:
     if not ITEMS_PATH.exists():
         return []
     try:
-        payload = json.loads(ITEMS_PATH.read_text(encoding="utf-8"))
-        items = payload.get("items", [])
-        return items if isinstance(items, list) else []
+        data = json.loads(ITEMS_PATH.read_text(encoding="utf-8"))
+        return data.get("items", []) if isinstance(data.get("items", []), list) else []
     except (OSError, json.JSONDecodeError):
         return []
 
 
-def supabase_config() -> tuple[str, str]:
+def db_config() -> tuple[str, str]:
     url = os.environ.get("SUPABASE_URL", "").strip().rstrip("/")
     key = os.environ.get("SUPABASE_KEY", "").strip()
     if not url or not key:
@@ -216,71 +189,46 @@ def supabase_config() -> tuple[str, str]:
     return url, key
 
 
-def verify_supabase() -> None:
-    url, key = supabase_config()
-    endpoint = f"{url}/rest/v1/{SUPABASE_TABLE}"
-    response = requests.get(
-        endpoint,
+def verify_db() -> None:
+    url, key = db_config()
+    r = requests.get(
+        f"{url}/rest/v1/{TABLE}",
         params={"select": "id", "limit": "1"},
         headers={"apikey": key, "Accept": "application/json"},
         timeout=TIMEOUT,
     )
-    response.raise_for_status()
+    r.raise_for_status()
 
 
-def record_ended_sales(previous_items: list[dict], current_items: list[dict], completed_items: list[dict]) -> int:
-    # Verify DB before accepting the new snapshot. If DB is unavailable, this run
-    # fails and the workflow does not commit the new snapshot, preserving the event.
-    verify_supabase()
-
-    previous_by_id = {
-        item.get("auction_id"): item
-        for item in previous_items
-        if isinstance(item.get("auction_id"), int)
-    }
-    current_ids = {
-        item.get("auction_id")
-        for item in current_items
-        if isinstance(item.get("auction_id"), int)
-    }
-    completed_by_id = {
-        item.get("auction_id"): item
-        for item in completed_items
-        if isinstance(item.get("auction_id"), int)
-    }
-
-    ended_ids = sorted(set(previous_by_id) - current_ids)
-    if not ended_ids:
+def record_ended(previous: list[dict], current: list[dict], completed: list[dict]) -> int:
+    verify_db()
+    prev = {x.get("auction_id"): x for x in previous if isinstance(x.get("auction_id"), int)}
+    cur_ids = {x.get("auction_id") for x in current if isinstance(x.get("auction_id"), int)}
+    done = {x.get("auction_id"): x for x in completed if isinstance(x.get("auction_id"), int)}
+    ended = sorted(set(prev) - cur_ids)
+    if not ended:
         return 0
 
-    # A genuine hourly sale disappearance should immediately appear in Sorishop's
-    # completed/order area. If it does not, treat the run as suspicious rather than
-    # converting a partial parse/site outage into a mass sale event.
-    missing_from_completed = [auction_id for auction_id in ended_ids if auction_id not in completed_by_id]
-    if missing_from_completed:
-        raise RuntimeError(
-            "ended auction(s) missing from completed list; refusing snapshot: "
-            + ", ".join(map(str, missing_from_completed[:20]))
-        )
+    missing = [x for x in ended if x not in done]
+    if missing:
+        raise RuntimeError("ended IDs absent from completed list; refusing snapshot: " + ", ".join(map(str, missing[:20])))
 
-    rows: list[dict] = []
-    for auction_id in ended_ids:
-        previous = previous_by_id[auction_id]
-        completed = completed_by_id[auction_id]
-        item_name = completed.get("item_name") or previous.get("item_name")
-        order_price = completed.get("order_price")
-        last_observed_price = previous.get("current_price")
-        bid_price = order_price if isinstance(order_price, int) else last_observed_price
-        if not item_name or not isinstance(bid_price, int):
-            raise RuntimeError(f"ended auction {auction_id} is missing name or usable final price")
-        source = "actual_order_price" if isinstance(order_price, int) else "last_observed_price"
-        print(f"Ended Sorishop auction {auction_id}: {item_name} / {bid_price} ({source})")
-        rows.append({"id": auction_id, "item_name": item_name, "bid_price": bid_price})
+    rows = []
+    for aid in ended:
+        old, sold = prev[aid], done[aid]
+        name = sold.get("item_name") or old.get("item_name")
+        actual = sold.get("order_price")
+        observed = old.get("current_price")
+        final = actual if isinstance(actual, int) else observed
+        if not name or not isinstance(final, int):
+            raise RuntimeError(f"ended auction {aid} lacks name/final price")
+        source = "actual_order_price" if isinstance(actual, int) else "last_observed_price"
+        print(f"Ended Sorishop auction {aid}: {name} / {final} ({source})")
+        rows.append({"id": aid, "item_name": name, "bid_price": final})
 
-    url, key = supabase_config()
-    endpoint = f"{url}/rest/v1/{SUPABASE_TABLE}"
-    response = requests.post(
-        endpoint,
+    url, key = db_config()
+    r = requests.post(
+        f"{url}/rest/v1/{TABLE}",
         params={"on_conflict": "id"},
         headers={
             "apikey": key,
@@ -290,7 +238,7 @@ def record_ended_sales(previous_items: list[dict], current_items: list[dict], co
         json=rows,
         timeout=TIMEOUT,
     )
-    response.raise_for_status()
+    r.raise_for_status()
     print(f"Recorded {len(rows)} ended Sorishop auction(s) in Supabase")
     return len(rows)
 
@@ -298,79 +246,61 @@ def record_ended_sales(previous_items: list[dict], current_items: list[dict], co
 def main() -> None:
     now = datetime.now(timezone.utc)
     OUT.mkdir(parents=True, exist_ok=True)
-    previous_items = load_previous_items()
+    previous = previous_items()
     request_url = cache_busted(TARGET_URL, int(now.timestamp()))
 
     try:
-        response = requests.get(
+        r = requests.get(
             request_url,
             headers={
-                "User-Agent": "Mozilla/5.0 (compatible; sorishop-monitor/1.0; +https://github.com/EvincarK/schezade-monitor)",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/152 Safari/537.36",
                 "Cache-Control": "no-cache, no-store, max-age=0",
                 "Pragma": "no-cache",
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.7",
             },
             timeout=TIMEOUT,
             allow_redirects=True,
         )
-        response.raise_for_status()
-        if not response.encoding or response.encoding.lower() == "iso-8859-1":
-            response.encoding = response.apparent_encoding or "utf-8"
-
-        html = response.text
+        r.raise_for_status()
+        if not r.encoding or r.encoding.lower() == "iso-8859-1":
+            r.encoding = r.apparent_encoding or "utf-8"
+        html = r.text
         if len(html) < 10_000:
-            raise RuntimeError(f"response is suspiciously small ({len(html)} chars)")
+            raise RuntimeError(f"response suspiciously small: {len(html)} chars")
 
         soup = BeautifulSoup(html, "html.parser")
-        title = soup.title.get_text(" ", strip=True) if soup.title else ""
-        page_text = normalize_text(soup.get_text("\n", strip=True))
+        page_text = normalize(soup.get_text("\n", strip=True))
         if "계단식 세일" not in page_text:
-            raise RuntimeError("expected Sorishop step-sale marker not found")
+            raise RuntimeError("expected step-sale marker not found")
 
-        active_items, completed_items, diagnostics = parse_auction_items(soup)
-        if diagnostics["detail_id_count"] == 0:
-            raise RuntimeError("no auction detail IDs were parsed")
-        if not active_items and previous_items:
-            raise RuntimeError("active parser returned zero items while previous snapshot is non-empty")
+        active, completed, diag = parse_items(soup)
+        if diag["detail_id_count"] == 0:
+            raise RuntimeError("no auction IDs parsed; href sample=" + repr(diag["href_sample"]))
+        if not active:
+            raise RuntimeError("active parser returned zero items")
 
-        recorded = record_ended_sales(previous_items, active_items, completed_items)
-
+        recorded = record_ended(previous, active, completed)
         meta = {
             "name": "sorishop",
             "ok": True,
             "source_url": TARGET_URL,
             "request_url": request_url,
-            "final_url": response.url,
+            "final_url": r.url,
             "fetched_at_utc": now.isoformat(),
-            "status_code": response.status_code,
-            "title": title,
+            "status_code": r.status_code,
+            "title": soup.title.get_text(" ", strip=True) if soup.title else "",
             "html_chars": len(html),
             "text_chars": len(page_text),
             "sha256": hashlib.sha256(html.encode("utf-8", errors="replace")).hexdigest(),
             "recorded_ended_count": recorded,
-            **diagnostics,
+            **diag,
         }
 
-        # Write only after all parsing and Supabase work succeeds.
         HTML_PATH.write_text(html, encoding="utf-8")
-        PAGE_PATH.write_text(
-            json.dumps(
-                {"meta": meta, "page_text": page_text},
-                ensure_ascii=False,
-                indent=2,
-            ),
-            encoding="utf-8",
-        )
+        PAGE_PATH.write_text(json.dumps({"meta": meta, "page_text": page_text}, ensure_ascii=False, indent=2), encoding="utf-8")
         ITEMS_PATH.write_text(
             json.dumps(
-                {
-                    "meta": meta,
-                    "count": len(active_items),
-                    "items": active_items,
-                    "completed_count": len(completed_items),
-                    "completed_items": completed_items,
-                },
+                {"meta": meta, "count": len(active), "items": active, "completed_count": len(completed), "completed_items": completed},
                 ensure_ascii=False,
                 indent=2,
             ),
@@ -378,9 +308,7 @@ def main() -> None:
         )
         STATUS_PATH.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
         print(json.dumps(meta, ensure_ascii=False, indent=2))
-
     except Exception as exc:
-        # Keep the last good HTML/items snapshot untouched. Only status is updated.
         status = {
             "name": "sorishop",
             "ok": False,
