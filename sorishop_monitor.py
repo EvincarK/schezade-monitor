@@ -47,28 +47,17 @@ def auction_id(href: str) -> int | None:
     return int(m.group(1)) if m else None
 
 
-def ids_in(node: Tag) -> set[int]:
-    out = set()
-    for a in node.find_all("a", href=True):
-        value = auction_id(str(a.get("href", "")))
-        if value is not None:
-            out.add(value)
-    return out
-
-
-def card_for(anchor: Tag, aid: int) -> Tag | None:
+def card_for(anchor: Tag) -> Tag | None:
+    # Take the nearest ancestor containing the auction fields. This avoids scanning
+    # every descendant of large page wrappers and keeps the parser O(number of cards).
     node: Tag | None = anchor
-    for _ in range(16):
+    for _ in range(12):
         parent = node.parent if node else None
         if not isinstance(parent, Tag):
             return None
         node = parent
         text = normalize(node.get_text("\n", strip=True))
-        if "시작" not in text:
-            continue
-        if not any(label in text for label in ("현재가", "주문 시각", "주문시각", "주문가")):
-            continue
-        if ids_in(node) == {aid}:
+        if "시작" in text and any(label in text for label in ("현재가", "주문 시각", "주문시각", "주문가")):
             return node
     return None
 
@@ -117,7 +106,7 @@ def parse_items(soup: BeautifulSoup) -> tuple[list[dict], list[dict], dict]:
     for aid, links in anchors.items():
         card = None
         for a in sorted(links, key=lambda x: bool(normalize(x.get_text(" ", strip=True))), reverse=True):
-            card = card_for(a, aid)
+            card = card_for(a)
             if card is not None:
                 break
         if card is None:
