@@ -35,6 +35,13 @@ def money(text: str | None) -> int | None:
     return int(digits) if digits else None
 
 
+def won_amount(text: str | None) -> int | None:
+    if not text:
+        return None
+    match = re.search(r"([0-9][0-9,]*)\s*원", text)
+    return money(match.group(1)) if match else None
+
+
 def cache_busted(url: str, stamp: int) -> str:
     parts = urlsplit(url)
     query = dict(parse_qsl(parts.query, keep_blank_values=True))
@@ -60,50 +67,8 @@ def card_specs(card: Tag) -> dict[str, str]:
     return specs
 
 
-def labeled_money(text: str, label: str) -> int | None:
-    match = re.search(rf"{re.escape(label)}\s*[:：]?\s*([0-9][0-9,]*)\s*원", text)
-    return money(match.group(1)) if match else None
-
-
-def labeled_line(text: str, *labels: str) -> str | None:
-    for label in labels:
-        match = re.search(rf"{re.escape(label)}\s*[:：]?\s*([^\n]+)", text)
-        if match:
-            return match.group(1).strip()
-    return None
-
-
-def exposed_order_price(card: Tag) -> int | None:
-    # A numeric paid/order price, if Sorishop leaves one in an attribute, wins over
-    # the masked display text. Generic price attributes are intentionally ignored.
-    for tag in [card, *card.find_all(True)]:
-        for key, value in tag.attrs.items():
-            key_l = str(key).lower().replace("-", "_")
-            if "price" not in key_l or not any(word in key_l for word in ("order", "bid", "paid")):
-                continue
-            if isinstance(value, list):
-                value = " ".join(map(str, value))
-            parsed = money(str(value))
-            if parsed is not None:
-                return parsed
-
-    # Also inspect inline script snippets contained by the card, but only keys whose
-    # names explicitly mean order/bid/paid price.
-    raw = str(card)
-    patterns = (
-        r"(?:order|bid|paid)[_-]?price\s*[:=]\s*['\"]?([0-9][0-9,]*)",
-        r"price[_-]?(?:order|bid|paid)\s*[:=]\s*['\"]?([0-9][0-9,]*)",
-    )
-    for pattern in patterns:
-        match = re.search(pattern, raw, re.I)
-        if match:
-            return money(match.group(1))
-    return None
-
-
-def parse_items(soup: BeautifulSoup) -> tuple[list[dict], list[dict], dict]:
+def parse_items(soup: BeautifulSoup) -> tuple[list[dict], dict]:
     active: dict[int, dict] = {}
-    completed: dict[int, dict] = {}
     unresolved: list[int] = []
     cards = soup.select("article.gd-card")
 
@@ -119,53 +84,32 @@ def parse_items(soup: BeautifulSoup) -> tuple[list[dict], list[dict], dict]:
         name_el = card.select_one(".gd-name")
         name = normalize(name_el.get_text(" ", strip=True)) if name_el else None
         specs = card_specs(card)
-        text = normalize(card.get_text("\n", strip=True))
-        common = {
+        now_el = card.select_one(".gd-now")
+        current_price = money(now_el.get_text(" ", strip=True)) if now_el else None
+        if current_price is None:
+            unresolved.append(aid)
+            continue
+
+        discount_interval = specs.get("할인 단위")
+        active[aid] = {
             "auction_id": aid,
             "item_name": name,
             "start_at": specs.get("시작 일시") or specs.get("시작일시"),
-            "discount_interval": specs.get("할인 단위"),
-            "discount_amount": money(specs.get("할인 단위")),
+            "discount_interval": discount_interval,
+            "discount_amount": won_amount(discount_interval),
             "url": urljoin(SITE_ROOT, href_raw),
+            "current_price": current_price,
+            "original_price": money(card.select_one(".gd-was").get_text(" ", strip=True)) if card.select_one(".gd-was") else None,
+            "discount_percent": money(card.select_one(".gd-rate").get_text(" ", strip=True)) if card.select_one(".gd-rate") else None,
         }
-
-        now_el = card.select_one(".gd-now")
-        current_price = money(now_el.get_text(" ", strip=True)) if now_el else None
-        if current_price is not None:
-            active[aid] = {
-                **common,
-                "current_price": current_price,
-                "original_price": money(card.select_one(".gd-was").get_text(" ", strip=True)) if card.select_one(".gd-was") else None,
-                "discount_percent": money(card.select_one(".gd-rate").get_text(" ", strip=True)) if card.select_one(".gd-rate") else None,
-            }
-            continue
-
-        if any(label in text for label in ("주문 시각", "주문시각", "주문가", "판매가")):
-            order_price = labeled_money(text, "주문가")
-            if order_price is None:
-                order_price = exposed_order_price(card)
-            completed[aid] = {
-                **common,
-                "order_at": labeled_line(text, "주문 시각", "주문시각"),
-                "order_price": order_price,
-                "order_price_masked": order_price is None,
-            }
-            continue
-
-        unresolved.append(aid)
 
     diagnostics = {
         "card_count": len(cards),
         "active_count": len(active),
-        "completed_count": len(completed),
         "unresolved_count": len(unresolved),
-        "unresolved_ids_sample": sorted(unresolved, reverse=True)[:20],
+        "unresolved_ids_sample": sorted(set(unresolved), reverse=True)[:20],
     }
-    return (
-        sorted(active.values(), key=lambda x: x["auction_id"], reverse=True),
-        sorted(completed.values(), key=lambda x: x["auction_id"], reverse=True),
-        diagnostics,
-    )
+    return sorted(active.values(), key=lambda x: x["auction_id"], reverse=True), diagnostics
 
 
 def previous_items() -> list[dict]:
@@ -198,7 +142,7 @@ def verify_db() -> None:
     response.raise_for_status()
 
 
-def record_ended(previous: list[dict], current: list[dict], completed: list[dict]) -> int:
+def record_ended(previous: list[dict], current: list[dict]) -> int:
     # DB connectivity is part of accepting a new good snapshot. If it fails, the
     # workflow fails before committing, so an ending event cannot be lost.
     verify_db()
@@ -213,37 +157,32 @@ def record_ended(previous: list[dict], current: list[dict], completed: list[dict
         for item in current
         if isinstance(item.get("auction_id"), int)
     }
-    completed_by_id = {
-        item.get("auction_id"): item
-        for item in completed
-        if isinstance(item.get("auction_id"), int)
-    }
+
+    # A partial/broken response must not look like a mass auction ending. Zero active
+    # items is rejected earlier; this catches a page that is only partially rendered.
+    if previous_by_id and len(current_ids) * 2 < len(previous_by_id):
+        raise RuntimeError(
+            f"active auction count dropped suspiciously: {len(previous_by_id)} -> {len(current_ids)}; "
+            "refusing snapshot"
+        )
+
     ended_ids = sorted(set(previous_by_id) - current_ids)
     if not ended_ids:
         return 0
 
-    # A genuine disappearance must also be visible in the completed/order area.
-    # Otherwise treat the response as partial/broken rather than a mass sale event.
-    missing = [aid for aid in ended_ids if aid not in completed_by_id]
-    if missing:
-        raise RuntimeError(
-            "ended IDs absent from completed list; refusing snapshot: "
-            + ", ".join(map(str, missing[:20]))
-        )
-
     rows: list[dict] = []
     for aid in ended_ids:
         old = previous_by_id[aid]
-        sold = completed_by_id[aid]
-        item_name = sold.get("item_name") or old.get("item_name")
-        actual_order_price = sold.get("order_price")
+        item_name = old.get("item_name")
         last_observed_price = old.get("current_price")
-        final_price = actual_order_price if isinstance(actual_order_price, int) else last_observed_price
-        if not item_name or not isinstance(final_price, int):
-            raise RuntimeError(f"ended auction {aid} lacks name/final price")
-        source = "actual_order_price" if isinstance(actual_order_price, int) else "last_observed_price"
-        print(f"Ended Sorishop auction {aid}: {item_name} / {final_price} ({source})")
-        rows.append({"id": aid, "item_name": item_name, "bid_price": final_price})
+        if not item_name or not isinstance(last_observed_price, int):
+            raise RuntimeError(f"ended auction {aid} lacks name/last observed price")
+
+        print(
+            f"Ended Sorishop auction {aid}: {item_name} / "
+            f"{last_observed_price} (last_observed_price)"
+        )
+        rows.append({"id": aid, "item_name": item_name, "bid_price": last_observed_price})
 
     url, key = db_config()
     response = requests.post(
@@ -293,7 +232,7 @@ def main() -> None:
         if "계단식 세일" not in page_text:
             raise RuntimeError("expected step-sale marker not found")
 
-        active, completed, diagnostics = parse_items(soup)
+        active, diagnostics = parse_items(soup)
         print("SORISHOP DIAGNOSTICS", json.dumps(diagnostics, ensure_ascii=False))
         if diagnostics["card_count"] == 0:
             raise RuntimeError("no gd-card auction cards parsed")
@@ -302,7 +241,7 @@ def main() -> None:
         if diagnostics["unresolved_count"] > max(3, diagnostics["card_count"] // 20):
             raise RuntimeError("too many unresolved Sorishop auction cards")
 
-        recorded = record_ended(previous, active, completed)
+        recorded = record_ended(previous, active)
         meta = {
             "name": "sorishop",
             "ok": True,
@@ -331,8 +270,6 @@ def main() -> None:
                     "meta": meta,
                     "count": len(active),
                     "items": active,
-                    "completed_count": len(completed),
-                    "completed_items": completed,
                 },
                 ensure_ascii=False,
                 indent=2,
