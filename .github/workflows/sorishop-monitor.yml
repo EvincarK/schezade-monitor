@@ -1,0 +1,55 @@
+name: Sorishop monitor
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'sorishop_monitor.py'
+      - 'requirements.txt'
+      - '.github/workflows/sorishop-monitor.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sorishop-monitor
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch live Sorishop auction page
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python sorishop_monitor.py
+
+      - name: Commit fresh Sorishop snapshots
+        if: success()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add snapshots/sorishop.html snapshots/sorishop.json snapshots/sorishop_items.json snapshots/sorishop_status.json
+          if git diff --cached --quiet; then
+            echo 'No Sorishop snapshot changes.'
+          else
+            git commit -m "Update Sorishop snapshots"
+            git push
+          fi
