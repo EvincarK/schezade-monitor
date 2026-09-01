@@ -48,8 +48,6 @@ def auction_id(href: str) -> int | None:
 
 
 def card_for(anchor: Tag) -> Tag | None:
-    # Take the nearest ancestor containing the auction fields. This avoids scanning
-    # every descendant of large page wrappers and keeps the parser O(number of cards).
     node: Tag | None = anchor
     for _ in range(12):
         parent = node.parent if node else None
@@ -263,9 +261,17 @@ def main() -> None:
             raise RuntimeError("expected step-sale marker not found")
 
         active, completed, diag = parse_items(soup)
+        print("SORISHOP DIAGNOSTICS", json.dumps(diag, ensure_ascii=False))
         if diag["detail_id_count"] == 0:
             raise RuntimeError("no auction IDs parsed; href sample=" + repr(diag["href_sample"]))
         if not active:
+            match = re.search(r"ano=\d+", html, re.I)
+            if match:
+                lo = max(0, match.start() - 2500)
+                hi = min(len(html), match.end() + 5000)
+                print("SORISHOP RAW SAMPLE START")
+                print(html[lo:hi])
+                print("SORISHOP RAW SAMPLE END")
             raise RuntimeError("active parser returned zero items")
 
         recorded = record_ended(previous, active, completed)
