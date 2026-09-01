@@ -1,0 +1,19 @@
+{
+  "name": "sorishop",
+  "ok": true,
+  "source_url": "https://www.sorishop.com/rauction/g_list.html",
+  "request_url": "https://www.sorishop.com/rauction/g_list.html?_sorishop_monitor_ts=1788306161",
+  "final_url": "https://www.sorishop.com/rauction/g_list.html?_sorishop_monitor_ts=1788306161",
+  "fetched_at_utc": "2026-09-01T23:42:41.941400+00:00",
+  "status_code": 200,
+  "title": "소리샵 계단식 세일",
+  "html_chars": 1355860,
+  "text_chars": 56287,
+  "sha256": "6960921fc5563f9fdea3ee133a9ebc77adf7bf3478008444d61ed0843f5587bd",
+  "recorded_ended_count": 0,
+  "card_count": 264,
+  "active_count": 132,
+  "completed_count": 0,
+  "unresolved_count": 0,
+  "unresolved_ids_sample": []
+}
