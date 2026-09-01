@@ -36,6 +36,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch live Schezade pages
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python monitor.py
 
       - name: Commit fresh snapshots
