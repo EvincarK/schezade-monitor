@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788310770",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788310770",
-    "fetched_at_utc": "2026-09-02T00:59:30.820381+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788327756",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788327756",
+    "fetched_at_utc": "2026-09-02T05:42:36.487148+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 530790,
-    "text_chars": 16449,
-    "link_count": 469,
-    "sha256": "7e5f1b7114accada9d7fa2897e085ee2026dd7d12522cef0a0a66fd45f2021fa",
+    "html_chars": 526324,
+    "text_chars": 16211,
+    "link_count": 465,
+    "sha256": "17375c6fbe2008f1fffaaa551fe70ec4cb7ff4015c3c1839415a612d96734342",
     "response_headers": {
-      "Date": "Wed, 02 Sep 2026 00:59:33 GMT",
+      "Date": "Wed, 02 Sep 2026 05:42:38 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 74,
+  "count": 72,
   "items": [
     {
       "listing_id": 5923,
@@ -281,19 +281,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5881"
     },
     {
-      "listing_id": 5879,
-      "product_gid": 5743,
-      "brand": "FiiO",
-      "product_name": "M23 [Deep Blue]",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 535000,
-      "original_price": 1070000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5879"
-    },
-    {
       "listing_id": 5878,
       "product_gid": 4934,
       "brand": "aune",
@@ -489,19 +476,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5789"
     },
     {
-      "listing_id": 5787,
-      "product_gid": 3737,
-      "brand": "Audio Technica",
-      "product_name": "ATH-CM2000Ti",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 199600,
-      "original_price": 499000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5787"
-    },
-    {
       "listing_id": 5781,
       "product_gid": 5630,
       "brand": "NOBLE AUDIO",
@@ -580,6 +554,19 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5767"
     },
     {
+      "listing_id": 5765,
+      "product_gid": 6147,
+      "brand": "KEFINE",
+      "product_name": "Quatio",
+      "category": "이어폰",
+      "grade": "리뷰개봉품",
+      "current_price": 99000,
+      "original_price": 198000,
+      "discount_percent": 50,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5765"
+    },
+    {
       "listing_id": 5761,
       "product_gid": 6023,
       "brand": "JLL Audio",
@@ -591,19 +578,6 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5761"
-    },
-    {
-      "listing_id": 5749,
-      "product_gid": 5975,
-      "brand": "earfun",
-      "product_name": "Earfun Tune Pro [Black]",
-      "category": "헤드폰",
-      "grade": "박스훼손품",
-      "current_price": 55900,
-      "original_price": 79900,
-      "discount_percent": 30,
-      "condition": "상태 95% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5749"
     },
     {
       "listing_id": 5696,
