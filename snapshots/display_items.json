@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788366526",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788366526",
-    "fetched_at_utc": "2026-09-02T16:28:46.734638+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788378112",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788378112",
+    "fetched_at_utc": "2026-09-02T19:41:52.273338+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 521948,
-    "text_chars": 16165,
-    "link_count": 461,
-    "sha256": "5d3e91efff0558fe82f8d6d6564f0a12c905526da32b0dc6e46e7062808978c0",
+    "html_chars": 519736,
+    "text_chars": 16004,
+    "link_count": 459,
+    "sha256": "79accb82a86eb3b33c8ad0d5ddba793be16132bc0071d13657bb0165a555bf72",
     "response_headers": {
-      "Date": "Wed, 02 Sep 2026 16:28:48 GMT",
+      "Date": "Wed, 02 Sep 2026 19:41:54 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 70,
+  "count": 69,
   "items": [
     {
       "listing_id": 5959,
@@ -422,19 +422,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5843"
-    },
-    {
-      "listing_id": 5838,
-      "product_gid": 6389,
-      "brand": "Final",
-      "product_name": "UX1000 [Greige]",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 46500,
-      "original_price": 93000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5838"
     },
     {
       "listing_id": 5836,
