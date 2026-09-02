@@ -6,7 +6,7 @@ import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -40,13 +40,6 @@ def won_amount(text: str | None) -> int | None:
         return None
     match = re.search(r"([0-9][0-9,]*)\s*원", text)
     return money(match.group(1)) if match else None
-
-
-def cache_busted(url: str, stamp: int) -> str:
-    parts = urlsplit(url)
-    query = dict(parse_qsl(parts.query, keep_blank_values=True))
-    query["_sorishop_monitor_ts"] = str(stamp)
-    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
 
 
 def auction_id(href: str) -> int | None:
@@ -205,7 +198,7 @@ def main() -> None:
     now = datetime.now(timezone.utc)
     OUT.mkdir(parents=True, exist_ok=True)
     previous = previous_items()
-    request_url = cache_busted(TARGET_URL, int(now.timestamp()))
+    request_url = TARGET_URL
 
     try:
         response = requests.get(
