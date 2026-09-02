@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788347317",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788347317",
-    "fetched_at_utc": "2026-09-02T11:08:37.890706+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788366526",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788366526",
+    "fetched_at_utc": "2026-09-02T16:28:46.734638+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 537738,
-    "text_chars": 17364,
-    "link_count": 475,
-    "sha256": "8a3a3cab6a7c1ea6081e0338a3773ea52d98a71a529aed6050db3a48a7241754",
+    "html_chars": 521948,
+    "text_chars": 16165,
+    "link_count": 461,
+    "sha256": "5d3e91efff0558fe82f8d6d6564f0a12c905526da32b0dc6e46e7062808978c0",
     "response_headers": {
-      "Date": "Wed, 02 Sep 2026 11:08:39 GMT",
+      "Date": "Wed, 02 Sep 2026 16:28:48 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 77,
+  "count": 70,
   "items": [
     {
       "listing_id": 5959,
@@ -45,19 +45,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5958"
-    },
-    {
-      "listing_id": 5957,
-      "product_gid": 6593,
-      "brand": "Sendy Audio",
-      "product_name": "Apollo PRO",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 349000,
-      "original_price": 698000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5957"
     },
     {
       "listing_id": 5956,
@@ -112,19 +99,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5948"
     },
     {
-      "listing_id": 5945,
-      "product_gid": 6414,
-      "brand": "BURSON AUDIO",
-      "product_name": "Soloist Stellar",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 1390000,
-      "original_price": 2780000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5945"
-    },
-    {
       "listing_id": 5944,
       "product_gid": 6066,
       "brand": "MEZE",
@@ -136,19 +110,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5944"
-    },
-    {
-      "listing_id": 5943,
-      "product_gid": 6415,
-      "brand": "BURSON AUDIO",
-      "product_name": "Conductor Stellar",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 1695000,
-      "original_price": 3390000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5943"
     },
     {
       "listing_id": 5923,
@@ -240,19 +201,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5913"
-    },
-    {
-      "listing_id": 5911,
-      "product_gid": 5791,
-      "brand": "FiiO",
-      "product_name": "LL-RD 2024",
-      "category": "케이블",
-      "grade": "전시품",
-      "current_price": 124000,
-      "original_price": 310000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5911"
     },
     {
       "listing_id": 5909,
@@ -409,19 +357,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5878"
-    },
-    {
-      "listing_id": 5877,
-      "product_gid": 4887,
-      "brand": "AUDEZE",
-      "product_name": "LCD-5 [4-XLR 케이블 + 4-XLR to 6.3mm 어댑터]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 2916000,
-      "original_price": 7290000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5877"
     },
     {
       "listing_id": 5874,
@@ -619,19 +554,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5772"
     },
     {
-      "listing_id": 5767,
-      "product_gid": 4434,
-      "brand": "Final",
-      "product_name": "A3000",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 72800,
-      "original_price": 182000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5767"
-    },
-    {
       "listing_id": 5765,
       "product_gid": 6147,
       "brand": "KEFINE",
@@ -760,19 +682,6 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5213"
-    },
-    {
-      "listing_id": 5190,
-      "product_gid": 5825,
-      "brand": "Null Audio",
-      "product_name": "Istana [mmcx(IE300) - 4.4mm]",
-      "category": "케이블",
-      "grade": "전시품",
-      "current_price": 537000,
-      "original_price": 1790000,
-      "discount_percent": 70,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5190"
     },
     {
       "listing_id": 5030,
