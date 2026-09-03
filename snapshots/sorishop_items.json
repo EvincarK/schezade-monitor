@@ -5,12 +5,12 @@
     "source_url": "https://www.sorishop.com/rauction/g_list.html",
     "request_url": "https://www.sorishop.com/rauction/g_list.html",
     "final_url": "https://www.sorishop.com/rauction/g_list.html",
-    "fetched_at_utc": "2026-09-02T22:18:09.912436+00:00",
+    "fetched_at_utc": "2026-09-03T00:01:56.207249+00:00",
     "status_code": 200,
     "title": "소리샵 계단식 세일",
-    "html_chars": 1340053,
-    "text_chars": 55560,
-    "sha256": "cabe23edf2714164f160758a1285ca552f1137843f5f908b328a1ddfbf80a83e",
+    "html_chars": 1339768,
+    "text_chars": 55517,
+    "sha256": "b9ff20bc7bf0d12dc228dc4df1dec78ef2acc6efb83b5b975ee40de3d5ba3496",
     "recorded_ended_count": 0,
     "card_count": 260,
     "active_count": 130,
@@ -26,9 +26,9 @@
       "discount_interval": "4시간마다 2,000원씩",
       "discount_amount": 2000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27204",
-      "current_price": 996000,
+      "current_price": 994000,
       "original_price": 1000000,
-      "discount_percent": 0
+      "discount_percent": 1
     },
     {
       "auction_id": 27203,
@@ -37,7 +37,7 @@
       "discount_interval": "4시간마다 400원씩",
       "discount_amount": 400,
       "url": "https://www.sorishop.com/g_detail.html?ano=27203",
-      "current_price": 49200,
+      "current_price": 48800,
       "original_price": 50000,
       "discount_percent": 2
     },
@@ -48,7 +48,7 @@
       "discount_interval": "4시간마다 4,500원씩",
       "discount_amount": 4500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27202",
-      "current_price": 1461000,
+      "current_price": 1456500,
       "original_price": 1470000,
       "discount_percent": 1
     },
@@ -59,7 +59,7 @@
       "discount_interval": "4시간마다 3,000원씩",
       "discount_amount": 3000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27200",
-      "current_price": 1144000,
+      "current_price": 1141000,
       "original_price": 1150000,
       "discount_percent": 1
     },
@@ -70,7 +70,7 @@
       "discount_interval": "4시간마다 8,500원씩",
       "discount_amount": 8500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27199",
-      "current_price": 2253000,
+      "current_price": 2244500,
       "original_price": 2270000,
       "discount_percent": 1
     },
@@ -81,9 +81,9 @@
       "discount_interval": "4시간마다 50,000원씩",
       "discount_amount": 50000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27198",
-      "current_price": 17880000,
+      "current_price": 17830000,
       "original_price": 24300000,
-      "discount_percent": 26
+      "discount_percent": 27
     },
     {
       "auction_id": 27197,
@@ -92,9 +92,9 @@
       "discount_interval": "4시간마다 2,750원씩",
       "discount_amount": 2750,
       "url": "https://www.sorishop.com/g_detail.html?ano=27197",
-      "current_price": 513000,
+      "current_price": 510250,
       "original_price": 535000,
-      "discount_percent": 4
+      "discount_percent": 5
     },
     {
       "auction_id": 27196,
@@ -103,9 +103,9 @@
       "discount_interval": "4시간마다 2,000원씩",
       "discount_amount": 2000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27196",
-      "current_price": 644000,
+      "current_price": 642000,
       "original_price": 660000,
-      "discount_percent": 2
+      "discount_percent": 3
     },
     {
       "auction_id": 27195,
@@ -114,7 +114,7 @@
       "discount_interval": "4시간마다 800원씩",
       "discount_amount": 800,
       "url": "https://www.sorishop.com/g_detail.html?ano=27195",
-      "current_price": 239600,
+      "current_price": 238800,
       "original_price": 246000,
       "discount_percent": 3
     },
@@ -125,7 +125,7 @@
       "discount_interval": "4시간마다 1,250원씩",
       "discount_amount": 1250,
       "url": "https://www.sorishop.com/g_detail.html?ano=27194",
-      "current_price": 330000,
+      "current_price": 328750,
       "original_price": 340000,
       "discount_percent": 3
     },
@@ -136,7 +136,7 @@
       "discount_interval": "4시간마다 1,500원씩",
       "discount_amount": 1500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27193",
-      "current_price": 595000,
+      "current_price": 593500,
       "original_price": 607000,
       "discount_percent": 2
     },
@@ -147,7 +147,7 @@
       "discount_interval": "4시간마다 1,500원씩",
       "discount_amount": 1500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27191",
-      "current_price": 354000,
+      "current_price": 352500,
       "original_price": 375000,
       "discount_percent": 6
     },
@@ -158,7 +158,7 @@
       "discount_interval": "4시간마다 600원씩",
       "discount_amount": 600,
       "url": "https://www.sorishop.com/g_detail.html?ano=27190",
-      "current_price": 71600,
+      "current_price": 71000,
       "original_price": 80000,
       "discount_percent": 11
     },
@@ -169,7 +169,7 @@
       "discount_interval": "4시간마다 500원씩",
       "discount_amount": 500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27189",
-      "current_price": 72000,
+      "current_price": 71500,
       "original_price": 79000,
       "discount_percent": 9
     },
@@ -180,9 +180,9 @@
       "discount_interval": "4시간마다 1,500원씩",
       "discount_amount": 1500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27188",
-      "current_price": 369000,
+      "current_price": 367500,
       "original_price": 390000,
-      "discount_percent": 5
+      "discount_percent": 6
     },
     {
       "auction_id": 27187,
@@ -191,7 +191,7 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27187",
-      "current_price": 285000,
+      "current_price": 284000,
       "original_price": 299000,
       "discount_percent": 5
     },
@@ -202,7 +202,7 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27186",
-      "current_price": 485000,
+      "current_price": 484000,
       "original_price": 499000,
       "discount_percent": 3
     },
@@ -213,7 +213,7 @@
       "discount_interval": "4시간마다 15,000원씩",
       "discount_amount": 15000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27185",
-      "current_price": 4370000,
+      "current_price": 4355000,
       "original_price": 6290000,
       "discount_percent": 31
     },
@@ -224,7 +224,7 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27184",
-      "current_price": 308000,
+      "current_price": 307000,
       "original_price": 328000,
       "discount_percent": 6
     },
@@ -235,7 +235,7 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27183",
-      "current_price": 370000,
+      "current_price": 369000,
       "original_price": 390000,
       "discount_percent": 5
     },
@@ -246,9 +246,9 @@
       "discount_interval": "4시간마다 12,000원씩",
       "discount_amount": 12000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27182",
-      "current_price": 2980000,
+      "current_price": 2968000,
       "original_price": 3220000,
-      "discount_percent": 7
+      "discount_percent": 8
     },
     {
       "auction_id": 27181,
@@ -257,7 +257,7 @@
       "discount_interval": "4시간마다 8,500원씩",
       "discount_amount": 8500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27181",
-      "current_price": 2610000,
+      "current_price": 2601500,
       "original_price": 2780000,
       "discount_percent": 6
     },
@@ -268,9 +268,9 @@
       "discount_interval": "4시간마다 1,200원씩",
       "discount_amount": 1200,
       "url": "https://www.sorishop.com/g_detail.html?ano=27180",
-      "current_price": 136000,
+      "current_price": 134800,
       "original_price": 160000,
-      "discount_percent": 15
+      "discount_percent": 16
     },
     {
       "auction_id": 27179,
@@ -279,9 +279,9 @@
       "discount_interval": "4시간마다 5,000원씩",
       "discount_amount": 5000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27179",
-      "current_price": 1110000,
+      "current_price": 1105000,
       "original_price": 1210000,
-      "discount_percent": 8
+      "discount_percent": 9
     },
     {
       "auction_id": 27178,
@@ -290,7 +290,7 @@
       "discount_interval": "4시간마다 1,500원씩",
       "discount_amount": 1500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27178",
-      "current_price": 468000,
+      "current_price": 466500,
       "original_price": 498000,
       "discount_percent": 6
     },
@@ -301,9 +301,9 @@
       "discount_interval": "4시간마다 1,500원씩",
       "discount_amount": 1500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27177",
-      "current_price": 368000,
+      "current_price": 366500,
       "original_price": 500000,
-      "discount_percent": 26
+      "discount_percent": 27
     },
     {
       "auction_id": 27176,
@@ -312,7 +312,7 @@
       "discount_interval": "4시간마다 2,500원씩",
       "discount_amount": 2500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27176",
-      "current_price": 685000,
+      "current_price": 682500,
       "original_price": 750000,
       "discount_percent": 9
     },
@@ -323,9 +323,9 @@
       "discount_interval": "4시간마다 5,000원씩",
       "discount_amount": 5000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27175",
-      "current_price": 1068000,
+      "current_price": 1063000,
       "original_price": 1678000,
-      "discount_percent": 36
+      "discount_percent": 37
     },
     {
       "auction_id": 27174,
@@ -334,9 +334,9 @@
       "discount_interval": "4시간마다 5,000원씩",
       "discount_amount": 5000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27174",
-      "current_price": 1040000,
+      "current_price": 1035000,
       "original_price": 1170000,
-      "discount_percent": 11
+      "discount_percent": 12
     },
     {
       "auction_id": 27173,
@@ -345,7 +345,7 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27173",
-      "current_price": 264000,
+      "current_price": 263000,
       "original_price": 290000,
       "discount_percent": 9
     },
@@ -356,9 +356,9 @@
       "discount_interval": "4시간마다 2,500원씩",
       "discount_amount": 2500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27172",
-      "current_price": 803000,
+      "current_price": 800500,
       "original_price": 868000,
-      "discount_percent": 7
+      "discount_percent": 8
     },
     {
       "auction_id": 27171,
@@ -367,7 +367,7 @@
       "discount_interval": "4시간마다 8,000원씩",
       "discount_amount": 8000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27171",
-      "current_price": 2922000,
+      "current_price": 2914000,
       "original_price": 3130000,
       "discount_percent": 7
     },
@@ -378,7 +378,7 @@
       "discount_interval": "4시간마다 15,000원씩",
       "discount_amount": 15000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27170",
-      "current_price": 6440000,
+      "current_price": 6425000,
       "original_price": 6830000,
       "discount_percent": 6
     },
@@ -389,7 +389,7 @@
       "discount_interval": "4시간마다 75,000원씩",
       "discount_amount": 75000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27169",
-      "current_price": 13580000,
+      "current_price": 13505000,
       "original_price": 26040000,
       "discount_percent": 48
     },
@@ -400,9 +400,9 @@
       "discount_interval": "4시간마다 27,500원씩",
       "discount_amount": 27500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27168",
-      "current_price": 9670000,
+      "current_price": 9642500,
       "original_price": 10550000,
-      "discount_percent": 8
+      "discount_percent": 9
     },
     {
       "auction_id": 27167,
@@ -411,7 +411,7 @@
       "discount_interval": "4시간마다 2,500원씩",
       "discount_amount": 2500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27167",
-      "current_price": 666000,
+      "current_price": 663500,
       "original_price": 746000,
       "discount_percent": 11
     },
@@ -422,7 +422,7 @@
       "discount_interval": "4시간마다 5,000원씩",
       "discount_amount": 5000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27166",
-      "current_price": 1010000,
+      "current_price": 1005000,
       "original_price": 1170000,
       "discount_percent": 14
     },
@@ -433,7 +433,7 @@
       "discount_interval": "4시간마다 5,000원씩",
       "discount_amount": 5000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27165",
-      "current_price": 1310000,
+      "current_price": 1305000,
       "original_price": 1470000,
       "discount_percent": 11
     },
@@ -444,9 +444,9 @@
       "discount_interval": "4시간마다 2,500원씩",
       "discount_amount": 2500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27164",
-      "current_price": 452000,
+      "current_price": 449500,
       "original_price": 532000,
-      "discount_percent": 15
+      "discount_percent": 16
     },
     {
       "auction_id": 27163,
@@ -455,7 +455,7 @@
       "discount_interval": "4시간마다 3,500원씩",
       "discount_amount": 3500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27163",
-      "current_price": 838000,
+      "current_price": 834500,
       "original_price": 950000,
       "discount_percent": 12
     },
@@ -466,9 +466,9 @@
       "discount_interval": "4시간마다 6,500원씩",
       "discount_amount": 6500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27161",
-      "current_price": 1913000,
+      "current_price": 1906500,
       "original_price": 2160000,
-      "discount_percent": 11
+      "discount_percent": 12
     },
     {
       "auction_id": 27160,
@@ -477,7 +477,7 @@
       "discount_interval": "4시간마다 3,000원씩",
       "discount_amount": 3000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27160",
-      "current_price": 696000,
+      "current_price": 693000,
       "original_price": 810000,
       "discount_percent": 14
     },
@@ -488,9 +488,9 @@
       "discount_interval": "4시간마다 10,000원씩",
       "discount_amount": 10000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27159",
-      "current_price": 3310000,
+      "current_price": 3300000,
       "original_price": 3690000,
-      "discount_percent": 10
+      "discount_percent": 11
     },
     {
       "auction_id": 27158,
@@ -499,7 +499,7 @@
       "discount_interval": "4시간마다 20,000원씩",
       "discount_amount": 20000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27158",
-      "current_price": 6690000,
+      "current_price": 6670000,
       "original_price": 7450000,
       "discount_percent": 10
     },
@@ -510,7 +510,7 @@
       "discount_interval": "4시간마다 1,750원씩",
       "discount_amount": 1750,
       "url": "https://www.sorishop.com/g_detail.html?ano=27157",
-      "current_price": 622500,
+      "current_price": 620750,
       "original_price": 689000,
       "discount_percent": 10
     },
@@ -521,9 +521,9 @@
       "discount_interval": "4시간마다 3,000원씩",
       "discount_amount": 3000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27156",
-      "current_price": 976000,
+      "current_price": 973000,
       "original_price": 1090000,
-      "discount_percent": 10
+      "discount_percent": 11
     },
     {
       "auction_id": 27155,
@@ -532,7 +532,7 @@
       "discount_interval": "4시간마다 10,000원씩",
       "discount_amount": 10000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27155",
-      "current_price": 3184000,
+      "current_price": 3174000,
       "original_price": 3564000,
       "discount_percent": 11
     },
@@ -543,7 +543,7 @@
       "discount_interval": "4시간마다 5,000원씩",
       "discount_amount": 5000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27153",
-      "current_price": 1370000,
+      "current_price": 1365000,
       "original_price": 1590000,
       "discount_percent": 14
     },
@@ -554,9 +554,9 @@
       "discount_interval": "4시간마다 6,000원씩",
       "discount_amount": 6000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27152",
-      "current_price": 2036000,
+      "current_price": 2030000,
       "original_price": 2300000,
-      "discount_percent": 11
+      "discount_percent": 12
     },
     {
       "auction_id": 27150,
@@ -565,9 +565,9 @@
       "discount_interval": "4시간마다 10,000원씩",
       "discount_amount": 10000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27150",
-      "current_price": 3450000,
+      "current_price": 3440000,
       "original_price": 3890000,
-      "discount_percent": 11
+      "discount_percent": 12
     },
     {
       "auction_id": 27149,
@@ -576,9 +576,9 @@
       "discount_interval": "4시간마다 10,000원씩",
       "discount_amount": 10000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27149",
-      "current_price": 3420000,
+      "current_price": 3410000,
       "original_price": 3860000,
-      "discount_percent": 11
+      "discount_percent": 12
     },
     {
       "auction_id": 27148,
@@ -587,9 +587,9 @@
       "discount_interval": "4시간마다 2,500원씩",
       "discount_amount": 2500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27148",
-      "current_price": 607000,
+      "current_price": 604500,
       "original_price": 717000,
-      "discount_percent": 15
+      "discount_percent": 16
     },
     {
       "auction_id": 27145,
@@ -598,7 +598,7 @@
       "discount_interval": "4시간마다 2,750원씩",
       "discount_amount": 2750,
       "url": "https://www.sorishop.com/g_detail.html?ano=27145",
-      "current_price": 962500,
+      "current_price": 959750,
       "original_price": 1100000,
       "discount_percent": 13
     },
@@ -609,7 +609,7 @@
       "discount_interval": "4시간마다 12,500원씩",
       "discount_amount": 12500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27144",
-      "current_price": 2111000,
+      "current_price": 2098500,
       "original_price": 2736000,
       "discount_percent": 23
     },
@@ -620,7 +620,7 @@
       "discount_interval": "4시간마다 1,250원씩",
       "discount_amount": 1250,
       "url": "https://www.sorishop.com/g_detail.html?ano=27143",
-      "current_price": 199500,
+      "current_price": 198250,
       "original_price": 262000,
       "discount_percent": 24
     },
@@ -631,9 +631,9 @@
       "discount_interval": "4시간마다 1,250원씩",
       "discount_amount": 1250,
       "url": "https://www.sorishop.com/g_detail.html?ano=27142",
-      "current_price": 277500,
+      "current_price": 276250,
       "original_price": 340000,
-      "discount_percent": 18
+      "discount_percent": 19
     },
     {
       "auction_id": 27141,
@@ -642,7 +642,7 @@
       "discount_interval": "4시간마다 2,500원씩",
       "discount_amount": 2500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27141",
-      "current_price": 855000,
+      "current_price": 852500,
       "original_price": 980000,
       "discount_percent": 13
     },
@@ -653,7 +653,7 @@
       "discount_interval": "4시간마다 15,000원씩",
       "discount_amount": 15000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27140",
-      "current_price": 4250000,
+      "current_price": 4235000,
       "original_price": 8190000,
       "discount_percent": 48
     },
@@ -664,7 +664,7 @@
       "discount_interval": "4시간마다 42,500원씩",
       "discount_amount": 42500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27139",
-      "current_price": 10780000,
+      "current_price": 10737500,
       "original_price": 13160000,
       "discount_percent": 18
     },
@@ -675,7 +675,7 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27138",
-      "current_price": 231000,
+      "current_price": 230000,
       "original_price": 287000,
       "discount_percent": 20
     },
@@ -686,7 +686,7 @@
       "discount_interval": "4시간마다 12,500원씩",
       "discount_amount": 12500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27137",
-      "current_price": 2380000,
+      "current_price": 2367500,
       "original_price": 3080000,
       "discount_percent": 23
     },
@@ -697,7 +697,7 @@
       "discount_interval": "4시간마다 3,000원씩",
       "discount_amount": 3000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27135",
-      "current_price": 961000,
+      "current_price": 958000,
       "original_price": 1129000,
       "discount_percent": 15
     },
@@ -708,7 +708,7 @@
       "discount_interval": "4시간마다 4,500원씩",
       "discount_amount": 4500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27134",
-      "current_price": 1035000,
+      "current_price": 1030500,
       "original_price": 1287000,
       "discount_percent": 20
     },
@@ -719,7 +719,7 @@
       "discount_interval": "4시간마다 7,500원씩",
       "discount_amount": 7500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27133",
-      "current_price": 3560000,
+      "current_price": 3552500,
       "original_price": 5038000,
       "discount_percent": 29
     },
@@ -730,9 +730,9 @@
       "discount_interval": "4시간마다 17,500원씩",
       "discount_amount": 17500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27132",
-      "current_price": 3073000,
+      "current_price": 3055500,
       "original_price": 4158000,
-      "discount_percent": 26
+      "discount_percent": 27
     },
     {
       "auction_id": 27131,
@@ -741,9 +741,9 @@
       "discount_interval": "4시간마다 11,000원씩",
       "discount_amount": 11000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27131",
-      "current_price": 3508000,
+      "current_price": 3497000,
       "original_price": 4190000,
-      "discount_percent": 16
+      "discount_percent": 17
     },
     {
       "auction_id": 27130,
@@ -752,7 +752,7 @@
       "discount_interval": "4시간마다 35,000원씩",
       "discount_amount": 35000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27130",
-      "current_price": 13230000,
+      "current_price": 13195000,
       "original_price": 15400000,
       "discount_percent": 14
     },
@@ -763,7 +763,7 @@
       "discount_interval": "4시간마다 1,500원씩",
       "discount_amount": 1500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27129",
-      "current_price": 282000,
+      "current_price": 280500,
       "original_price": 375000,
       "discount_percent": 25
     },
@@ -774,9 +774,9 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27128",
-      "current_price": 158000,
+      "current_price": 157000,
       "original_price": 220000,
-      "discount_percent": 28
+      "discount_percent": 29
     },
     {
       "auction_id": 27127,
@@ -785,7 +785,7 @@
       "discount_interval": "4시간마다 21,000원씩",
       "discount_amount": 21000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27127",
-      "current_price": 6898000,
+      "current_price": 6877000,
       "original_price": 8200000,
       "discount_percent": 16
     },
@@ -796,9 +796,9 @@
       "discount_interval": "4시간마다 7,500원씩",
       "discount_amount": 7500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27126",
-      "current_price": 2620000,
+      "current_price": 2612500,
       "original_price": 3130000,
-      "discount_percent": 16
+      "discount_percent": 17
     },
     {
       "auction_id": 27125,
@@ -807,7 +807,7 @@
       "discount_interval": "4시간마다 2,500원씩",
       "discount_amount": 2500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27125",
-      "current_price": 980000,
+      "current_price": 977500,
       "original_price": 1150000,
       "discount_percent": 15
     },
@@ -818,7 +818,7 @@
       "discount_interval": "4시간마다 500원씩",
       "discount_amount": 500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27124",
-      "current_price": 315000,
+      "current_price": 314500,
       "original_price": 349000,
       "discount_percent": 10
     },
@@ -829,9 +829,9 @@
       "discount_interval": "4시간마다 17,500원씩",
       "discount_amount": 17500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27123",
-      "current_price": 4410000,
+      "current_price": 4392500,
       "original_price": 5600000,
-      "discount_percent": 21
+      "discount_percent": 22
     },
     {
       "auction_id": 27122,
@@ -840,7 +840,7 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27122",
-      "current_price": 116200,
+      "current_price": 115200,
       "original_price": 184200,
       "discount_percent": 37
     },
@@ -851,9 +851,9 @@
       "discount_interval": "4시간마다 6,000원씩",
       "discount_amount": 6000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27121",
-      "current_price": 1349000,
+      "current_price": 1343000,
       "original_price": 1757000,
-      "discount_percent": 23
+      "discount_percent": 24
     },
     {
       "auction_id": 27120,
@@ -862,7 +862,7 @@
       "discount_interval": "4시간마다 3,000원씩",
       "discount_amount": 3000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27120",
-      "current_price": 607000,
+      "current_price": 604000,
       "original_price": 829000,
       "discount_percent": 27
     },
@@ -873,7 +873,7 @@
       "discount_interval": "4시간마다 3,000원씩",
       "discount_amount": 3000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27119",
-      "current_price": 798000,
+      "current_price": 795000,
       "original_price": 1020000,
       "discount_percent": 22
     },
@@ -884,7 +884,7 @@
       "discount_interval": "4시간마다 7,000원씩",
       "discount_amount": 7000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27118",
-      "current_price": 2332000,
+      "current_price": 2325000,
       "original_price": 2850000,
       "discount_percent": 18
     },
@@ -895,7 +895,7 @@
       "discount_interval": "4시간마다 3,500원씩",
       "discount_amount": 3500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27117",
-      "current_price": 739000,
+      "current_price": 735500,
       "original_price": 998000,
       "discount_percent": 26
     },
@@ -906,7 +906,7 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27116",
-      "current_price": 316000,
+      "current_price": 315000,
       "original_price": 390000,
       "discount_percent": 19
     },
@@ -917,7 +917,7 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27115",
-      "current_price": 301000,
+      "current_price": 300000,
       "original_price": 375000,
       "discount_percent": 20
     },
@@ -928,9 +928,9 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27114",
-      "current_price": 175000,
+      "current_price": 174000,
       "original_price": 255000,
-      "discount_percent": 31
+      "discount_percent": 32
     },
     {
       "auction_id": 27112,
@@ -939,7 +939,7 @@
       "discount_interval": "4시간마다 7,500원씩",
       "discount_amount": 7500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27112",
-      "current_price": 1280000,
+      "current_price": 1272500,
       "original_price": 1880000,
       "discount_percent": 32
     },
@@ -950,7 +950,7 @@
       "discount_interval": "4시간마다 3,000원씩",
       "discount_amount": 3000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27111",
-      "current_price": 915000,
+      "current_price": 912000,
       "original_price": 1155000,
       "discount_percent": 21
     },
@@ -961,9 +961,9 @@
       "discount_interval": "4시간마다 4,000원씩",
       "discount_amount": 4000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27109",
-      "current_price": 866000,
+      "current_price": 862000,
       "original_price": 1210000,
-      "discount_percent": 28
+      "discount_percent": 29
     },
     {
       "auction_id": 27107,
@@ -972,7 +972,7 @@
       "discount_interval": "4시간마다 7,000원씩",
       "discount_amount": 7000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27107",
-      "current_price": 2598000,
+      "current_price": 2591000,
       "original_price": 3200000,
       "discount_percent": 19
     },
@@ -983,7 +983,7 @@
       "discount_interval": "4시간마다 1,750원씩",
       "discount_amount": 1750,
       "url": "https://www.sorishop.com/g_detail.html?ano=27105",
-      "current_price": 368500,
+      "current_price": 366750,
       "original_price": 519000,
       "discount_percent": 29
     },
@@ -994,7 +994,7 @@
       "discount_interval": "4시간마다 25,000원씩",
       "discount_amount": 25000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27104",
-      "current_price": 7700000,
+      "current_price": 7675000,
       "original_price": 10000000,
       "discount_percent": 23
     },
@@ -1005,9 +1005,9 @@
       "discount_interval": "4시간마다 1,500원씩",
       "discount_amount": 1500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27103",
-      "current_price": 302000,
+      "current_price": 300500,
       "original_price": 440000,
-      "discount_percent": 31
+      "discount_percent": 32
     },
     {
       "auction_id": 27100,
@@ -1016,7 +1016,7 @@
       "discount_interval": "4시간마다 35,000원씩",
       "discount_amount": 35000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27100",
-      "current_price": 6350000,
+      "current_price": 6315000,
       "original_price": 9570000,
       "discount_percent": 34
     },
@@ -1027,9 +1027,9 @@
       "discount_interval": "4시간마다 20,000원씩",
       "discount_amount": 20000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27098",
-      "current_price": 3580000,
+      "current_price": 3560000,
       "original_price": 5540000,
-      "discount_percent": 35
+      "discount_percent": 36
     },
     {
       "auction_id": 27097,
@@ -1038,9 +1038,9 @@
       "discount_interval": "4시간마다 4,500원씩",
       "discount_amount": 4500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27097",
-      "current_price": 679000,
+      "current_price": 674500,
       "original_price": 1120000,
-      "discount_percent": 39
+      "discount_percent": 40
     },
     {
       "auction_id": 27096,
@@ -1049,7 +1049,7 @@
       "discount_interval": "4시간마다 800원씩",
       "discount_amount": 800,
       "url": "https://www.sorishop.com/g_detail.html?ano=27096",
-      "current_price": 146600,
+      "current_price": 145800,
       "original_price": 225000,
       "discount_percent": 35
     },
@@ -1060,7 +1060,7 @@
       "discount_interval": "4시간마다 2,000원씩",
       "discount_amount": 2000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27095",
-      "current_price": 654000,
+      "current_price": 652000,
       "original_price": 850000,
       "discount_percent": 23
     },
@@ -1071,7 +1071,7 @@
       "discount_interval": "4시간마다 40,000원씩",
       "discount_amount": 40000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27093",
-      "current_price": 8090000,
+      "current_price": 8050000,
       "original_price": 12250000,
       "discount_percent": 34
     },
@@ -1082,9 +1082,9 @@
       "discount_interval": "4시간마다 2,000원씩",
       "discount_amount": 2000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27092",
-      "current_price": 380000,
+      "current_price": 378000,
       "original_price": 588000,
-      "discount_percent": 35
+      "discount_percent": 36
     },
     {
       "auction_id": 27091,
@@ -1093,9 +1093,9 @@
       "discount_interval": "4시간마다 50,000원씩",
       "discount_amount": 50000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27091",
-      "current_price": 12500000,
+      "current_price": 12450000,
       "original_price": 17700000,
-      "discount_percent": 29
+      "discount_percent": 30
     },
     {
       "auction_id": 27090,
@@ -1104,7 +1104,7 @@
       "discount_interval": "4시간마다 1,250원씩",
       "discount_amount": 1250,
       "url": "https://www.sorishop.com/g_detail.html?ano=27090",
-      "current_price": 165000,
+      "current_price": 163750,
       "original_price": 295000,
       "discount_percent": 44
     },
@@ -1115,9 +1115,9 @@
       "discount_interval": "4시간마다 15,000원씩",
       "discount_amount": 15000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27089",
-      "current_price": 4330000,
+      "current_price": 4315000,
       "original_price": 5890000,
-      "discount_percent": 26
+      "discount_percent": 27
     },
     {
       "auction_id": 27088,
@@ -1126,9 +1126,9 @@
       "discount_interval": "4시간마다 2,000원씩",
       "discount_amount": 2000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27088",
-      "current_price": 299000,
+      "current_price": 297000,
       "original_price": 519000,
-      "discount_percent": 42
+      "discount_percent": 43
     },
     {
       "auction_id": 27086,
@@ -1137,7 +1137,7 @@
       "discount_interval": "4시간마다 25,000원씩",
       "discount_amount": 25000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27086",
-      "current_price": 4950000,
+      "current_price": 4925000,
       "original_price": 7700000,
       "discount_percent": 36
     },
@@ -1148,9 +1148,9 @@
       "discount_interval": "4시간마다 8,500원씩",
       "discount_amount": 8500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27085",
-      "current_price": 2255000,
+      "current_price": 2246500,
       "original_price": 3190000,
-      "discount_percent": 29
+      "discount_percent": 30
     },
     {
       "auction_id": 27084,
@@ -1159,9 +1159,9 @@
       "discount_interval": "4시간마다 3,000원씩",
       "discount_amount": 3000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27084",
-      "current_price": 531000,
+      "current_price": 528000,
       "original_price": 861000,
-      "discount_percent": 38
+      "discount_percent": 39
     },
     {
       "auction_id": 27082,
@@ -1170,9 +1170,9 @@
       "discount_interval": "4시간마다 7,500원씩",
       "discount_amount": 7500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27082",
-      "current_price": 1524000,
+      "current_price": 1516500,
       "original_price": 2394000,
-      "discount_percent": 36
+      "discount_percent": 37
     },
     {
       "auction_id": 27080,
@@ -1181,7 +1181,7 @@
       "discount_interval": "4시간마다 1,000원씩",
       "discount_amount": 1000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27080",
-      "current_price": 154000,
+      "current_price": 153000,
       "original_price": 270000,
       "discount_percent": 43
     },
@@ -1192,9 +1192,9 @@
       "discount_interval": "4시간마다 3,500원씩",
       "discount_amount": 3500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27075",
-      "current_price": 343000,
+      "current_price": 339500,
       "original_price": 770000,
-      "discount_percent": 55
+      "discount_percent": 56
     },
     {
       "auction_id": 27071,
@@ -1203,9 +1203,9 @@
       "discount_interval": "4시간마다 850원씩",
       "discount_amount": 850,
       "url": "https://www.sorishop.com/g_detail.html?ano=27071",
-      "current_price": 238300,
+      "current_price": 237450,
       "original_price": 342000,
-      "discount_percent": 30
+      "discount_percent": 31
     },
     {
       "auction_id": 27070,
@@ -1214,7 +1214,7 @@
       "discount_interval": "4시간마다 5,000원씩",
       "discount_amount": 5000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27070",
-      "current_price": 1370000,
+      "current_price": 1365000,
       "original_price": 2010000,
       "discount_percent": 32
     },
@@ -1225,7 +1225,7 @@
       "discount_interval": "4시간마다 2,500원씩",
       "discount_amount": 2500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27067",
-      "current_price": 490000,
+      "current_price": 487500,
       "original_price": 810000,
       "discount_percent": 40
     },
@@ -1236,9 +1236,9 @@
       "discount_interval": "4시간마다 6,500원씩",
       "discount_amount": 6500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27066",
-      "current_price": 1049000,
+      "current_price": 1042500,
       "original_price": 1881000,
-      "discount_percent": 44
+      "discount_percent": 45
     },
     {
       "auction_id": 27065,
@@ -1247,7 +1247,7 @@
       "discount_interval": "4시간마다 2,000원씩",
       "discount_amount": 2000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27065",
-      "current_price": 354000,
+      "current_price": 352000,
       "original_price": 610000,
       "discount_percent": 42
     },
@@ -1258,7 +1258,7 @@
       "discount_interval": "4시간마다 7,500원씩",
       "discount_amount": 7500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27061",
-      "current_price": 1389000,
+      "current_price": 1381500,
       "original_price": 2394000,
       "discount_percent": 42
     },
@@ -1269,7 +1269,7 @@
       "discount_interval": "4시간마다 5,000원씩",
       "discount_amount": 5000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27060",
-      "current_price": 2100000,
+      "current_price": 2095000,
       "original_price": 2770000,
       "discount_percent": 24
     },
@@ -1280,7 +1280,7 @@
       "discount_interval": "4시간마다 500원씩",
       "discount_amount": 500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27059",
-      "current_price": 28000,
+      "current_price": 27500,
       "original_price": 95000,
       "discount_percent": 71
     },
@@ -1291,7 +1291,7 @@
       "discount_interval": "4시간마다 15,000원씩",
       "discount_amount": 15000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27055",
-      "current_price": 3440000,
+      "current_price": 3425000,
       "original_price": 5540000,
       "discount_percent": 38
     },
@@ -1302,9 +1302,9 @@
       "discount_interval": "4시간마다 1,250원씩",
       "discount_amount": 1250,
       "url": "https://www.sorishop.com/g_detail.html?ano=27051",
-      "current_price": 537500,
+      "current_price": 536250,
       "original_price": 720000,
-      "discount_percent": 25
+      "discount_percent": 26
     },
     {
       "auction_id": 27047,
@@ -1313,7 +1313,7 @@
       "discount_interval": "4시간마다 20,000원씩",
       "discount_amount": 20000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27047",
-      "current_price": 3290000,
+      "current_price": 3270000,
       "original_price": 6330000,
       "discount_percent": 48
     },
@@ -1324,9 +1324,9 @@
       "discount_interval": "4시간마다 2,500원씩",
       "discount_amount": 2500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27043",
-      "current_price": 610000,
+      "current_price": 607500,
       "original_price": 990000,
-      "discount_percent": 38
+      "discount_percent": 39
     },
     {
       "auction_id": 27036,
@@ -1335,7 +1335,7 @@
       "discount_interval": "4시간마다 10,000원씩",
       "discount_amount": 10000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27036",
-      "current_price": 1880000,
+      "current_price": 1870000,
       "original_price": 3520000,
       "discount_percent": 47
     },
@@ -1346,7 +1346,7 @@
       "discount_interval": "4시간마다 2,500원씩",
       "discount_amount": 2500,
       "url": "https://www.sorishop.com/g_detail.html?ano=27035",
-      "current_price": 284000,
+      "current_price": 281500,
       "original_price": 694000,
       "discount_percent": 59
     },
@@ -1357,7 +1357,7 @@
       "discount_interval": "4시간마다 25,000원씩",
       "discount_amount": 25000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27032",
-      "current_price": 7050000,
+      "current_price": 7025000,
       "original_price": 11300000,
       "discount_percent": 38
     },
@@ -1368,7 +1368,7 @@
       "discount_interval": "4시간마다 4,000원씩",
       "discount_amount": 4000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27030",
-      "current_price": 970000,
+      "current_price": 966000,
       "original_price": 1650000,
       "discount_percent": 41
     },
@@ -1379,7 +1379,7 @@
       "discount_interval": "4시간마다 10,000원씩",
       "discount_amount": 10000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27027",
-      "current_price": 2060000,
+      "current_price": 2050000,
       "original_price": 3820000,
       "discount_percent": 46
     },
@@ -1390,7 +1390,7 @@
       "discount_interval": "4시간마다 10,000원씩",
       "discount_amount": 10000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27014",
-      "current_price": 2920000,
+      "current_price": 2910000,
       "original_price": 4800000,
       "discount_percent": 39
     },
@@ -1401,7 +1401,7 @@
       "discount_interval": "4시간마다 4,000원씩",
       "discount_amount": 4000,
       "url": "https://www.sorishop.com/g_detail.html?ano=27010",
-      "current_price": 1424000,
+      "current_price": 1420000,
       "original_price": 2200000,
       "discount_percent": 35
     },
@@ -1412,7 +1412,7 @@
       "discount_interval": "4시간마다 3,500원씩",
       "discount_amount": 3500,
       "url": "https://www.sorishop.com/g_detail.html?ano=26985",
-      "current_price": 1437000,
+      "current_price": 1433500,
       "original_price": 2200000,
       "discount_percent": 35
     },
@@ -1423,9 +1423,9 @@
       "discount_interval": "4시간마다 8,000원씩",
       "discount_amount": 8000,
       "url": "https://www.sorishop.com/g_detail.html?ano=26964",
-      "current_price": 2864000,
+      "current_price": 2856000,
       "original_price": 4800000,
-      "discount_percent": 40
+      "discount_percent": 41
     },
     {
       "auction_id": 26960,
@@ -1434,7 +1434,7 @@
       "discount_interval": "4시간마다 25,000원씩",
       "discount_amount": 25000,
       "url": "https://www.sorishop.com/g_detail.html?ano=26960",
-      "current_price": 9200000,
+      "current_price": 9175000,
       "original_price": 15400000,
       "discount_percent": 40
     },
@@ -1445,7 +1445,7 @@
       "discount_interval": "4시간마다 20,000원씩",
       "discount_amount": 20000,
       "url": "https://www.sorishop.com/g_detail.html?ano=26956",
-      "current_price": 6220000,
+      "current_price": 6200000,
       "original_price": 11300000,
       "discount_percent": 45
     }
