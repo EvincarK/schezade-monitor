@@ -1,0 +1,59 @@
+name: Schezade display notifier
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_telegram:
+        description: 'Send Telegram test message only'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: schezade-display-notifier
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          ref: telegram-display-notifier
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run notifier
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ inputs.test_telegram }}" = "true" ]; then
+            python display_notifier.py --test-telegram
+          else
+            python display_notifier.py
+          fi
+
+      - name: Commit notifier state
+        if: success() && inputs.test_telegram != true
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add snapshots/display_notify_state.json
+          if git diff --cached --quiet; then
+            echo 'Notifier state unchanged.'
+          else
+            git commit -m "Update display notifier state"
+            git push origin HEAD:telegram-display-notifier
+          fi
