@@ -3,22 +3,22 @@
     "name": "step_sale",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1788397409",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1788397409",
-    "fetched_at_utc": "2026-09-03T01:03:29.422308+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1788399891",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1788399891",
+    "fetched_at_utc": "2026-09-03T01:44:51.456383+00:00",
     "status_code": 200,
     "title": "계단식 세일",
-    "html_chars": 875698,
-    "text_chars": 50439,
-    "link_count": 651,
-    "sha256": "1650e03521db0864b59b8a43017b838c0cc9e400a1f0bba657d7c29bb4560bcb",
+    "html_chars": 871191,
+    "text_chars": 50070,
+    "link_count": 648,
+    "sha256": "079db274625925ee62038c1fa9cf4dc5228682ef2b3401c1ea62d8c050fbda8c",
     "response_headers": {
-      "Date": "Thu, 03 Sep 2026 01:03:37 GMT",
+      "Date": "Thu, 03 Sep 2026 01:44:59 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 110,
+  "count": 109,
   "items": [
     {
       "sale_id": 34064,
@@ -1303,18 +1303,6 @@
       "discount_amount": 900,
       "start_price": 179000,
       "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=33870"
-    },
-    {
-      "sale_id": 33823,
-      "brand": "SONY",
-      "product_name": "WF-L910 - 블랙",
-      "current_price": 152250,
-      "discount_percent": 39,
-      "start_at": "08/13 00:00",
-      "discount_interval": "4시간",
-      "discount_amount": 750,
-      "start_price": 249000,
-      "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=33823"
     },
     {
       "sale_id": 33818,
