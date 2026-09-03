@@ -2,7 +2,7 @@ name: Schezade monitor
 
 on:
   schedule:
-    - cron: '1 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
   push:
     branches:
@@ -11,6 +11,7 @@ on:
       - 'monitor.py'
       - 'requirements.txt'
       - '.github/workflows/monitor.yml'
+      - '.github/workflows/monitor-staggered.yml'
 
 permissions:
   contents: write
