@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788418814",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788418814",
-    "fetched_at_utc": "2026-09-03T07:00:14.589324+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788437019",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788437019",
+    "fetched_at_utc": "2026-09-03T12:03:39.368225+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 513028,
-    "text_chars": 15521,
-    "link_count": 453,
-    "sha256": "d36d6f74d1e2f5d9d2421a9ede6631f183aef69c82935c54328f40acfc88439c",
+    "html_chars": 508586,
+    "text_chars": 15243,
+    "link_count": 449,
+    "sha256": "28065d62894f5cc07018704cb6e6e181c6498bc056408440698be28e5d9954d8",
     "response_headers": {
-      "Date": "Thu, 03 Sep 2026 07:00:16 GMT",
+      "Date": "Thu, 03 Sep 2026 12:03:41 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 66,
+  "count": 64,
   "items": [
     {
       "listing_id": 5959,
@@ -151,19 +151,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5916"
     },
     {
-      "listing_id": 5915,
-      "product_gid": 6088,
-      "brand": "ag",
-      "product_name": "COTSUBU MK2+ [LEMON]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 43600,
-      "original_price": 109000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5915"
-    },
-    {
       "listing_id": 5913,
       "product_gid": 5657,
       "brand": "Questyle Audio",
@@ -214,19 +201,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5905"
-    },
-    {
-      "listing_id": 5900,
-      "product_gid": 6361,
-      "brand": "FiiO",
-      "product_name": "JT3 [Silver]",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 54500,
-      "original_price": 109000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5900"
     },
     {
       "listing_id": 5895,
@@ -515,19 +489,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5772"
     },
     {
-      "listing_id": 5765,
-      "product_gid": 6147,
-      "brand": "KEFINE",
-      "product_name": "Quatio",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 99000,
-      "original_price": 198000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5765"
-    },
-    {
       "listing_id": 5761,
       "product_gid": 6023,
       "brand": "JLL Audio",
@@ -643,6 +604,19 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5213"
+    },
+    {
+      "listing_id": 5119,
+      "product_gid": 4746,
+      "brand": "Sennheiser",
+      "product_name": "CX True Wireless [블랙]",
+      "category": "이어폰",
+      "grade": "포장개봉품",
+      "current_price": 84000,
+      "original_price": 169000,
+      "discount_percent": 50,
+      "condition": "상태 90% · 신품과 거의 동일",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5119"
     },
     {
       "listing_id": 5030,
