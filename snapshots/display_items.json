@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788454695",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788454695",
-    "fetched_at_utc": "2026-09-03T16:58:15.245379+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788464562",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788464562",
+    "fetched_at_utc": "2026-09-03T19:42:42.829162+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 508586,
-    "text_chars": 15243,
-    "link_count": 449,
-    "sha256": "6dc748bd8bda8b9f335a2c7f5b8d6d70790414295b94a3959d9755b73d51d4e0",
+    "html_chars": 506366,
+    "text_chars": 15106,
+    "link_count": 447,
+    "sha256": "dc71890d7cf1219119b2161868871ec08ec84ac6c8818463354b9b4259e32eab",
     "response_headers": {
-      "Date": "Thu, 03 Sep 2026 16:58:16 GMT",
+      "Date": "Thu, 03 Sep 2026 19:42:44 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 64,
+  "count": 63,
   "items": [
     {
       "listing_id": 5959,
@@ -409,19 +409,6 @@
       "discount_percent": 68,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5801"
-    },
-    {
-      "listing_id": 5792,
-      "product_gid": 5749,
-      "brand": "MEZE",
-      "product_name": "LIRIC II",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 1188000,
-      "original_price": 2970000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5792"
     },
     {
       "listing_id": 5789,
