@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788399891",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788399891",
-    "fetched_at_utc": "2026-09-03T01:44:51.456383+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788418814",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788418814",
+    "fetched_at_utc": "2026-09-03T07:00:14.589324+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 517480,
-    "text_chars": 15837,
-    "link_count": 457,
-    "sha256": "3f063ca53b18bbb95bde20b037eb8520d08de228e56efd3e6a3952a53e189663",
+    "html_chars": 513028,
+    "text_chars": 15521,
+    "link_count": 453,
+    "sha256": "d36d6f74d1e2f5d9d2421a9ede6631f183aef69c82935c54328f40acfc88439c",
     "response_headers": {
-      "Date": "Thu, 03 Sep 2026 01:44:53 GMT",
+      "Date": "Thu, 03 Sep 2026 07:00:16 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 68,
+  "count": 66,
   "items": [
     {
       "listing_id": 5959,
@@ -45,19 +45,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5958"
-    },
-    {
-      "listing_id": 5956,
-      "product_gid": 3429,
-      "brand": "Chord Electronics",
-      "product_name": "Poly",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 390000,
-      "original_price": 780000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5956"
     },
     {
       "listing_id": 5950,
@@ -149,19 +136,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5919"
-    },
-    {
-      "listing_id": 5917,
-      "product_gid": 6088,
-      "brand": "ag",
-      "product_name": "COTSUBU MK2+ [SKY]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 43600,
-      "original_price": 109000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5917"
     },
     {
       "listing_id": 5916,
