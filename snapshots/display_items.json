@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788388310",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788388310",
-    "fetched_at_utc": "2026-09-02T22:31:50.900874+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788397409",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788397409",
+    "fetched_at_utc": "2026-09-03T01:03:29.422308+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 519736,
-    "text_chars": 16004,
-    "link_count": 459,
-    "sha256": "eef551407689529b7a2d514b124376cfe0c29ee2f4d04ebe13fb16fc83afca3f",
+    "html_chars": 517480,
+    "text_chars": 15837,
+    "link_count": 457,
+    "sha256": "29f515ee01fe281c9329ef4e16633f6cf9e4f1210caad1f3df20bd53986ca5b4",
     "response_headers": {
-      "Date": "Wed, 02 Sep 2026 22:31:52 GMT",
+      "Date": "Thu, 03 Sep 2026 01:03:31 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 69,
+  "count": 68,
   "items": [
     {
       "listing_id": 5959,
@@ -838,19 +838,6 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4144"
-    },
-    {
-      "listing_id": 4120,
-      "product_gid": 4658,
-      "brand": "ULTRASONE",
-      "product_name": "Edition 8 EX",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 727000,
-      "original_price": 2424000,
-      "discount_percent": 70,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4120"
     },
     {
       "listing_id": 4102,
