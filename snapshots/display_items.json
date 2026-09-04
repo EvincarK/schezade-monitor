@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788483100",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788483100",
-    "fetched_at_utc": "2026-09-04T00:51:40.790106+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788500337",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788500337",
+    "fetched_at_utc": "2026-09-04T05:38:57.887741+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 503956,
-    "text_chars": 14843,
-    "link_count": 445,
-    "sha256": "f8a8c6319b52e7b88b6a18c2fed58c8082ab4ec2360d2e068f29969a4afb5e2e",
+    "html_chars": 497254,
+    "text_chars": 14378,
+    "link_count": 439,
+    "sha256": "8f5d5a67fdd16a5672b9701f990a995ade83b13c17b12d34ea45a3e63f3f8e79",
     "response_headers": {
-      "Date": "Fri, 04 Sep 2026 00:51:42 GMT",
+      "Date": "Fri, 04 Sep 2026 05:38:59 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 62,
+  "count": 59,
   "items": [
     {
       "listing_id": 5958,
@@ -73,19 +73,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5948"
     },
     {
-      "listing_id": 5944,
-      "product_gid": 6066,
-      "brand": "MEZE",
-      "product_name": "POET",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 1595000,
-      "original_price": 3190000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5944"
-    },
-    {
       "listing_id": 5923,
       "product_gid": 5202,
       "brand": "T+A",
@@ -110,19 +97,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5920"
-    },
-    {
-      "listing_id": 5919,
-      "product_gid": 6088,
-      "brand": "ag",
-      "product_name": "COTSUBU MK2+ [CREAM]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 43600,
-      "original_price": 109000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5919"
     },
     {
       "listing_id": 5916,
@@ -292,19 +266,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5878"
-    },
-    {
-      "listing_id": 5874,
-      "product_gid": 5921,
-      "brand": "VISION EARS",
-      "product_name": "EXT MKII 골드 - 한정판",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 2840000,
-      "original_price": 7100000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5874"
     },
     {
       "listing_id": 5873,
