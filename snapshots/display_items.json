@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788500337",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788500337",
-    "fetched_at_utc": "2026-09-04T05:38:57.887741+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788519279",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788519279",
+    "fetched_at_utc": "2026-09-04T10:54:39.153408+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 497254,
-    "text_chars": 14378,
-    "link_count": 439,
-    "sha256": "8f5d5a67fdd16a5672b9701f990a995ade83b13c17b12d34ea45a3e63f3f8e79",
+    "html_chars": 494888,
+    "text_chars": 14165,
+    "link_count": 437,
+    "sha256": "6564e010aad1e983b56b4bf3b2c819f7b3a1fb8eea9b84e01fcdb8a95e31c02b",
     "response_headers": {
-      "Date": "Fri, 04 Sep 2026 05:38:59 GMT",
+      "Date": "Fri, 04 Sep 2026 10:54:41 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 59,
+  "count": 58,
   "items": [
     {
       "listing_id": 5958,
@@ -565,19 +565,6 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5030"
-    },
-    {
-      "listing_id": 5006,
-      "product_gid": 5086,
-      "brand": "Null Audio",
-      "product_name": "Symphonym Hakone MKIII [mmcx(IE300) - 2.5mm]",
-      "category": "케이블",
-      "grade": "전시품",
-      "current_price": 135600,
-      "original_price": 452000,
-      "discount_percent": 70,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5006"
     },
     {
       "listing_id": 4783,
