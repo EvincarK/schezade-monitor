@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788565759",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788565759",
-    "fetched_at_utc": "2026-09-04T23:49:19.851955+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788579719",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788579719",
+    "fetched_at_utc": "2026-09-05T03:41:59.052553+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 483478,
-    "text_chars": 13202,
-    "link_count": 427,
-    "sha256": "4a02a739d0dbd72712624451262c05c22f60553db21c054665151ad6bf60daca",
+    "html_chars": 481250,
+    "text_chars": 13063,
+    "link_count": 425,
+    "sha256": "681a03b4a80576430a1b8a6c444a857ed7ebcc99bcb099acb9c8a020bca0e99b",
     "response_headers": {
-      "Date": "Fri, 04 Sep 2026 23:49:21 GMT",
+      "Date": "Sat, 05 Sep 2026 03:42:00 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 53,
+  "count": 52,
   "items": [
     {
       "listing_id": 5948,
@@ -45,19 +45,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5923"
-    },
-    {
-      "listing_id": 5920,
-      "product_gid": 6180,
-      "brand": "Final",
-      "product_name": "KDT3000 [베이지]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 72800,
-      "original_price": 182000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5920"
     },
     {
       "listing_id": 5916,
