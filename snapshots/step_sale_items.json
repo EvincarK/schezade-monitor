@@ -3,22 +3,22 @@
     "name": "step_sale",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1788725502",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1788725502",
-    "fetched_at_utc": "2026-09-06T20:11:42.593718+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1788734865",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1788734865",
+    "fetched_at_utc": "2026-09-06T22:47:45.635924+00:00",
     "status_code": 200,
     "title": "계단식 세일",
-    "html_chars": 911976,
-    "text_chars": 52989,
-    "link_count": 675,
-    "sha256": "1cc4e663bdd2e185a53a5900c91066972845720e9a576351e1f0d37f17092a66",
+    "html_chars": 903136,
+    "text_chars": 52277,
+    "link_count": 669,
+    "sha256": "f3f787da403c969dd6ac0534e4abbd0ba7ef02c938d6dba00eb064e5f2958df7",
     "response_headers": {
-      "Date": "Sun, 06 Sep 2026 20:11:47 GMT",
+      "Date": "Sun, 06 Sep 2026 22:47:50 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 118,
+  "count": 116,
   "items": [
     {
       "sale_id": 34107,
@@ -921,18 +921,6 @@
       "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=34019"
     },
     {
-      "sale_id": 34018,
-      "brand": "aune",
-      "product_name": "Yuki",
-      "current_price": 163000,
-      "discount_percent": 32,
-      "start_at": "08/30 00:00",
-      "discount_interval": "4시간",
-      "discount_amount": 1500,
-      "start_price": 238000,
-      "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=34018"
-    },
-    {
       "sale_id": 34017,
       "brand": "aune",
       "product_name": "SR7000",
@@ -1137,18 +1125,6 @@
       "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=33986"
     },
     {
-      "sale_id": 33985,
-      "brand": "AUDEZE",
-      "product_name": "LCD-S20",
-      "current_price": 475000,
-      "discount_percent": 24,
-      "start_at": "08/27 00:00",
-      "discount_interval": "4시간",
-      "discount_amount": 2250,
-      "start_price": 628000,
-      "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=33985"
-    },
-    {
       "sale_id": 33983,
       "brand": "AUDEZE",
       "product_name": "CRBN2",
@@ -1200,8 +1176,8 @@
       "sale_id": 33978,
       "brand": "ADL Alpha Design Labs",
       "product_name": "OPT-MM by FURUTECH 후루텍 - 0.1m",
-      "current_price": 53000,
-      "discount_percent": 46,
+      "current_price": 52000,
+      "discount_percent": 47,
       "start_at": "08/27 00:00",
       "discount_interval": "6시간",
       "discount_amount": 1000,
