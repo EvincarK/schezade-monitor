@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788715996",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788715996",
-    "fetched_at_utc": "2026-09-06T17:33:16.857001+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788725502",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788725502",
+    "fetched_at_utc": "2026-09-06T20:11:42.593718+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 481250,
-    "text_chars": 13063,
-    "link_count": 425,
-    "sha256": "8cf6fd47d9a9b69f26b1dfd9cecd4d072ef38e33915d8bb5738b0f88e8d0f2d0",
+    "html_chars": 479018,
+    "text_chars": 12924,
+    "link_count": 423,
+    "sha256": "eac0f17a334832c04b8bb8b6f8e6f6d8ba9d0fd7e711fe87564e687304c234b6",
     "response_headers": {
-      "Date": "Sun, 06 Sep 2026 17:33:18 GMT",
+      "Date": "Sun, 06 Sep 2026 20:11:44 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 52,
+  "count": 51,
   "items": [
     {
       "listing_id": 5948,
@@ -84,19 +84,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5909"
-    },
-    {
-      "listing_id": 5908,
-      "product_gid": 6043,
-      "brand": "FiiO",
-      "product_name": "JF11 Mic [Black]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 6700,
-      "original_price": 16900,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5908"
     },
     {
       "listing_id": 5895,
