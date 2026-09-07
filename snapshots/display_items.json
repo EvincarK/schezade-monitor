@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788742046",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788742046",
-    "fetched_at_utc": "2026-09-07T00:47:26.435866+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788760228",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788760228",
+    "fetched_at_utc": "2026-09-07T05:50:28.214263+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 479018,
-    "text_chars": 12924,
-    "link_count": 423,
-    "sha256": "ca69bb66efb6c2c59896d0d52e71e016bb9fbefc98d502f40412f337360da7e2",
+    "html_chars": 476980,
+    "text_chars": 12873,
+    "link_count": 421,
+    "sha256": "28335e5c25091858c24ba1c9b5c14dc03949b7522cec050a561e734fb69cd49f",
     "response_headers": {
-      "Date": "Mon, 07 Sep 2026 00:47:28 GMT",
+      "Date": "Mon, 07 Sep 2026 05:50:30 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 51,
+  "count": 50,
   "items": [
     {
       "listing_id": 5948,
@@ -60,19 +60,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5916"
     },
     {
-      "listing_id": 5913,
-      "product_gid": 5657,
-      "brand": "Questyle Audio",
-      "product_name": "NHB15",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 176000,
-      "original_price": 440000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5913"
-    },
-    {
       "listing_id": 5909,
       "product_gid": 6043,
       "brand": "FiiO",
@@ -84,6 +71,19 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5909"
+    },
+    {
+      "listing_id": 5905,
+      "product_gid": 5288,
+      "brand": "Effect Audio",
+      "product_name": "Cleopatra II [ConX Basic - TermX]",
+      "category": "케이블",
+      "grade": "전시품",
+      "current_price": 804000,
+      "original_price": 2010000,
+      "discount_percent": 60,
+      "condition": "상태 70% · 사용 흔적 있음",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5905"
     },
     {
       "listing_id": 5895,
@@ -125,19 +125,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5892"
     },
     {
-      "listing_id": 5887,
-      "product_gid": 5647,
-      "brand": "FiiO",
-      "product_name": "JD1 [실버]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 11900,
-      "original_price": 23800,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5887"
-    },
-    {
       "listing_id": 5885,
       "product_gid": 5133,
       "brand": "SONY",
@@ -149,19 +136,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5885"
-    },
-    {
-      "listing_id": 5883,
-      "product_gid": 6178,
-      "brand": "Forte Ears",
-      "product_name": "Mefisto",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 2120000,
-      "original_price": 5300000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5883"
     },
     {
       "listing_id": 5881,
@@ -461,6 +435,19 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5213"
+    },
+    {
+      "listing_id": 5190,
+      "product_gid": 5825,
+      "brand": "Null Audio",
+      "product_name": "Istana [mmcx(IE300) - 4.4mm]",
+      "category": "케이블",
+      "grade": "전시품",
+      "current_price": 537000,
+      "original_price": 1790000,
+      "discount_percent": 70,
+      "condition": "상태 70% · 사용 흔적 있음",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5190"
     },
     {
       "listing_id": 5119,
