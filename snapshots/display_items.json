@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788782376",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788782376",
-    "fetched_at_utc": "2026-09-07T11:59:36.762607+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788802953",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788802953",
+    "fetched_at_utc": "2026-09-07T17:42:33.846669+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 479250,
-    "text_chars": 13070,
-    "link_count": 423,
-    "sha256": "725af53da031bd13690888c97694d986f68a2a891aed7aa2b80c9b6c19a5677e",
+    "html_chars": 477006,
+    "text_chars": 12891,
+    "link_count": 421,
+    "sha256": "91857ad82cb4352ae2bf0f6dd2213686f15697f082b977079a293f81c140395d",
     "response_headers": {
-      "Date": "Mon, 07 Sep 2026 11:59:39 GMT",
+      "Date": "Mon, 07 Sep 2026 17:42:35 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 51,
+  "count": 50,
   "items": [
     {
       "listing_id": 5948,
@@ -45,19 +45,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5932"
-    },
-    {
-      "listing_id": 5923,
-      "product_gid": 5202,
-      "brand": "T+A",
-      "product_name": "Solitaire T [코냑 화이트]",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 1325000,
-      "original_price": 2650000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5923"
     },
     {
       "listing_id": 5916,
