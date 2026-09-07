@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788760228",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788760228",
-    "fetched_at_utc": "2026-09-07T05:50:28.214263+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788782376",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788782376",
+    "fetched_at_utc": "2026-09-07T11:59:36.762607+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 476980,
-    "text_chars": 12873,
-    "link_count": 421,
-    "sha256": "28335e5c25091858c24ba1c9b5c14dc03949b7522cec050a561e734fb69cd49f",
+    "html_chars": 479250,
+    "text_chars": 13070,
+    "link_count": 423,
+    "sha256": "725af53da031bd13690888c97694d986f68a2a891aed7aa2b80c9b6c19a5677e",
     "response_headers": {
-      "Date": "Mon, 07 Sep 2026 05:50:30 GMT",
+      "Date": "Mon, 07 Sep 2026 11:59:39 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 50,
+  "count": 51,
   "items": [
     {
       "listing_id": 5948,
@@ -32,6 +32,19 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5948"
+    },
+    {
+      "listing_id": 5932,
+      "product_gid": 5454,
+      "brand": "aune",
+      "product_name": "S9c Pro BT [블랙]",
+      "category": "엠프,DAC",
+      "grade": "리뷰개봉품",
+      "current_price": 595000,
+      "original_price": 1190000,
+      "discount_percent": 50,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5932"
     },
     {
       "listing_id": 5923,
@@ -123,19 +136,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5892"
-    },
-    {
-      "listing_id": 5885,
-      "product_gid": 5133,
-      "brand": "SONY",
-      "product_name": "NW-WM1ZM2",
-      "category": "엠프,DAC",
-      "grade": "전시품",
-      "current_price": 1719600,
-      "original_price": 4299000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5885"
     },
     {
       "listing_id": 5881,
@@ -565,6 +565,19 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4269"
+    },
+    {
+      "listing_id": 4268,
+      "product_gid": 4634,
+      "brand": "Effect Audio",
+      "product_name": "EVO 1 [2pin - 2.5mm]",
+      "category": "케이블",
+      "grade": "전시품",
+      "current_price": 174000,
+      "original_price": 580000,
+      "discount_percent": 70,
+      "condition": "상태 70% · 사용 흔적 있음",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4268"
     },
     {
       "listing_id": 4233,
