@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788903719",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788903719",
-    "fetched_at_utc": "2026-09-08T21:41:59.872786+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788911782",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788911782",
+    "fetched_at_utc": "2026-09-08T23:56:22.099634+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 510194,
-    "text_chars": 15310,
-    "link_count": 452,
-    "sha256": "b60525d365d856baaf96181aeddc2ab41b10abf4a37a2f57ad5cc518bc266f02",
+    "html_chars": 505762,
+    "text_chars": 14958,
+    "link_count": 448,
+    "sha256": "67bc90e3565ddb3e94063e329519591370e7ab0cbdd3446b0e03e7e3d2fc94f9",
     "response_headers": {
-      "Date": "Tue, 08 Sep 2026 21:42:01 GMT",
+      "Date": "Tue, 08 Sep 2026 23:56:23 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 65,
+  "count": 63,
   "items": [
     {
       "listing_id": 5989,
@@ -45,19 +45,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5986"
-    },
-    {
-      "listing_id": 5984,
-      "product_gid": 6198,
-      "brand": "EarAcoustic Audio",
-      "product_name": "STA-Pro MAX",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 69500,
-      "original_price": 139000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5984"
     },
     {
       "listing_id": 5983,
@@ -188,19 +175,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5972"
-    },
-    {
-      "listing_id": 5971,
-      "product_gid": 6194,
-      "brand": "EarAcoustic Audio",
-      "product_name": "VSA-MAX",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 131000,
-      "original_price": 262000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5971"
     },
     {
       "listing_id": 5967,
