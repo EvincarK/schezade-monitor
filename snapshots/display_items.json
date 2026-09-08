@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788825861",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788825861",
-    "fetched_at_utc": "2026-09-08T00:04:21.765891+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788846235",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788846235",
+    "fetched_at_utc": "2026-09-08T05:43:55.703950+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 477006,
-    "text_chars": 12891,
-    "link_count": 421,
-    "sha256": "6e19f1facfb1d9a8a40ce6e4cfef09246e7dc23fdd5ee4ef483407b820612363",
+    "html_chars": 474774,
+    "text_chars": 12718,
+    "link_count": 419,
+    "sha256": "36ecde72a207dcae05d9e67e168a63814bef08ad945be0fb2ca82c3396f7f331",
     "response_headers": {
-      "Date": "Tue, 08 Sep 2026 00:04:23 GMT",
+      "Date": "Tue, 08 Sep 2026 05:43:57 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 50,
+  "count": 49,
   "items": [
     {
       "listing_id": 5948,
@@ -32,19 +32,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5948"
-    },
-    {
-      "listing_id": 5932,
-      "product_gid": 5454,
-      "brand": "aune",
-      "product_name": "S9c Pro BT [블랙]",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 595000,
-      "original_price": 1190000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5932"
     },
     {
       "listing_id": 5916,
