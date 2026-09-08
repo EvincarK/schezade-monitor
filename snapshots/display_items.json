@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788864877",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788864877",
-    "fetched_at_utc": "2026-09-08T10:54:37.839219+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788879587",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788879587",
+    "fetched_at_utc": "2026-09-08T14:59:47.213845+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 516824,
-    "text_chars": 15807,
-    "link_count": 458,
-    "sha256": "1dcaf51f93fe162eb55236b9bf0fb77a39bf71384af27aef2656b666e76bd3fa",
+    "html_chars": 512408,
+    "text_chars": 15477,
+    "link_count": 454,
+    "sha256": "eb7f4ad9c4cdfd8a5918f207502cf15c8b670516c3263ed67e98ce00b37db6a0",
     "response_headers": {
-      "Date": "Tue, 08 Sep 2026 10:54:39 GMT",
+      "Date": "Tue, 08 Sep 2026 14:59:49 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 68,
+  "count": 66,
   "items": [
     {
       "listing_id": 5990,
@@ -84,32 +84,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5983"
-    },
-    {
-      "listing_id": 5982,
-      "product_gid": 6429,
-      "brand": "Fosi Audio",
-      "product_name": "DS3 [Galaxy]",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 74500,
-      "original_price": 149000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5982"
-    },
-    {
-      "listing_id": 5981,
-      "product_gid": 5715,
-      "brand": "Fosi Audio",
-      "product_name": "SK02",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 74500,
-      "original_price": 149000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5981"
     },
     {
       "listing_id": 5980,
