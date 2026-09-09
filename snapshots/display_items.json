@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788975699",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788975699",
-    "fetched_at_utc": "2026-09-09T17:41:39.481895+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788986540",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788986540",
+    "fetched_at_utc": "2026-09-09T20:42:20.529249+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 478978,
-    "text_chars": 12962,
-    "link_count": 424,
-    "sha256": "353b28627cfb62a4f8841e036e8a564903a44312d6a7a9327c1689d701ddee0a",
+    "html_chars": 476648,
+    "text_chars": 12763,
+    "link_count": 422,
+    "sha256": "03a4ee08d797f305dd01489e2e9a20849f406643a3fd815975432f830846aa4e",
     "response_headers": {
-      "Date": "Wed, 09 Sep 2026 17:41:41 GMT",
+      "Date": "Wed, 09 Sep 2026 20:42:22 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 51,
+  "count": 50,
   "items": [
     {
       "listing_id": 5989,
@@ -630,19 +630,6 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4102"
-    },
-    {
-      "listing_id": 4063,
-      "product_gid": 4136,
-      "brand": "Effect Audio",
-      "product_name": "CODE 51 Adaptor [2.5mm-EA-P3.5mm]",
-      "category": "케이블",
-      "grade": "전시품",
-      "current_price": 369000,
-      "original_price": 1230000,
-      "discount_percent": 70,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4063"
     },
     {
       "listing_id": 4050,
