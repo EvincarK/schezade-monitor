@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788911782",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788911782",
-    "fetched_at_utc": "2026-09-08T23:56:22.099634+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788926176",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788926176",
+    "fetched_at_utc": "2026-09-09T03:56:16.557066+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 505762,
-    "text_chars": 14958,
-    "link_count": 448,
-    "sha256": "67bc90e3565ddb3e94063e329519591370e7ab0cbdd3446b0e03e7e3d2fc94f9",
+    "html_chars": 503450,
+    "text_chars": 14767,
+    "link_count": 446,
+    "sha256": "1dada584c3025974b68abefe5b7d91b4f0b8836cfacc85f23f2a1b83353a1a10",
     "response_headers": {
-      "Date": "Tue, 08 Sep 2026 23:56:23 GMT",
+      "Date": "Wed, 09 Sep 2026 03:56:18 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 63,
+  "count": 62,
   "items": [
     {
       "listing_id": 5989,
@@ -656,19 +656,6 @@
       "discount_percent": 70,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4760"
-    },
-    {
-      "listing_id": 4604,
-      "product_gid": 4708,
-      "brand": "Effect Audio",
-      "product_name": "Centurion [Conx Ti - 2.5mm]",
-      "category": "케이블",
-      "grade": "전시품",
-      "current_price": 2562000,
-      "original_price": 8540000,
-      "discount_percent": 70,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4604"
     },
     {
       "listing_id": 4602,
