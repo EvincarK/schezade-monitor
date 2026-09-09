@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788986540",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788986540",
-    "fetched_at_utc": "2026-09-09T20:42:20.529249+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788995019",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788995019",
+    "fetched_at_utc": "2026-09-09T23:03:39.935830+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 476648,
-    "text_chars": 12763,
-    "link_count": 422,
-    "sha256": "03a4ee08d797f305dd01489e2e9a20849f406643a3fd815975432f830846aa4e",
+    "html_chars": 474402,
+    "text_chars": 12618,
+    "link_count": 420,
+    "sha256": "ce4a561057d627f0ce62dc63d105c3cdcf7fd3ed954eaf6ff474bb698c6fb11e",
     "response_headers": {
-      "Date": "Wed, 09 Sep 2026 20:42:22 GMT",
+      "Date": "Wed, 09 Sep 2026 23:03:42 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 50,
+  "count": 49,
   "items": [
     {
       "listing_id": 5989,
@@ -110,19 +110,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5948"
-    },
-    {
-      "listing_id": 5916,
-      "product_gid": 6088,
-      "brand": "ag",
-      "product_name": "COTSUBU MK2+ [MINT]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 43600,
-      "original_price": 109000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5916"
     },
     {
       "listing_id": 5909,
