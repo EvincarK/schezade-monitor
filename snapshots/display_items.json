@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788960874",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788960874",
-    "fetched_at_utc": "2026-09-09T13:34:34.659864+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788975699",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788975699",
+    "fetched_at_utc": "2026-09-09T17:41:39.481895+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 481218,
-    "text_chars": 13107,
-    "link_count": 426,
-    "sha256": "ca1a9612d50cfd77ea42b5e909680748c5c416f326ebaea7d51aecf4a69d1210",
+    "html_chars": 478978,
+    "text_chars": 12962,
+    "link_count": 424,
+    "sha256": "353b28627cfb62a4f8841e036e8a564903a44312d6a7a9327c1689d701ddee0a",
     "response_headers": {
-      "Date": "Wed, 09 Sep 2026 13:34:36 GMT",
+      "Date": "Wed, 09 Sep 2026 17:41:41 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 52,
+  "count": 51,
   "items": [
     {
       "listing_id": 5989,
@@ -149,19 +149,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5905"
-    },
-    {
-      "listing_id": 5895,
-      "product_gid": 4766,
-      "brand": "SIVGA",
-      "product_name": "Robin SV021 [블랙]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 89200,
-      "original_price": 223000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5895"
     },
     {
       "listing_id": 5893,
