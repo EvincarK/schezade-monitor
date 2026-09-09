@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788943843",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788943843",
-    "fetched_at_utc": "2026-09-09T08:50:43.405651+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788960874",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788960874",
+    "fetched_at_utc": "2026-09-09T13:34:34.659864+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 485686,
-    "text_chars": 13441,
-    "link_count": 430,
-    "sha256": "b51896a30bb5de427a6c28aa6dc17e03f8b460cbe921d9d0f017f7d30bb60b09",
+    "html_chars": 481218,
+    "text_chars": 13107,
+    "link_count": 426,
+    "sha256": "ca1a9612d50cfd77ea42b5e909680748c5c416f326ebaea7d51aecf4a69d1210",
     "response_headers": {
-      "Date": "Wed, 09 Sep 2026 08:50:47 GMT",
+      "Date": "Wed, 09 Sep 2026 13:34:36 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 54,
+  "count": 52,
   "items": [
     {
       "listing_id": 5989,
@@ -45,19 +45,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5986"
-    },
-    {
-      "listing_id": 5983,
-      "product_gid": 6198,
-      "brand": "EarAcoustic Audio",
-      "product_name": "STA-Pro MAX",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 69500,
-      "original_price": 139000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5983"
     },
     {
       "listing_id": 5978,
@@ -214,19 +201,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5881"
-    },
-    {
-      "listing_id": 5878,
-      "product_gid": 4934,
-      "brand": "aune",
-      "product_name": "XC1 [블랙]",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 219500,
-      "original_price": 439000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5878"
     },
     {
       "listing_id": 5873,
