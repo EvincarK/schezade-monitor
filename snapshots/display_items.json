@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788926176",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788926176",
-    "fetched_at_utc": "2026-09-09T03:56:16.557066+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788943843",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1788943843",
+    "fetched_at_utc": "2026-09-09T08:50:43.405651+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 503450,
-    "text_chars": 14767,
-    "link_count": 446,
-    "sha256": "1dada584c3025974b68abefe5b7d91b4f0b8836cfacc85f23f2a1b83353a1a10",
+    "html_chars": 485686,
+    "text_chars": 13441,
+    "link_count": 430,
+    "sha256": "b51896a30bb5de427a6c28aa6dc17e03f8b460cbe921d9d0f017f7d30bb60b09",
     "response_headers": {
-      "Date": "Wed, 09 Sep 2026 03:56:18 GMT",
+      "Date": "Wed, 09 Sep 2026 08:50:47 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 62,
+  "count": 54,
   "items": [
     {
       "listing_id": 5989,
@@ -60,32 +60,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5983"
     },
     {
-      "listing_id": 5980,
-      "product_gid": 6309,
-      "brand": "aune",
-      "product_name": "IR300",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 84000,
-      "original_price": 168000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5980"
-    },
-    {
-      "listing_id": 5979,
-      "product_gid": 6503,
-      "brand": "TWISTURA",
-      "product_name": "Beta",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 95000,
-      "original_price": 190000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5979"
-    },
-    {
       "listing_id": 5978,
       "product_gid": 6503,
       "brand": "TWISTURA",
@@ -97,19 +71,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5978"
-    },
-    {
-      "listing_id": 5977,
-      "product_gid": 6351,
-      "brand": "aune",
-      "product_name": "AC45",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 107500,
-      "original_price": 215000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5977"
     },
     {
       "listing_id": 5976,
@@ -125,19 +86,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5976"
     },
     {
-      "listing_id": 5975,
-      "product_gid": 5478,
-      "brand": "ULTRASONE",
-      "product_name": "Signature Pure",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 99600,
-      "original_price": 249000,
-      "discount_percent": 60,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5975"
-    },
-    {
       "listing_id": 5974,
       "product_gid": 5478,
       "brand": "ULTRASONE",
@@ -151,19 +99,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5974"
     },
     {
-      "listing_id": 5973,
-      "product_gid": 6502,
-      "brand": "TWISTURA",
-      "product_name": "WOODNOTE",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 127500,
-      "original_price": 255000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5973"
-    },
-    {
       "listing_id": 5972,
       "product_gid": 6502,
       "brand": "TWISTURA",
@@ -175,32 +110,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5972"
-    },
-    {
-      "listing_id": 5967,
-      "product_gid": 5610,
-      "brand": "Final",
-      "product_name": "ZE8000 MK2 [블랙]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 174500,
-      "original_price": 349000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5967"
-    },
-    {
-      "listing_id": 5962,
-      "product_gid": 6241,
-      "brand": "EarAcoustic Audio",
-      "product_name": "SPA-Hi End MAX Collector's Version",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 231000,
-      "original_price": 462000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5962"
     },
     {
       "listing_id": 5948,
@@ -487,19 +396,6 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5761"
-    },
-    {
-      "listing_id": 5678,
-      "product_gid": 4765,
-      "brand": "Sendy Audio",
-      "product_name": "Peacock [블랙]",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 1120000,
-      "original_price": 2240000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5678"
     },
     {
       "listing_id": 5660,
