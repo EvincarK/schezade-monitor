@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789046757",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789046757",
-    "fetched_at_utc": "2026-09-10T13:25:57.762737+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789061681",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789061681",
+    "fetched_at_utc": "2026-09-10T17:34:41.317150+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 501040,
-    "text_chars": 14652,
-    "link_count": 444,
-    "sha256": "fd39a4077bdce3fa6cb6bdaaf66e59b8646c8a11a294a32c5232d59f753050e6",
+    "html_chars": 496554,
+    "text_chars": 14356,
+    "link_count": 440,
+    "sha256": "a7e60f427b677784b34af3ab81c9736afe7198b5dddd7e3e79bdca12acd999dc",
     "response_headers": {
-      "Date": "Thu, 10 Sep 2026 13:25:58 GMT",
+      "Date": "Thu, 10 Sep 2026 17:34:42 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 61,
+  "count": 59,
   "items": [
     {
       "listing_id": 6012,
@@ -476,19 +476,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5774"
     },
     {
-      "listing_id": 5773,
-      "product_gid": 5714,
-      "brand": "ULTRASONE",
-      "product_name": "Signature Fusion",
-      "category": "헤드폰",
-      "grade": "포장개봉품",
-      "current_price": 260000,
-      "original_price": 653000,
-      "discount_percent": 60,
-      "condition": "상태 90% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5773"
-    },
-    {
       "listing_id": 5761,
       "product_gid": 6023,
       "brand": "JLL Audio",
@@ -539,19 +526,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5654"
-    },
-    {
-      "listing_id": 5649,
-      "product_gid": 5065,
-      "brand": "KOSS",
-      "product_name": "KEB90 Utility",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 39600,
-      "original_price": 99000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5649"
     },
     {
       "listing_id": 5603,
