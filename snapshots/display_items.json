@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789061681",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789061681",
-    "fetched_at_utc": "2026-09-10T17:34:41.317150+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789072637",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789072637",
+    "fetched_at_utc": "2026-09-10T20:37:17.532485+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 496554,
-    "text_chars": 14356,
-    "link_count": 440,
-    "sha256": "a7e60f427b677784b34af3ab81c9736afe7198b5dddd7e3e79bdca12acd999dc",
+    "html_chars": 492182,
+    "text_chars": 14052,
+    "link_count": 436,
+    "sha256": "e694e2b7eb7bab000e6a2f8acb3191edf25ccc0bfaccf4085982732d87a5c128",
     "response_headers": {
-      "Date": "Thu, 10 Sep 2026 17:34:42 GMT",
+      "Date": "Thu, 10 Sep 2026 20:37:19 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 59,
+  "count": 57,
   "items": [
     {
       "listing_id": 6012,
@@ -216,19 +216,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5986"
     },
     {
-      "listing_id": 5978,
-      "product_gid": 6503,
-      "brand": "TWISTURA",
-      "product_name": "Beta",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 95000,
-      "original_price": 190000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5978"
-    },
-    {
       "listing_id": 5976,
       "product_gid": 4928,
       "brand": "ULTRASONE",
@@ -253,19 +240,6 @@
       "discount_percent": 60,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5974"
-    },
-    {
-      "listing_id": 5972,
-      "product_gid": 6502,
-      "brand": "TWISTURA",
-      "product_name": "WOODNOTE",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 127500,
-      "original_price": 255000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5972"
     },
     {
       "listing_id": 5948,
