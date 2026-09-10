@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789012337",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789012337",
-    "fetched_at_utc": "2026-09-10T03:52:17.567032+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789030134",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789030134",
+    "fetched_at_utc": "2026-09-10T08:48:54.423520+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 512326,
-    "text_chars": 15545,
-    "link_count": 454,
-    "sha256": "643e31749bb2179138a449e5f5bf7f5da02f31cf5e756ffa08b2502edddea06d",
+    "html_chars": 507788,
+    "text_chars": 15167,
+    "link_count": 450,
+    "sha256": "78c0c0825b36cc7d269fad2ab9d1773d36682b7a82bc4b42165156dbe61452af",
     "response_headers": {
-      "Date": "Thu, 10 Sep 2026 03:52:19 GMT",
+      "Date": "Thu, 10 Sep 2026 08:48:55 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 66,
+  "count": 64,
   "items": [
     {
       "listing_id": 6012,
@@ -32,19 +32,6 @@
       "discount_percent": 51,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6012"
-    },
-    {
-      "listing_id": 6010,
-      "product_gid": 6214,
-      "brand": "KOSS",
-      "product_name": "Porta Pro Standard Size Cushions [Orange]",
-      "category": "기타 액세서리",
-      "grade": "리뷰개봉품",
-      "current_price": 8300,
-      "original_price": 16700,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6010"
     },
     {
       "listing_id": 6008,
@@ -227,19 +214,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5992"
-    },
-    {
-      "listing_id": 5991,
-      "product_gid": 6389,
-      "brand": "Final",
-      "product_name": "UX1000 [Greige]",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 46500,
-      "original_price": 93000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5991"
     },
     {
       "listing_id": 5989,
