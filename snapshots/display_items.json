@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789088259",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789088259",
-    "fetched_at_utc": "2026-09-11T00:57:39.194954+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789105694",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789105694",
+    "fetched_at_utc": "2026-09-11T05:48:14.780066+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 492182,
-    "text_chars": 14052,
-    "link_count": 436,
-    "sha256": "5a9f58986ff3b4ee359e287a0e06ed15707e0456f6fb07e498880c9731066c72",
+    "html_chars": 494554,
+    "text_chars": 14259,
+    "link_count": 438,
+    "sha256": "117beb650fa0cb5744c9ebd026ce138fd1df72db62ec1113da671b3f7ebd7557",
     "response_headers": {
-      "Date": "Fri, 11 Sep 2026 00:57:41 GMT",
+      "Date": "Fri, 11 Sep 2026 05:48:17 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 57,
+  "count": 58,
   "items": [
     {
       "listing_id": 6012,
@@ -99,19 +99,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6003"
     },
     {
-      "listing_id": 6002,
-      "product_gid": 6444,
-      "brand": "JCALLY",
-      "product_name": "JM98MAX",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 29000,
-      "original_price": 58000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6002"
-    },
-    {
       "listing_id": 6001,
       "product_gid": 6437,
       "brand": "SIVGA",
@@ -177,19 +164,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5993"
     },
     {
-      "listing_id": 5992,
-      "product_gid": 6447,
-      "brand": "Questyle Audio",
-      "product_name": "ZEN",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 45000,
-      "original_price": 90000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5992"
-    },
-    {
       "listing_id": 5989,
       "product_gid": 5532,
       "brand": "Final",
@@ -240,6 +214,32 @@
       "discount_percent": 60,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5974"
+    },
+    {
+      "listing_id": 5966,
+      "product_gid": 5610,
+      "brand": "Final",
+      "product_name": "ZE8000 MK2 [블랙]",
+      "category": "이어폰",
+      "grade": "리뷰개봉품",
+      "current_price": 174500,
+      "original_price": 349000,
+      "discount_percent": 50,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5966"
+    },
+    {
+      "listing_id": 5965,
+      "product_gid": 5276,
+      "brand": "aune",
+      "product_name": "Flamingo Tube DAC-BT [블랙]",
+      "category": "엠프,DAC",
+      "grade": "리뷰개봉품",
+      "current_price": 209500,
+      "original_price": 419000,
+      "discount_percent": 50,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5965"
     },
     {
       "listing_id": 5948,
@@ -448,6 +448,19 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5774"
+    },
+    {
+      "listing_id": 5773,
+      "product_gid": 5714,
+      "brand": "ULTRASONE",
+      "product_name": "Signature Fusion",
+      "category": "헤드폰",
+      "grade": "포장개봉품",
+      "current_price": 260000,
+      "original_price": 653000,
+      "discount_percent": 60,
+      "condition": "상태 90% · 신품과 거의 동일",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5773"
     },
     {
       "listing_id": 5761,
