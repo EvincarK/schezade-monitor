@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789124029",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789124029",
-    "fetched_at_utc": "2026-09-11T10:53:49.749007+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789138493",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789138493",
+    "fetched_at_utc": "2026-09-11T14:54:53.238462+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 492462,
-    "text_chars": 14126,
-    "link_count": 436,
-    "sha256": "b6ddfc4424ccf3cec8dcbedd14bdb1271e45ef63ee13ffab3cafc2788b19205d",
+    "html_chars": 487900,
+    "text_chars": 13784,
+    "link_count": 432,
+    "sha256": "4ea0d6ed59ee761f283bc0bb77202a6995ce10fd410a01c5b70cb3679e8faaf0",
     "response_headers": {
-      "Date": "Fri, 11 Sep 2026 10:53:51 GMT",
+      "Date": "Fri, 11 Sep 2026 14:54:54 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 57,
+  "count": 55,
   "items": [
     {
       "listing_id": 6012,
@@ -294,19 +294,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5881"
     },
     {
-      "listing_id": 5877,
-      "product_gid": 4887,
-      "brand": "AUDEZE",
-      "product_name": "LCD-5 [4-XLR 케이블 + 4-XLR to 6.3mm 어댑터]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 2916000,
-      "original_price": 7290000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5877"
-    },
-    {
       "listing_id": 5873,
       "product_gid": 4195,
       "brand": "T+A",
@@ -474,19 +461,6 @@
       "discount_percent": 40,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5660"
-    },
-    {
-      "listing_id": 5656,
-      "product_gid": 6352,
-      "brand": "aune",
-      "product_name": "AC55",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 202800,
-      "original_price": 338000,
-      "discount_percent": 40,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5656"
     },
     {
       "listing_id": 5654,
