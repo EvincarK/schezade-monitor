@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789105694",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789105694",
-    "fetched_at_utc": "2026-09-11T05:48:14.780066+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789124029",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789124029",
+    "fetched_at_utc": "2026-09-11T10:53:49.749007+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 494554,
-    "text_chars": 14259,
-    "link_count": 438,
-    "sha256": "117beb650fa0cb5744c9ebd026ce138fd1df72db62ec1113da671b3f7ebd7557",
+    "html_chars": 492462,
+    "text_chars": 14126,
+    "link_count": 436,
+    "sha256": "b6ddfc4424ccf3cec8dcbedd14bdb1271e45ef63ee13ffab3cafc2788b19205d",
     "response_headers": {
-      "Date": "Fri, 11 Sep 2026 05:48:17 GMT",
+      "Date": "Fri, 11 Sep 2026 10:53:51 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 58,
+  "count": 57,
   "items": [
     {
       "listing_id": 6012,
@@ -203,32 +203,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5976"
     },
     {
-      "listing_id": 5974,
-      "product_gid": 5478,
-      "brand": "ULTRASONE",
-      "product_name": "Signature Pure",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 99600,
-      "original_price": 249000,
-      "discount_percent": 60,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5974"
-    },
-    {
-      "listing_id": 5966,
-      "product_gid": 5610,
-      "brand": "Final",
-      "product_name": "ZE8000 MK2 [블랙]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 174500,
-      "original_price": 349000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5966"
-    },
-    {
       "listing_id": 5965,
       "product_gid": 5276,
       "brand": "aune",
@@ -318,6 +292,19 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5881"
+    },
+    {
+      "listing_id": 5877,
+      "product_gid": 4887,
+      "brand": "AUDEZE",
+      "product_name": "LCD-5 [4-XLR 케이블 + 4-XLR to 6.3mm 어댑터]",
+      "category": "헤드폰",
+      "grade": "전시품",
+      "current_price": 2916000,
+      "original_price": 7290000,
+      "discount_percent": 60,
+      "condition": "상태 70% · 사용 흔적 있음",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5877"
     },
     {
       "listing_id": 5873,
