@@ -3,22 +3,22 @@
     "name": "step_sale",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1789239767",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1789239767",
-    "fetched_at_utc": "2026-09-12T19:02:47.478723+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1789250519",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1789250519",
+    "fetched_at_utc": "2026-09-12T22:01:59.756143+00:00",
     "status_code": 200,
     "title": "계단식 세일",
-    "html_chars": 847760,
-    "text_chars": 47761,
-    "link_count": 634,
-    "sha256": "7a88b4be19c2a595c5483159a2cd9fe65235e1b81856fc0e1d29ff1b5857eec1",
+    "html_chars": 843323,
+    "text_chars": 47402,
+    "link_count": 631,
+    "sha256": "82eb02d2fef1f703eaa244b1398f840fef2fbdb9352c839f133eec06950c6011",
     "response_headers": {
-      "Date": "Sat, 12 Sep 2026 19:02:52 GMT",
+      "Date": "Sat, 12 Sep 2026 22:02:04 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 104,
+  "count": 103,
   "items": [
     {
       "sale_id": 34169,
@@ -1015,18 +1015,6 @@
       "discount_amount": 12000,
       "start_price": 2590000,
       "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=34054"
-    },
-    {
-      "sale_id": 34052,
-      "brand": "MEZE",
-      "product_name": "105 AER",
-      "current_price": 358200,
-      "discount_percent": 37,
-      "start_at": "09/02 00:00",
-      "discount_interval": "4시간",
-      "discount_amount": 3100,
-      "start_price": 569000,
-      "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=34052"
     },
     {
       "sale_id": 34048,
