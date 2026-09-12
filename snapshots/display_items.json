@@ -3,36 +3,23 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789219609",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789219609",
-    "fetched_at_utc": "2026-09-12T13:26:49.071730+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789231854",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789231854",
+    "fetched_at_utc": "2026-09-12T16:50:54.564236+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 476816,
-    "text_chars": 12959,
-    "link_count": 422,
-    "sha256": "9c9a1fdaa1cd5aa4cf7419a6c05a439f15f0d22a37b9d702463c5c79024f3a2c",
+    "html_chars": 470032,
+    "text_chars": 12452,
+    "link_count": 416,
+    "sha256": "06fbaa6fc5f8cc142e7a505e375593a9f7abee3fd68e1dc2e62f0f1565a64e74",
     "response_headers": {
-      "Date": "Sat, 12 Sep 2026 13:26:50 GMT",
+      "Date": "Sat, 12 Sep 2026 16:50:56 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 50,
+  "count": 47,
   "items": [
-    {
-      "listing_id": 6005,
-      "product_gid": 5067,
-      "brand": "KOSS",
-      "product_name": "Utility USB-C Cord",
-      "category": "케이블",
-      "grade": "리뷰개봉품",
-      "current_price": 24900,
-      "original_price": 49800,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6005"
-    },
     {
       "listing_id": 6003,
       "product_gid": 6500,
@@ -177,19 +164,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5909"
     },
     {
-      "listing_id": 5905,
-      "product_gid": 5288,
-      "brand": "Effect Audio",
-      "product_name": "Cleopatra II [ConX Basic - TermX]",
-      "category": "케이블",
-      "grade": "전시품",
-      "current_price": 804000,
-      "original_price": 2010000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5905"
-    },
-    {
       "listing_id": 5893,
       "product_gid": 5336,
       "brand": "SIVGA",
@@ -227,19 +201,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5881"
-    },
-    {
-      "listing_id": 5873,
-      "product_gid": 4195,
-      "brand": "T+A",
-      "product_name": "Solitaire P",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 4280000,
-      "original_price": 10700000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5873"
     },
     {
       "listing_id": 5867,
