@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789186993",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789186993",
-    "fetched_at_utc": "2026-09-12T04:23:13.546233+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789203973",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789203973",
+    "fetched_at_utc": "2026-09-12T09:06:13.174366+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 481346,
-    "text_chars": 13335,
-    "link_count": 426,
-    "sha256": "a32897f23f3e962f99fef128f2d9e2dfabf02646419eb2e6fa9a731a44af3d4b",
+    "html_chars": 479116,
+    "text_chars": 13162,
+    "link_count": 424,
+    "sha256": "4bfe6cf99efb78fac2c61f2cfbf96751a18263cb8029a0e54596b71407e77f56",
     "response_headers": {
-      "Date": "Sat, 12 Sep 2026 04:23:15 GMT",
+      "Date": "Sat, 12 Sep 2026 09:06:14 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 52,
+  "count": 51,
   "items": [
     {
       "listing_id": 6012,
@@ -45,19 +45,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6005"
-    },
-    {
-      "listing_id": 6004,
-      "product_gid": 6500,
-      "brand": "TWISTURA",
-      "product_name": "D-MINOR [Standard]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 25500,
-      "original_price": 51000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6004"
     },
     {
       "listing_id": 6003,
