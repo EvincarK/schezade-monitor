@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789381497",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789381497",
-    "fetched_at_utc": "2026-09-14T10:24:57.732360+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789404669",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789404669",
+    "fetched_at_utc": "2026-09-14T16:51:09.027043+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 521760,
-    "text_chars": 16051,
-    "link_count": 462,
-    "sha256": "005c00874578fcb634765b6a6414688e5f61a2fe2404c4ddb8e3bcf6c6c90451",
+    "html_chars": 515010,
+    "text_chars": 15548,
+    "link_count": 456,
+    "sha256": "49a8cbd4fe646053c74fcc98720c184bf73fc507791edaa6785e3695fd9ab6e7",
     "response_headers": {
-      "Date": "Mon, 14 Sep 2026 10:24:59 GMT",
+      "Date": "Mon, 14 Sep 2026 16:51:11 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 70,
+  "count": 67,
   "items": [
     {
       "listing_id": 6054,
@@ -110,19 +110,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6042"
-    },
-    {
-      "listing_id": 6039,
-      "product_gid": 5856,
-      "brand": "Lime Ears",
-      "product_name": "TERRA",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 772000,
-      "original_price": 1930000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6039"
     },
     {
       "listing_id": 6038,
@@ -541,19 +528,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5854"
     },
     {
-      "listing_id": 5843,
-      "product_gid": 6451,
-      "brand": "Questyle Audio",
-      "product_name": "Leather Case for Sigma pro",
-      "category": "기타 액세서리",
-      "grade": "리뷰개봉품",
-      "current_price": 38500,
-      "original_price": 77000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5843"
-    },
-    {
       "listing_id": 5836,
       "product_gid": 5532,
       "brand": "Final",
@@ -656,19 +630,6 @@
       "discount_percent": 40,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5660"
-    },
-    {
-      "listing_id": 5654,
-      "product_gid": 5374,
-      "brand": "Final",
-      "product_name": "UX3000 [블랙]",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 109500,
-      "original_price": 219000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5654"
     },
     {
       "listing_id": 5603,
