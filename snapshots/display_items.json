@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789404669",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789404669",
-    "fetched_at_utc": "2026-09-14T16:51:09.027043+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789418871",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789418871",
+    "fetched_at_utc": "2026-09-14T20:47:51.225673+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 515010,
-    "text_chars": 15548,
-    "link_count": 456,
-    "sha256": "49a8cbd4fe646053c74fcc98720c184bf73fc507791edaa6785e3695fd9ab6e7",
+    "html_chars": 508120,
+    "text_chars": 15011,
+    "link_count": 450,
+    "sha256": "b0ccac7e8b63593ce20be3efbf7a1659022b2c13616434a78ebe7a69852fc4ee",
     "response_headers": {
-      "Date": "Mon, 14 Sep 2026 16:51:11 GMT",
+      "Date": "Mon, 14 Sep 2026 20:47:53 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 67,
+  "count": 64,
   "items": [
     {
       "listing_id": 6054,
@@ -149,32 +149,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6032"
-    },
-    {
-      "listing_id": 6031,
-      "product_gid": 6080,
-      "brand": "Scheherazade",
-      "product_name": "Leather Long Strap [Natural]",
-      "category": "기타 액세서리",
-      "grade": "포장개봉품",
-      "current_price": 9000,
-      "original_price": 15000,
-      "discount_percent": 40,
-      "condition": "상태 90% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6031"
-    },
-    {
-      "listing_id": 6030,
-      "product_gid": 6345,
-      "brand": "FiiO",
-      "product_name": "AIR LINK [Silver]",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 36000,
-      "original_price": 72000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6030"
     },
     {
       "listing_id": 6027,
@@ -552,19 +526,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5823"
-    },
-    {
-      "listing_id": 5801,
-      "product_gid": 5873,
-      "brand": "ULTRASONE",
-      "product_name": "Signature Fusion Open Back",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 207000,
-      "original_price": 653000,
-      "discount_percent": 68,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5801"
     },
     {
       "listing_id": 5789,
