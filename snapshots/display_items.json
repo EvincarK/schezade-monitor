@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789418871",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789418871",
-    "fetched_at_utc": "2026-09-14T20:47:51.225673+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789429454",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789429454",
+    "fetched_at_utc": "2026-09-14T23:44:14.781500+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 508120,
-    "text_chars": 15011,
-    "link_count": 450,
-    "sha256": "b0ccac7e8b63593ce20be3efbf7a1659022b2c13616434a78ebe7a69852fc4ee",
+    "html_chars": 505994,
+    "text_chars": 14846,
+    "link_count": 448,
+    "sha256": "d9551d3e8379aaf5ef73315e8a3fa60899297c6ed8b246f76c90d9bdc028b893",
     "response_headers": {
-      "Date": "Mon, 14 Sep 2026 20:47:53 GMT",
+      "Date": "Mon, 14 Sep 2026 23:44:16 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 64,
+  "count": 63,
   "items": [
     {
       "listing_id": 6054,
@@ -32,19 +32,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6054"
-    },
-    {
-      "listing_id": 6050,
-      "product_gid": 6153,
-      "brand": "VISION EARS",
-      "product_name": "VE XCON",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 1212000,
-      "original_price": 4040000,
-      "discount_percent": 70,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6050"
     },
     {
       "listing_id": 6049,
