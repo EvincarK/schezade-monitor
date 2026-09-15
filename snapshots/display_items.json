@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789465855",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789465855",
-    "fetched_at_utc": "2026-09-15T09:50:55.815882+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789483398",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789483398",
+    "fetched_at_utc": "2026-09-15T14:43:18.194126+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 486006,
-    "text_chars": 13489,
-    "link_count": 430,
-    "sha256": "a2e3c2291f46cac0403e2909cd40a46eb2ad4cf4425c946c8517b54d1e650b35",
+    "html_chars": 481508,
+    "text_chars": 13181,
+    "link_count": 426,
+    "sha256": "3e803218eb10fbc2eb65ede8a54777b6a1f615185654e2a0c7fd7915027d5e73",
     "response_headers": {
-      "Date": "Tue, 15 Sep 2026 09:50:57 GMT",
+      "Date": "Tue, 15 Sep 2026 14:43:20 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 54,
+  "count": 52,
   "items": [
     {
       "listing_id": 6049,
@@ -110,19 +110,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6032"
-    },
-    {
-      "listing_id": 6025,
-      "product_gid": 6345,
-      "brand": "FiiO",
-      "product_name": "AIR LINK [Silver]",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 36000,
-      "original_price": 72000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6025"
     },
     {
       "listing_id": 6023,
@@ -344,19 +331,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5892"
-    },
-    {
-      "listing_id": 5867,
-      "product_gid": 5934,
-      "brand": "Final",
-      "product_name": "D8000 DC",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 2400000,
-      "original_price": 6000000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5867"
     },
     {
       "listing_id": 5836,
