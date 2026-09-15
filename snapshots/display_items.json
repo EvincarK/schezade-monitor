@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789429454",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789429454",
-    "fetched_at_utc": "2026-09-14T23:44:14.781500+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789445235",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789445235",
+    "fetched_at_utc": "2026-09-15T04:07:15.089498+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 505994,
-    "text_chars": 14846,
-    "link_count": 448,
-    "sha256": "d9551d3e8379aaf5ef73315e8a3fa60899297c6ed8b246f76c90d9bdc028b893",
+    "html_chars": 501500,
+    "text_chars": 14512,
+    "link_count": 444,
+    "sha256": "2145af7c214bff5381c6922b9024d8d87e5fb07c1a043c520e33f32cf0510312",
     "response_headers": {
-      "Date": "Mon, 14 Sep 2026 23:44:16 GMT",
+      "Date": "Tue, 15 Sep 2026 04:07:17 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 63,
+  "count": 61,
   "items": [
     {
       "listing_id": 6054,
@@ -149,19 +149,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6027"
-    },
-    {
-      "listing_id": 6026,
-      "product_gid": 6345,
-      "brand": "FiiO",
-      "product_name": "AIR LINK [Silver]",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 36000,
-      "original_price": 72000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6026"
     },
     {
       "listing_id": 6025,
@@ -383,19 +370,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5986"
-    },
-    {
-      "listing_id": 5966,
-      "product_gid": 5610,
-      "brand": "Final",
-      "product_name": "ZE8000 MK2 [블랙]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 174500,
-      "original_price": 349000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5966"
     },
     {
       "listing_id": 5948,
