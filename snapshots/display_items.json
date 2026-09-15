@@ -3,36 +3,23 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789445235",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789445235",
-    "fetched_at_utc": "2026-09-15T04:07:15.089498+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789465855",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789465855",
+    "fetched_at_utc": "2026-09-15T09:50:55.815882+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 501500,
-    "text_chars": 14512,
-    "link_count": 444,
-    "sha256": "2145af7c214bff5381c6922b9024d8d87e5fb07c1a043c520e33f32cf0510312",
+    "html_chars": 486006,
+    "text_chars": 13489,
+    "link_count": 430,
+    "sha256": "a2e3c2291f46cac0403e2909cd40a46eb2ad4cf4425c946c8517b54d1e650b35",
     "response_headers": {
-      "Date": "Tue, 15 Sep 2026 04:07:17 GMT",
+      "Date": "Tue, 15 Sep 2026 09:50:57 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 61,
+  "count": 54,
   "items": [
-    {
-      "listing_id": 6054,
-      "product_gid": 5798,
-      "brand": "AAW",
-      "product_name": "Z06",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 222000,
-      "original_price": 555000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6054"
-    },
     {
       "listing_id": 6049,
       "product_gid": 6152,
@@ -71,19 +58,6 @@
       "discount_percent": 70,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6047"
-    },
-    {
-      "listing_id": 6044,
-      "product_gid": 5543,
-      "brand": "Fosi Audio",
-      "product_name": "DS2 [Grey]",
-      "category": "엠프,DAC",
-      "grade": "전시품",
-      "current_price": 38800,
-      "original_price": 97000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6044"
     },
     {
       "listing_id": 6042,
@@ -138,19 +112,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6032"
     },
     {
-      "listing_id": 6027,
-      "product_gid": 6345,
-      "brand": "FiiO",
-      "product_name": "AIR LINK [Silver]",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 36000,
-      "original_price": 72000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6027"
-    },
-    {
       "listing_id": 6025,
       "product_gid": 6345,
       "brand": "FiiO",
@@ -162,19 +123,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6025"
-    },
-    {
-      "listing_id": 6024,
-      "product_gid": 6345,
-      "brand": "FiiO",
-      "product_name": "AIR LINK [Silver]",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 36000,
-      "original_price": 72000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6024"
     },
     {
       "listing_id": 6023,
@@ -294,19 +242,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6001"
     },
     {
-      "listing_id": 5997,
-      "product_gid": 6499,
-      "brand": "TWISTURA",
-      "product_name": "D-MAJOR [Standard]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 37500,
-      "original_price": 75000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5997"
-    },
-    {
       "listing_id": 5996,
       "product_gid": 6499,
       "brand": "TWISTURA",
@@ -344,19 +279,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5992"
-    },
-    {
-      "listing_id": 5989,
-      "product_gid": 5532,
-      "brand": "Final",
-      "product_name": "VR2000",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 49000,
-      "original_price": 98000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5989"
     },
     {
       "listing_id": 5986,
@@ -424,19 +346,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5892"
     },
     {
-      "listing_id": 5881,
-      "product_gid": 5636,
-      "brand": "aune",
-      "product_name": "AR5000",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 193600,
-      "original_price": 484000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5881"
-    },
-    {
       "listing_id": 5867,
       "product_gid": 5934,
       "brand": "Final",
@@ -448,19 +357,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5867"
-    },
-    {
-      "listing_id": 5854,
-      "product_gid": 5695,
-      "brand": "Final",
-      "product_name": "VR500",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 24500,
-      "original_price": 49000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5854"
     },
     {
       "listing_id": 5836,
@@ -526,6 +422,19 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5774"
+    },
+    {
+      "listing_id": 5773,
+      "product_gid": 5714,
+      "brand": "ULTRASONE",
+      "product_name": "Signature Fusion",
+      "category": "헤드폰",
+      "grade": "포장개봉품",
+      "current_price": 260000,
+      "original_price": 653000,
+      "discount_percent": 60,
+      "condition": "상태 90% · 신품과 거의 동일",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5773"
     },
     {
       "listing_id": 5761,
