@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789483398",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789483398",
-    "fetched_at_utc": "2026-09-15T14:43:18.194126+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789498001",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789498001",
+    "fetched_at_utc": "2026-09-15T18:46:41.472544+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 481508,
-    "text_chars": 13181,
-    "link_count": 426,
-    "sha256": "3e803218eb10fbc2eb65ede8a54777b6a1f615185654e2a0c7fd7915027d5e73",
+    "html_chars": 479250,
+    "text_chars": 12996,
+    "link_count": 424,
+    "sha256": "99ffada2f34a149b50ada2a4703ecbf021a8ee23334163bbb67173aab01bbbf9",
     "response_headers": {
-      "Date": "Tue, 15 Sep 2026 14:43:20 GMT",
+      "Date": "Tue, 15 Sep 2026 18:46:43 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 52,
+  "count": 51,
   "items": [
     {
       "listing_id": 6049,
@@ -240,19 +240,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5996"
-    },
-    {
-      "listing_id": 5993,
-      "product_gid": 5559,
-      "brand": "earfun",
-      "product_name": "EarFun Free Pro 3 [실버 화이트]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 44900,
-      "original_price": 89900,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5993"
     },
     {
       "listing_id": 5992,
