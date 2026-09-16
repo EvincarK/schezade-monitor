@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789509526",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789509526",
-    "fetched_at_utc": "2026-09-15T21:58:46.219448+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789517275",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789517275",
+    "fetched_at_utc": "2026-09-16T00:07:55.754703+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 479250,
-    "text_chars": 12996,
-    "link_count": 424,
-    "sha256": "0bddab3a2976b886a72598175b9892d730420bab55bc63639422ae53bf278c2b",
+    "html_chars": 474742,
+    "text_chars": 12658,
+    "link_count": 420,
+    "sha256": "5fbda9673875d1b52e6c2381b52db94e1e34207cb0ad911ad74192adeda4179b",
     "response_headers": {
-      "Date": "Tue, 15 Sep 2026 21:58:48 GMT",
+      "Date": "Wed, 16 Sep 2026 00:07:58 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 51,
+  "count": 49,
   "items": [
     {
       "listing_id": 6049,
@@ -164,19 +164,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6016"
     },
     {
-      "listing_id": 6015,
-      "product_gid": 5975,
-      "brand": "earfun",
-      "product_name": "Earfun Tune Pro [Black]",
-      "category": "헤드폰",
-      "grade": "박스훼손품",
-      "current_price": 55900,
-      "original_price": 79900,
-      "discount_percent": 30,
-      "condition": "상태 95% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6015"
-    },
-    {
       "listing_id": 6014,
       "product_gid": 5975,
       "brand": "earfun",
@@ -227,19 +214,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6001"
-    },
-    {
-      "listing_id": 5996,
-      "product_gid": 6499,
-      "brand": "TWISTURA",
-      "product_name": "D-MAJOR [Standard]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 37500,
-      "original_price": 75000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5996"
     },
     {
       "listing_id": 5992,
