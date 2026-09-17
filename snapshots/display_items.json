@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789629763",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789629763",
-    "fetched_at_utc": "2026-09-17T07:22:43.895357+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789650733",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789650733",
+    "fetched_at_utc": "2026-09-17T13:12:13.748209+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 465882,
-    "text_chars": 12000,
-    "link_count": 413,
-    "sha256": "172ab66fe93d0f421ec7e310c941972b7d92981c64806955f967ae48d7cd380e",
+    "html_chars": 463604,
+    "text_chars": 11835,
+    "link_count": 411,
+    "sha256": "47a285c56520674a359874222d9a7ebbe47027cce70f1f0c22e326b4af5e49fd",
     "response_headers": {
-      "Date": "Thu, 17 Sep 2026 07:22:46 GMT",
+      "Date": "Thu, 17 Sep 2026 13:12:15 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 45,
+  "count": 44,
   "items": [
     {
       "listing_id": 6048,
@@ -123,19 +123,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6022"
-    },
-    {
-      "listing_id": 6014,
-      "product_gid": 5975,
-      "brand": "earfun",
-      "product_name": "Earfun Tune Pro [Black]",
-      "category": "헤드폰",
-      "grade": "박스훼손품",
-      "current_price": 55900,
-      "original_price": 79900,
-      "discount_percent": 30,
-      "condition": "상태 95% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6014"
     },
     {
       "listing_id": 6005,
