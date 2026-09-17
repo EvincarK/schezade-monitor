@@ -3,36 +3,23 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789607475",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789607475",
-    "fetched_at_utc": "2026-09-17T01:11:15.790283+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789629763",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789629763",
+    "fetched_at_utc": "2026-09-17T07:22:43.895357+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 474896,
-    "text_chars": 12666,
-    "link_count": 421,
-    "sha256": "6233380bb179c13a98001f7dddb60e2d742ddab2bf125bf170167f75168fe371",
+    "html_chars": 465882,
+    "text_chars": 12000,
+    "link_count": 413,
+    "sha256": "172ab66fe93d0f421ec7e310c941972b7d92981c64806955f967ae48d7cd380e",
     "response_headers": {
-      "Date": "Thu, 17 Sep 2026 01:11:17 GMT",
+      "Date": "Thu, 17 Sep 2026 07:22:46 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 49,
+  "count": 45,
   "items": [
-    {
-      "listing_id": 6049,
-      "product_gid": 6152,
-      "brand": "VISION EARS",
-      "product_name": "VE PURE",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 1047000,
-      "original_price": 3490000,
-      "discount_percent": 70,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6049"
-    },
     {
       "listing_id": 6048,
       "product_gid": 6151,
@@ -138,32 +125,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6022"
     },
     {
-      "listing_id": 6019,
-      "product_gid": 5975,
-      "brand": "earfun",
-      "product_name": "Earfun Tune Pro [Black]",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 55900,
-      "original_price": 79900,
-      "discount_percent": 30,
-      "condition": "상태 95% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6019"
-    },
-    {
-      "listing_id": 6016,
-      "product_gid": 5975,
-      "brand": "earfun",
-      "product_name": "Earfun Tune Pro [Black]",
-      "category": "헤드폰",
-      "grade": "박스훼손품",
-      "current_price": 55900,
-      "original_price": 79900,
-      "discount_percent": 30,
-      "condition": "상태 95% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6016"
-    },
-    {
       "listing_id": 6014,
       "product_gid": 5975,
       "brand": "earfun",
@@ -240,19 +201,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5986"
-    },
-    {
-      "listing_id": 5948,
-      "product_gid": 6057,
-      "brand": "Gold Planar",
-      "product_name": "GL-AMT16",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 1095000,
-      "original_price": 2190000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5948"
     },
     {
       "listing_id": 5909,
