@@ -3,49 +3,23 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789709957",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789709957",
-    "fetched_at_utc": "2026-09-18T05:39:17.378525+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789728640",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789728640",
+    "fetched_at_utc": "2026-09-18T10:50:40.638408+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 472652,
-    "text_chars": 12467,
-    "link_count": 419,
-    "sha256": "fe35f1312caac02daed4d5d7e7523089a88745da1f963282b327c33d777ef124",
+    "html_chars": 477190,
+    "text_chars": 12821,
+    "link_count": 423,
+    "sha256": "6cef5372927b3346f1c4324e0d2f3df4a08ec035f173e036a85a1dd3d4e7ef42",
     "response_headers": {
-      "Date": "Fri, 18 Sep 2026 05:39:19 GMT",
+      "Date": "Fri, 18 Sep 2026 10:50:42 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 48,
+  "count": 50,
   "items": [
-    {
-      "listing_id": 6065,
-      "product_gid": 6551,
-      "brand": "KEFINE",
-      "product_name": "Arnar",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 116000,
-      "original_price": 290000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6065"
-    },
-    {
-      "listing_id": 6060,
-      "product_gid": 5276,
-      "brand": "aune",
-      "product_name": "Flamingo Tube DAC-BT [블랙]",
-      "category": "엠프,DAC",
-      "grade": "전시품",
-      "current_price": 167600,
-      "original_price": 419000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6060"
-    },
     {
       "listing_id": 6059,
       "product_gid": 5276,
@@ -73,17 +47,17 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6058"
     },
     {
-      "listing_id": 6048,
-      "product_gid": 6151,
-      "brand": "VISION EARS",
-      "product_name": "VE PRO",
+      "listing_id": 6054,
+      "product_gid": 5798,
+      "brand": "AAW",
+      "product_name": "Z06",
       "category": "이어폰",
       "grade": "전시품",
-      "current_price": 771000,
-      "original_price": 2570000,
-      "discount_percent": 70,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6048"
+      "current_price": 222000,
+      "original_price": 555000,
+      "discount_percent": 60,
+      "condition": "상태 70% · 사용 흔적 있음",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6054"
     },
     {
       "listing_id": 6047,
@@ -216,17 +190,30 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6001"
     },
     {
-      "listing_id": 5992,
-      "product_gid": 6447,
-      "brand": "Questyle Audio",
-      "product_name": "ZEN",
+      "listing_id": 5997,
+      "product_gid": 6499,
+      "brand": "TWISTURA",
+      "product_name": "D-MAJOR [Standard]",
       "category": "이어폰",
       "grade": "리뷰개봉품",
-      "current_price": 45000,
-      "original_price": 90000,
+      "current_price": 37500,
+      "original_price": 75000,
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5992"
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5997"
+    },
+    {
+      "listing_id": 5989,
+      "product_gid": 5532,
+      "brand": "Final",
+      "product_name": "VR2000",
+      "category": "이어폰",
+      "grade": "리뷰개봉품",
+      "current_price": 49000,
+      "original_price": 98000,
+      "discount_percent": 50,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5989"
     },
     {
       "listing_id": 5986,
@@ -279,6 +266,32 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5892"
+    },
+    {
+      "listing_id": 5877,
+      "product_gid": 4887,
+      "brand": "AUDEZE",
+      "product_name": "LCD-5 [4-XLR 케이블 + 4-XLR to 6.3mm 어댑터]",
+      "category": "헤드폰",
+      "grade": "전시품",
+      "current_price": 2916000,
+      "original_price": 7290000,
+      "discount_percent": 60,
+      "condition": "상태 70% · 사용 흔적 있음",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5877"
+    },
+    {
+      "listing_id": 5876,
+      "product_gid": 5875,
+      "brand": "BURSON AUDIO",
+      "product_name": "Conductor GT4",
+      "category": "엠프,DAC",
+      "grade": "리뷰개봉품",
+      "current_price": 2460000,
+      "original_price": 4920000,
+      "discount_percent": 50,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5876"
     },
     {
       "listing_id": 5836,
@@ -383,6 +396,19 @@
       "discount_percent": 40,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5660"
+    },
+    {
+      "listing_id": 5656,
+      "product_gid": 6352,
+      "brand": "aune",
+      "product_name": "AC55",
+      "category": "헤드폰",
+      "grade": "리뷰개봉품",
+      "current_price": 202800,
+      "original_price": 338000,
+      "discount_percent": 40,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5656"
     },
     {
       "listing_id": 5603,
