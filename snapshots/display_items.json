@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789775966",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789775966",
-    "fetched_at_utc": "2026-09-18T23:59:26.233737+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789792032",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789792032",
+    "fetched_at_utc": "2026-09-19T04:27:12.284067+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 470444,
-    "text_chars": 12348,
-    "link_count": 417,
-    "sha256": "8ba3fad8ace4d8e2bd30e33e5e927b74e08a222de89aba9ca23608a10be2b2ab",
+    "html_chars": 465976,
+    "text_chars": 12032,
+    "link_count": 413,
+    "sha256": "d91e5f5ad86f3e3f71805925dd60947ec9e065cb48c84f356dd862739904b666",
     "response_headers": {
-      "Date": "Fri, 18 Sep 2026 23:59:28 GMT",
+      "Date": "Sat, 19 Sep 2026 04:27:13 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 47,
+  "count": 45,
   "items": [
     {
       "listing_id": 6059,
@@ -45,19 +45,6 @@
       "discount_percent": 70,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6047"
-    },
-    {
-      "listing_id": 6042,
-      "product_gid": 5202,
-      "brand": "T+A",
-      "product_name": "Solitaire T [코냑 화이트]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 1060000,
-      "original_price": 2650000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6042"
     },
     {
       "listing_id": 6038,
@@ -266,19 +253,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5836"
-    },
-    {
-      "listing_id": 5823,
-      "product_gid": 6180,
-      "brand": "Final",
-      "product_name": "KDT3000 [블랙]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 91000,
-      "original_price": 182000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5823"
     },
     {
       "listing_id": 5789,
