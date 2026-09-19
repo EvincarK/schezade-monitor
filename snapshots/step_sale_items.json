@@ -3,17 +3,17 @@
     "name": "step_sale",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1789849040",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1789849040",
-    "fetched_at_utc": "2026-09-19T20:17:20.148949+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1789857964",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1789857964",
+    "fetched_at_utc": "2026-09-19T22:46:04.827979+00:00",
     "status_code": 200,
     "title": "계단식 세일",
     "html_chars": 859209,
     "text_chars": 48326,
     "link_count": 644,
-    "sha256": "64dae208f971c6aee7139a3795378db3846078879b3cab0c8c0e06ea50839389",
+    "sha256": "35e08e652eac1f724efee27ceab062d4ad9c0dd3313b7431e1816edd3f4c1317",
     "response_headers": {
-      "Date": "Sat, 19 Sep 2026 20:17:23 GMT",
+      "Date": "Sat, 19 Sep 2026 22:46:09 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
