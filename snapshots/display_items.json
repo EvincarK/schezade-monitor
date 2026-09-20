@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789857964",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789857964",
-    "fetched_at_utc": "2026-09-19T22:46:04.827979+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789865367",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789865367",
+    "fetched_at_utc": "2026-09-20T00:49:27.425758+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 463746,
-    "text_chars": 11859,
-    "link_count": 411,
-    "sha256": "c4646739e3bdeb42d33bb92931e8c0a3a535d9b7e2b7ab78437452dad6fcb14c",
+    "html_chars": 461528,
+    "text_chars": 11718,
+    "link_count": 409,
+    "sha256": "07b9469410a1bce4356cf1aece82f2df135e62dbc31d79bb265be2ad786373ae",
     "response_headers": {
-      "Date": "Sat, 19 Sep 2026 22:46:06 GMT",
+      "Date": "Sun, 20 Sep 2026 00:49:29 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 44,
+  "count": 43,
   "items": [
     {
       "listing_id": 6059,
@@ -318,19 +318,6 @@
       "discount_percent": 40,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5660"
-    },
-    {
-      "listing_id": 5656,
-      "product_gid": 6352,
-      "brand": "aune",
-      "product_name": "AC55",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 202800,
-      "original_price": 338000,
-      "discount_percent": 40,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5656"
     },
     {
       "listing_id": 5603,
