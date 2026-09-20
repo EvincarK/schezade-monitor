@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789865367",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789865367",
-    "fetched_at_utc": "2026-09-20T00:49:27.425758+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789883569",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789883569",
+    "fetched_at_utc": "2026-09-20T05:52:49.983121+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 461528,
-    "text_chars": 11718,
-    "link_count": 409,
-    "sha256": "07b9469410a1bce4356cf1aece82f2df135e62dbc31d79bb265be2ad786373ae",
+    "html_chars": 457122,
+    "text_chars": 11402,
+    "link_count": 405,
+    "sha256": "d45c391e9ed4d347bbc11736e02fbd3be9c7b1eb7446bba7b9a0286d5bfca20d",
     "response_headers": {
-      "Date": "Sun, 20 Sep 2026 00:49:29 GMT",
+      "Date": "Sun, 20 Sep 2026 05:52:51 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 43,
+  "count": 41,
   "items": [
     {
       "listing_id": 6059,
@@ -125,19 +125,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6005"
     },
     {
-      "listing_id": 6003,
-      "product_gid": 6500,
-      "brand": "TWISTURA",
-      "product_name": "D-MINOR [Standard]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 25500,
-      "original_price": 51000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6003"
-    },
-    {
       "listing_id": 6001,
       "product_gid": 6437,
       "brand": "SIVGA",
@@ -149,19 +136,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6001"
-    },
-    {
-      "listing_id": 5989,
-      "product_gid": 5532,
-      "brand": "Final",
-      "product_name": "VR2000",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 49000,
-      "original_price": 98000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5989"
     },
     {
       "listing_id": 5986,
