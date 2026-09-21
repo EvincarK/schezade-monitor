@@ -3,36 +3,23 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789986614",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789986614",
-    "fetched_at_utc": "2026-09-21T10:30:14.836681+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790009554",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790009554",
+    "fetched_at_utc": "2026-09-21T16:52:34.646125+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 457105,
-    "text_chars": 11413,
-    "link_count": 405,
-    "sha256": "b28ff08743c5ab09ad7dffc271a944b20dd6e98959edc4e76c8a32efad850b8d",
+    "html_chars": 450481,
+    "text_chars": 10976,
+    "link_count": 399,
+    "sha256": "9113e773230a8c5fe820e226e07e2bf7d65c634b3bc73e6a02e326046149544f",
     "response_headers": {
-      "Date": "Mon, 21 Sep 2026 10:30:16 GMT",
+      "Date": "Mon, 21 Sep 2026 16:52:36 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 41,
+  "count": 38,
   "items": [
-    {
-      "listing_id": 6047,
-      "product_gid": 6150,
-      "brand": "VISION EARS",
-      "product_name": "VE ONE",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 495000,
-      "original_price": 1650000,
-      "discount_percent": 70,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6047"
-    },
     {
       "listing_id": 6038,
       "product_gid": 6048,
@@ -97,19 +84,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6005"
-    },
-    {
-      "listing_id": 6001,
-      "product_gid": 6437,
-      "brand": "SIVGA",
-      "product_name": "SM100",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 31000,
-      "original_price": 62000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6001"
     },
     {
       "listing_id": 5986,
@@ -201,19 +175,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5836"
-    },
-    {
-      "listing_id": 5795,
-      "product_gid": 5198,
-      "brand": "AUDEZE",
-      "product_name": "MM-500",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 1100000,
-      "original_price": 2750000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5795"
     },
     {
       "listing_id": 5789,
