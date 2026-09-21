@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790023971",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790023971",
-    "fetched_at_utc": "2026-09-21T20:52:51.102517+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790034940",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790034940",
+    "fetched_at_utc": "2026-09-21T23:55:40.139093+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 450481,
-    "text_chars": 10976,
-    "link_count": 399,
-    "sha256": "da659e7f2988a1494c07425d1b1662f8e76587fd446d7c6212a66ab4ccdf6403",
+    "html_chars": 448285,
+    "text_chars": 10823,
+    "link_count": 397,
+    "sha256": "ad6dc0770c9f842651b004f1da7d421c8a8607fb8759c53c865ed5cc373ed818",
     "response_headers": {
-      "Date": "Mon, 21 Sep 2026 20:52:52 GMT",
+      "Date": "Mon, 21 Sep 2026 23:55:42 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 38,
+  "count": 37,
   "items": [
     {
       "listing_id": 6038,
@@ -84,19 +84,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6005"
-    },
-    {
-      "listing_id": 5986,
-      "product_gid": 6361,
-      "brand": "FiiO",
-      "product_name": "JT3 [Black]",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 54500,
-      "original_price": 109000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5986"
     },
     {
       "listing_id": 5909,
