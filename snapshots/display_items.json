@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789965742",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789965742",
-    "fetched_at_utc": "2026-09-21T04:42:22.525277+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789986614",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1789986614",
+    "fetched_at_utc": "2026-09-21T10:30:14.836681+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 454847,
-    "text_chars": 11248,
-    "link_count": 403,
-    "sha256": "a3a95894e82b08c459f60329f2e123792c0efd62f6b8e15d7bd30be52b58483b",
+    "html_chars": 457105,
+    "text_chars": 11413,
+    "link_count": 405,
+    "sha256": "b28ff08743c5ab09ad7dffc271a944b20dd6e98959edc4e76c8a32efad850b8d",
     "response_headers": {
-      "Date": "Mon, 21 Sep 2026 04:42:24 GMT",
+      "Date": "Mon, 21 Sep 2026 10:30:16 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 40,
+  "count": 41,
   "items": [
     {
       "listing_id": 6047,
@@ -58,19 +58,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6033"
-    },
-    {
-      "listing_id": 6032,
-      "product_gid": 3431,
-      "brand": "Chord Electronics",
-      "product_name": "휴고2 가죽케이스",
-      "category": "기타 액세서리",
-      "grade": "전시품",
-      "current_price": 39600,
-      "original_price": 99000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6032"
     },
     {
       "listing_id": 6023,
@@ -190,6 +177,19 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5877"
     },
     {
+      "listing_id": 5876,
+      "product_gid": 5875,
+      "brand": "BURSON AUDIO",
+      "product_name": "Conductor GT4",
+      "category": "엠프,DAC",
+      "grade": "리뷰개봉품",
+      "current_price": 2460000,
+      "original_price": 4920000,
+      "discount_percent": 50,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5876"
+    },
+    {
       "listing_id": 5836,
       "product_gid": 5532,
       "brand": "Final",
@@ -201,6 +201,19 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5836"
+    },
+    {
+      "listing_id": 5795,
+      "product_gid": 5198,
+      "brand": "AUDEZE",
+      "product_name": "MM-500",
+      "category": "헤드폰",
+      "grade": "전시품",
+      "current_price": 1100000,
+      "original_price": 2750000,
+      "discount_percent": 60,
+      "condition": "상태 70% · 사용 흔적 있음",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5795"
     },
     {
       "listing_id": 5789,
