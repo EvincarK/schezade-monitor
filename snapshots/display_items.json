@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790070127",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790070127",
-    "fetched_at_utc": "2026-09-22T09:42:07.249497+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790087378",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790087378",
+    "fetched_at_utc": "2026-09-22T14:29:38.911835+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 448285,
-    "text_chars": 10823,
-    "link_count": 397,
-    "sha256": "c4c4a93c9dcd726f31cc6212f2bb23a86e9b1afa68b11d8c05eec42ac084faee",
+    "html_chars": 450457,
+    "text_chars": 10964,
+    "link_count": 399,
+    "sha256": "4ef7f4736a3263b090bbcb98125c2225354755a3a873a85b224a467ebb8a7667",
     "response_headers": {
-      "Date": "Tue, 22 Sep 2026 09:42:08 GMT",
+      "Date": "Tue, 22 Sep 2026 14:29:40 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 37,
+  "count": 38,
   "items": [
     {
       "listing_id": 6038,
@@ -84,6 +84,19 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6005"
+    },
+    {
+      "listing_id": 6001,
+      "product_gid": 6437,
+      "brand": "SIVGA",
+      "product_name": "SM100",
+      "category": "이어폰",
+      "grade": "리뷰개봉품",
+      "current_price": 31000,
+      "original_price": 62000,
+      "discount_percent": 50,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6001"
     },
     {
       "listing_id": 5909,
