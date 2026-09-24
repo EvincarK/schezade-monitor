@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790240944",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790240944",
-    "fetched_at_utc": "2026-09-24T09:09:04.834623+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790261033",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790261033",
+    "fetched_at_utc": "2026-09-24T14:43:53.208279+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 439257,
-    "text_chars": 10199,
-    "link_count": 389,
-    "sha256": "9239a5c88197927ec6e338b69c0c994d59ce3e2fe34382c0c8732dd2f9d8ae4d",
+    "html_chars": 437029,
+    "text_chars": 10060,
+    "link_count": 387,
+    "sha256": "8dc28e77995a9a83339aabd570a3e055325242f7c19702e84e4d41e4a87619cc",
     "response_headers": {
-      "Date": "Thu, 24 Sep 2026 09:09:07 GMT",
+      "Date": "Thu, 24 Sep 2026 14:43:54 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 33,
+  "count": 32,
   "items": [
     {
       "listing_id": 6038,
@@ -97,19 +97,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5909"
-    },
-    {
-      "listing_id": 5893,
-      "product_gid": 5336,
-      "brand": "SIVGA",
-      "product_name": "Oriole [브라운]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 133600,
-      "original_price": 334000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5893"
     },
     {
       "listing_id": 5892,
