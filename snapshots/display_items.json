@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790669189",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790669189",
-    "fetched_at_utc": "2026-09-29T08:06:29.395556+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790695865",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790695865",
+    "fetched_at_utc": "2026-09-29T15:31:05.915490+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 474743,
-    "text_chars": 12359,
-    "link_count": 421,
-    "sha256": "f2a9a96a459718fa5d2b01fb961823fd747394ff969890ccb6ae2c622813b890",
+    "html_chars": 465833,
+    "text_chars": 11799,
+    "link_count": 413,
+    "sha256": "5f44d3bfdf5e4b07d037e79838a870c87d6c1e6c20c9bb8a7b799a3a21246b61",
     "response_headers": {
-      "Date": "Tue, 29 Sep 2026 08:06:31 GMT",
+      "Date": "Tue, 29 Sep 2026 15:31:07 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 49,
+  "count": 45,
   "items": [
     {
       "listing_id": 6110,
@@ -60,6 +60,19 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6107"
     },
     {
+      "listing_id": 6106,
+      "product_gid": 5800,
+      "brand": "Sennheiser",
+      "product_name": "MMCX MICROPHONE CABLE [3.5mm]",
+      "category": "케이블",
+      "grade": "포장개봉품",
+      "current_price": 77400,
+      "original_price": 129000,
+      "discount_percent": 40,
+      "condition": "상태 90% · 신품과 거의 동일",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6106"
+    },
+    {
       "listing_id": 6105,
       "product_gid": 6280,
       "brand": "Final",
@@ -97,19 +110,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6098"
-    },
-    {
-      "listing_id": 6097,
-      "product_gid": 6020,
-      "brand": "KOSS",
-      "product_name": "KPH7 Wireless Type-C",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 19100,
-      "original_price": 47800,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6097"
     },
     {
       "listing_id": 6096,
@@ -177,19 +177,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6088"
     },
     {
-      "listing_id": 6081,
-      "product_gid": 5910,
-      "brand": "KEFINE",
-      "product_name": "Klean [블랙]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 30100,
-      "original_price": 75400,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6081"
-    },
-    {
       "listing_id": 6079,
       "product_gid": 5164,
       "brand": "iKKO",
@@ -242,19 +229,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6073"
     },
     {
-      "listing_id": 6072,
-      "product_gid": 4585,
-      "brand": "FiiO",
-      "product_name": "BTA30 Pro",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 94500,
-      "original_price": 189000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6072"
-    },
-    {
       "listing_id": 6070,
       "product_gid": 5038,
       "brand": "Sendy Audio",
@@ -292,19 +266,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6038"
-    },
-    {
-      "listing_id": 6023,
-      "product_gid": 5975,
-      "brand": "earfun",
-      "product_name": "Earfun Tune Pro [Black]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 31900,
-      "original_price": 79900,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6023"
     },
     {
       "listing_id": 6022,
@@ -448,19 +409,6 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5602"
-    },
-    {
-      "listing_id": 5213,
-      "product_gid": 4658,
-      "brand": "ULTRASONE",
-      "product_name": "Edition 8 EX",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 727000,
-      "original_price": 2424000,
-      "discount_percent": 70,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5213"
     },
     {
       "listing_id": 5030,
