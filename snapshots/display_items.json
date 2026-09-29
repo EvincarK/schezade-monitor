@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790631687",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790631687",
-    "fetched_at_utc": "2026-09-28T21:41:27.443044+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790645794",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790645794",
+    "fetched_at_utc": "2026-09-29T01:36:34.535262+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 499901,
-    "text_chars": 14324,
-    "link_count": 443,
-    "sha256": "8b73542e0db5f54e0ca71d05cc85b44c8e0d9d2ba8fb0baaf1b772156fc53356",
+    "html_chars": 490695,
+    "text_chars": 13572,
+    "link_count": 435,
+    "sha256": "33d8bf62119914119aa52ffe2d066db35b849a5992d75ff4bea890cd2f57b8e6",
     "response_headers": {
-      "Date": "Mon, 28 Sep 2026 21:41:29 GMT",
+      "Date": "Tue, 29 Sep 2026 01:36:36 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 60,
+  "count": 56,
   "items": [
     {
       "listing_id": 6110,
@@ -112,19 +112,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6102"
     },
     {
-      "listing_id": 6101,
-      "product_gid": 6236,
-      "brand": "BURSON AUDIO",
-      "product_name": "Conductor Voyager",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 3000000,
-      "original_price": 6000000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6101"
-    },
-    {
       "listing_id": 6100,
       "product_gid": 6236,
       "brand": "BURSON AUDIO",
@@ -214,32 +201,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6093"
-    },
-    {
-      "listing_id": 6092,
-      "product_gid": 6243,
-      "brand": "EarAcoustic Audio",
-      "product_name": "CIPHER [Type-C - White + Mic]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 18400,
-      "original_price": 46200,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6092"
-    },
-    {
-      "listing_id": 6091,
-      "product_gid": 6243,
-      "brand": "EarAcoustic Audio",
-      "product_name": "CIPHER [Type-C - Black + Mic]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 18400,
-      "original_price": 46200,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6091"
     },
     {
       "listing_id": 6090,
@@ -513,19 +474,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5781"
-    },
-    {
-      "listing_id": 5774,
-      "product_gid": 5623,
-      "brand": "Audio Technica",
-      "product_name": "AT-SB727 [옐로우]",
-      "category": "기타 액세서리",
-      "grade": "전시품",
-      "current_price": 111600,
-      "original_price": 279000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5774"
     },
     {
       "listing_id": 5773,
