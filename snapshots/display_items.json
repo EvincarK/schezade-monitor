@@ -3,36 +3,23 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790819618",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790819618",
-    "fetched_at_utc": "2026-10-01T01:53:38.831908+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790843659",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790843659",
+    "fetched_at_utc": "2026-10-01T08:34:19.309862+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 459233,
-    "text_chars": 11398,
-    "link_count": 407,
-    "sha256": "b9d67471658c97f054c2b09c5fb0e8e83990c8473d34d878cb4d37dff200ba39",
+    "html_chars": 452481,
+    "text_chars": 10937,
+    "link_count": 401,
+    "sha256": "f6548d5e73facbe0c6e5b8a3747c55597e8d13e6c7e2b4de721a2f966308ac45",
     "response_headers": {
-      "Date": "Thu, 01 Oct 2026 01:53:39 GMT",
+      "Date": "Thu, 01 Oct 2026 08:34:21 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 42,
+  "count": 39,
   "items": [
-    {
-      "listing_id": 6110,
-      "product_gid": 3739,
-      "brand": "Final",
-      "product_name": "E1000 [E1000 [블랙]]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 14000,
-      "original_price": 35000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6110"
-    },
     {
       "listing_id": 6108,
       "product_gid": 6018,
@@ -149,19 +136,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6089"
-    },
-    {
-      "listing_id": 6088,
-      "product_gid": 5880,
-      "brand": "SONY",
-      "product_name": "WF-C510 [블루]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 44500,
-      "original_price": 89000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6088"
     },
     {
       "listing_id": 6079,
@@ -318,19 +292,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5781"
-    },
-    {
-      "listing_id": 5773,
-      "product_gid": 5714,
-      "brand": "ULTRASONE",
-      "product_name": "Signature Fusion",
-      "category": "헤드폰",
-      "grade": "포장개봉품",
-      "current_price": 260000,
-      "original_price": 653000,
-      "discount_percent": 60,
-      "condition": "상태 90% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5773"
     },
     {
       "listing_id": 5660,
