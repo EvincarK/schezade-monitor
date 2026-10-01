@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790843659",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790843659",
-    "fetched_at_utc": "2026-10-01T08:34:19.309862+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790870969",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790870969",
+    "fetched_at_utc": "2026-10-01T16:09:29.139490+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 452481,
-    "text_chars": 10937,
-    "link_count": 401,
-    "sha256": "f6548d5e73facbe0c6e5b8a3747c55597e8d13e6c7e2b4de721a2f966308ac45",
+    "html_chars": 447985,
+    "text_chars": 10639,
+    "link_count": 397,
+    "sha256": "7c225f2ba5f939b00d2aebc4148a1f2d462a98f4a768b428c8c2bb8a9ab5d413",
     "response_headers": {
-      "Date": "Thu, 01 Oct 2026 08:34:21 GMT",
+      "Date": "Thu, 01 Oct 2026 16:09:30 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 39,
+  "count": 37,
   "items": [
     {
       "listing_id": 6108,
@@ -216,19 +216,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6038"
     },
     {
-      "listing_id": 6022,
-      "product_gid": 5975,
-      "brand": "earfun",
-      "product_name": "Earfun Tune Pro [Black]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 31900,
-      "original_price": 79900,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6022"
-    },
-    {
       "listing_id": 6001,
       "product_gid": 6437,
       "brand": "SIVGA",
@@ -253,19 +240,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5909"
-    },
-    {
-      "listing_id": 5892,
-      "product_gid": 5336,
-      "brand": "SIVGA",
-      "product_name": "Oriole [브라운]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 133600,
-      "original_price": 334000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5892"
     },
     {
       "listing_id": 5876,
