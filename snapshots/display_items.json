@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790808761",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790808761",
-    "fetched_at_utc": "2026-09-30T22:52:41.102938+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790819618",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790819618",
+    "fetched_at_utc": "2026-10-01T01:53:38.831908+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 461455,
-    "text_chars": 11563,
-    "link_count": 409,
-    "sha256": "437bd333c06bb2f7daaba23572a4bf5ab7b9342b8870512adf73746d4c56c5fc",
+    "html_chars": 459233,
+    "text_chars": 11398,
+    "link_count": 407,
+    "sha256": "b9d67471658c97f054c2b09c5fb0e8e83990c8473d34d878cb4d37dff200ba39",
     "response_headers": {
-      "Date": "Wed, 30 Sep 2026 22:52:42 GMT",
+      "Date": "Thu, 01 Oct 2026 01:53:39 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 43,
+  "count": 42,
   "items": [
     {
       "listing_id": 6110,
@@ -253,19 +253,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6022"
-    },
-    {
-      "listing_id": 6005,
-      "product_gid": 5067,
-      "brand": "KOSS",
-      "product_name": "Utility USB-C Cord",
-      "category": "케이블",
-      "grade": "리뷰개봉품",
-      "current_price": 24900,
-      "original_price": 49800,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6005"
     },
     {
       "listing_id": 6001,
