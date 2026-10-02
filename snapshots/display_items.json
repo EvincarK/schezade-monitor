@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790890819",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790890819",
-    "fetched_at_utc": "2026-10-01T21:40:19.532403+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790904321",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790904321",
+    "fetched_at_utc": "2026-10-02T01:25:21.302789+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 447985,
-    "text_chars": 10639,
-    "link_count": 397,
-    "sha256": "18e0bd690232b3983ffd6e2db807c631c574a642869c063c269900f8dbf55e3b",
+    "html_chars": 445913,
+    "text_chars": 10500,
+    "link_count": 396,
+    "sha256": "9661845cca486528bcc2d016f72248f96a495901af7e0a37d04545adde4eeeee",
     "response_headers": {
-      "Date": "Thu, 01 Oct 2026 21:40:21 GMT",
+      "Date": "Fri, 02 Oct 2026 01:25:22 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 37,
+  "count": 36,
   "items": [
     {
       "listing_id": 6108,
@@ -253,19 +253,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5876"
-    },
-    {
-      "listing_id": 5781,
-      "product_gid": 5630,
-      "brand": "NOBLE AUDIO",
-      "product_name": "Spartacus",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 1108000,
-      "original_price": 2770000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5781"
     },
     {
       "listing_id": 5660,
