@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790986577",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1790986577",
-    "fetched_at_utc": "2026-10-03T00:16:17.603957+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791007941",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791007941",
+    "fetched_at_utc": "2026-10-03T06:12:21.710300+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 443697,
-    "text_chars": 10369,
-    "link_count": 394,
-    "sha256": "9ae9238d66bcb135e1056cd77e521e51b686e4038a630873a7dc4a3da7a84464",
+    "html_chars": 441405,
+    "text_chars": 10180,
+    "link_count": 392,
+    "sha256": "b11e02847ba2b0d3a27487ec3ae422e2717e36a454e1c273ee7489125bb68e9f",
     "response_headers": {
-      "Date": "Sat, 03 Oct 2026 00:16:19 GMT",
+      "Date": "Sat, 03 Oct 2026 06:12:24 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 35,
+  "count": 34,
   "items": [
     {
       "listing_id": 6107,
@@ -227,19 +227,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5909"
-    },
-    {
-      "listing_id": 5876,
-      "product_gid": 5875,
-      "brand": "BURSON AUDIO",
-      "product_name": "Conductor GT4",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 2460000,
-      "original_price": 4920000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5876"
     },
     {
       "listing_id": 5660,
