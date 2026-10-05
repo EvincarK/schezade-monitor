@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791154544",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791154544",
-    "fetched_at_utc": "2026-10-04T22:55:44.950875+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791164687",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791164687",
+    "fetched_at_utc": "2026-10-05T01:44:47.719691+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 441405,
-    "text_chars": 10180,
-    "link_count": 392,
-    "sha256": "899723d205d0917bb147327c7dcfe97a29afe199a5b72dbfd366da16b508d8f1",
+    "html_chars": 439169,
+    "text_chars": 10037,
+    "link_count": 390,
+    "sha256": "b75f97ab099cc9226cd3f65ba96a0dc2e4abb59a56e86bc756e796a7160d3bbd",
     "response_headers": {
-      "Date": "Sun, 04 Oct 2026 22:55:46 GMT",
+      "Date": "Mon, 05 Oct 2026 01:44:49 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 34,
+  "count": 33,
   "items": [
     {
       "listing_id": 6107,
@@ -149,19 +149,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6075"
-    },
-    {
-      "listing_id": 6073,
-      "product_gid": 4585,
-      "brand": "FiiO",
-      "product_name": "BTA30 Pro",
-      "category": "엠프,DAC",
-      "grade": "박스훼손품",
-      "current_price": 132300,
-      "original_price": 189000,
-      "discount_percent": 30,
-      "condition": "상태 95% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6073"
     },
     {
       "listing_id": 6070,
