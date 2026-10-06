@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791223723",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791223723",
-    "fetched_at_utc": "2026-10-05T18:08:43.002885+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791247254",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791247254",
+    "fetched_at_utc": "2026-10-06T00:40:54.194091+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 436975,
-    "text_chars": 9916,
-    "link_count": 388,
-    "sha256": "09fc5c8b77832c185b47c093c181bd04739cd02629ce6f5b63eb272da0b6b01c",
+    "html_chars": 434759,
+    "text_chars": 9785,
+    "link_count": 386,
+    "sha256": "699b64fb65f37c4f5d62aa29bd4d8b06bec31ad8b24a65de6533862647abf0b5",
     "response_headers": {
-      "Date": "Mon, 05 Oct 2026 18:08:44 GMT",
+      "Date": "Tue, 06 Oct 2026 00:40:56 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 32,
+  "count": 31,
   "items": [
     {
       "listing_id": 6107,
@@ -58,19 +58,6 @@
       "discount_percent": 60,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6105"
-    },
-    {
-      "listing_id": 6098,
-      "product_gid": 3425,
-      "brand": "KOSS",
-      "product_name": "KPH30i [블랙]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 18700,
-      "original_price": 46800,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6098"
     },
     {
       "listing_id": 6096,
