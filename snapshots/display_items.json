@@ -3,36 +3,23 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791271272",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791271272",
-    "fetched_at_utc": "2026-10-06T07:21:12.552748+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791298448",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791298448",
+    "fetched_at_utc": "2026-10-06T14:54:08.479109+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 435219,
-    "text_chars": 9808,
-    "link_count": 389,
-    "sha256": "378b0d3f592c6dac27b9e455ed8e1d2490d83035bfd28c057a6845605cb0703b",
+    "html_chars": 430747,
+    "text_chars": 9516,
+    "link_count": 385,
+    "sha256": "07dfe5599a5b92b73de049c49f0f7bdca1a2ed179cad9686d4bf504e7f776a7c",
     "response_headers": {
-      "Date": "Tue, 06 Oct 2026 07:21:14 GMT",
+      "Date": "Tue, 06 Oct 2026 14:54:09 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 31,
+  "count": 29,
   "items": [
-    {
-      "listing_id": 6107,
-      "product_gid": 5647,
-      "brand": "FiiO",
-      "product_name": "JD1 [실버]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 9500,
-      "original_price": 23800,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6107"
-    },
     {
       "listing_id": 6106,
       "product_gid": 5800,
@@ -45,19 +32,6 @@
       "discount_percent": 40,
       "condition": "상태 90% · 신품과 거의 동일",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6106"
-    },
-    {
-      "listing_id": 6105,
-      "product_gid": 6280,
-      "brand": "Final",
-      "product_name": "VR3000 Condenser Mic",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 56000,
-      "original_price": 140000,
-      "discount_percent": 60,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6105"
     },
     {
       "listing_id": 6096,
