@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791707390",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791707390",
-    "fetched_at_utc": "2026-10-11T08:29:50.102439+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791732413",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791732413",
+    "fetched_at_utc": "2026-10-11T15:26:53.447959+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 428453,
-    "text_chars": 9327,
-    "link_count": 383,
-    "sha256": "41f5be01c40fa4f7d7e881e9626e6e7ffde96942fc9a8d5ce4de69c002fa9fe4",
+    "html_chars": 426225,
+    "text_chars": 9190,
+    "link_count": 381,
+    "sha256": "ca50d036854794a79517d5e11faa4a46bf64b79fd2f78181e2ec819659cf10d9",
     "response_headers": {
-      "Date": "Sun, 11 Oct 2026 08:29:51 GMT",
+      "Date": "Sun, 11 Oct 2026 15:26:54 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 28,
+  "count": 27,
   "items": [
     {
       "listing_id": 6106,
@@ -45,19 +45,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6096"
-    },
-    {
-      "listing_id": 6090,
-      "product_gid": 5414,
-      "brand": "SONY",
-      "product_name": "WH-CH520 [화이트]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 35600,
-      "original_price": 89000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6090"
     },
     {
       "listing_id": 6089,
