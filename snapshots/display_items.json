@@ -3,36 +3,23 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791850866",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791850866",
-    "fetched_at_utc": "2026-10-13T00:21:06.142030+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791876579",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791876579",
+    "fetched_at_utc": "2026-10-13T07:29:39.315908+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 444885,
-    "text_chars": 10808,
+    "html_chars": 444947,
+    "text_chars": 10858,
     "link_count": 397,
-    "sha256": "2241bfcedb21da5353a94d54032266648200a6204f46cd821a85ecffe877162e",
+    "sha256": "3851762aec12635b8e41637dff825e84a00f70891113fe8e7d9939ab241c4050",
     "response_headers": {
-      "Date": "Tue, 13 Oct 2026 00:21:08 GMT",
+      "Date": "Tue, 13 Oct 2026 07:29:40 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
   "count": 35,
   "items": [
-    {
-      "listing_id": 6118,
-      "product_gid": 6314,
-      "brand": "SONY",
-      "product_name": "IER-EX15C [화이트]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 11600,
-      "original_price": 29000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6118"
-    },
     {
       "listing_id": 6117,
       "product_gid": 6464,
@@ -175,6 +162,19 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6079"
+    },
+    {
+      "listing_id": 6075,
+      "product_gid": 5853,
+      "brand": "Audio Technica",
+      "product_name": "ATH-CKS30TW+ [매트블랙]",
+      "category": "이어폰",
+      "grade": "리뷰개봉품",
+      "current_price": 79500,
+      "original_price": 159000,
+      "discount_percent": 50,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6075"
     },
     {
       "listing_id": 6070,
