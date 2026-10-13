@@ -3,49 +3,23 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791876579",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791876579",
-    "fetched_at_utc": "2026-10-13T07:29:39.315908+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791906175",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1791906175",
+    "fetched_at_utc": "2026-10-13T15:42:55.352551+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 444947,
-    "text_chars": 10858,
-    "link_count": 397,
-    "sha256": "3851762aec12635b8e41637dff825e84a00f70891113fe8e7d9939ab241c4050",
+    "html_chars": 442667,
+    "text_chars": 10699,
+    "link_count": 395,
+    "sha256": "40eeb40f6bc62785be99492a101403a3c206d10911fff5d1c57fd7eb1b49bc93",
     "response_headers": {
-      "Date": "Tue, 13 Oct 2026 07:29:40 GMT",
+      "Date": "Tue, 13 Oct 2026 15:42:57 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 35,
+  "count": 34,
   "items": [
-    {
-      "listing_id": 6117,
-      "product_gid": 6464,
-      "brand": "JCALLY",
-      "product_name": "JM6 [Silver Gold]",
-      "category": "기타 액세서리",
-      "grade": "전시품",
-      "current_price": 6700,
-      "original_price": 16800,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6117"
-    },
-    {
-      "listing_id": 6116,
-      "product_gid": 6464,
-      "brand": "JCALLY",
-      "product_name": "JM6 [Silver Gold]",
-      "category": "엠프,DAC",
-      "grade": "전시품",
-      "current_price": 6700,
-      "original_price": 16800,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6116"
-    },
     {
       "listing_id": 6115,
       "product_gid": 6257,
@@ -175,6 +149,19 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6075"
+    },
+    {
+      "listing_id": 6074,
+      "product_gid": 5715,
+      "brand": "Fosi Audio",
+      "product_name": "SK02",
+      "category": "엠프,DAC",
+      "grade": "박스훼손품",
+      "current_price": 104300,
+      "original_price": 149000,
+      "discount_percent": 30,
+      "condition": "상태 95% · 신품과 거의 동일",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6074"
     },
     {
       "listing_id": 6070,
