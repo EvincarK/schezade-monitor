@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792054831",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792054831",
-    "fetched_at_utc": "2026-10-15T09:00:31.656032+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792073254",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792073254",
+    "fetched_at_utc": "2026-10-15T14:07:34.520948+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 429193,
-    "text_chars": 9763,
-    "link_count": 383,
-    "sha256": "5a7bdc420de7a101a517a410c598116d1d449be7b2fb50a84f0470dd2b33fae1",
+    "html_chars": 424433,
+    "text_chars": 9297,
+    "link_count": 379,
+    "sha256": "362beb97383b01bcf482700e8b3d1e30d13667a9308ee12368806fecdc2bfde4",
     "response_headers": {
-      "Date": "Thu, 15 Oct 2026 09:00:33 GMT",
+      "Date": "Thu, 15 Oct 2026 14:07:35 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 28,
+  "count": 26,
   "items": [
     {
       "listing_id": 6115,
@@ -45,32 +45,6 @@
       "discount_percent": 60,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6114"
-    },
-    {
-      "listing_id": 6113,
-      "product_gid": 6257,
-      "brand": "BEARBRICK Audio",
-      "product_name": "400% Chrome Metals Collection [Silver]",
-      "category": "기타 액세서리",
-      "grade": "전시품",
-      "current_price": 279600,
-      "original_price": 699000,
-      "discount_percent": 60,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6113"
-    },
-    {
-      "listing_id": 6111,
-      "product_gid": 6257,
-      "brand": "BEARBRICK Audio",
-      "product_name": "400% Chrome Metals Collection [Gold]",
-      "category": "기타 액세서리",
-      "grade": "전시품",
-      "current_price": 279600,
-      "original_price": 699000,
-      "discount_percent": 60,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6111"
     },
     {
       "listing_id": 6106,
