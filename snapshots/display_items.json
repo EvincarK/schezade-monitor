@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792021589",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792021589",
-    "fetched_at_utc": "2026-10-14T23:46:29.119872+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792036446",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792036446",
+    "fetched_at_utc": "2026-10-15T03:54:06.671888+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 440275,
-    "text_chars": 10460,
-    "link_count": 393,
-    "sha256": "baa3adde0bef198d630fdea75fe390be4fa85300ad8dd4c113fe6f4dbc946532",
+    "html_chars": 429193,
+    "text_chars": 9763,
+    "link_count": 383,
+    "sha256": "e7231da8bf8484d0a070feb42aa42357d36b844ba35ce5690fea1c20f3252541",
     "response_headers": {
-      "Date": "Wed, 14 Oct 2026 23:46:30 GMT",
+      "Date": "Thu, 15 Oct 2026 03:54:08 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 33,
+  "count": 28,
   "items": [
     {
       "listing_id": 6115,
@@ -86,19 +86,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6106"
     },
     {
-      "listing_id": 6096,
-      "product_gid": 4260,
-      "brand": "KOSS",
-      "product_name": "KPH7 Wireless [블랙]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 16400,
-      "original_price": 41200,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6096"
-    },
-    {
       "listing_id": 6089,
       "product_gid": 6114,
       "brand": "SONY",
@@ -112,19 +99,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6089"
     },
     {
-      "listing_id": 6079,
-      "product_gid": 5164,
-      "brand": "iKKO",
-      "product_name": "OH2 [퍼플]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 47200,
-      "original_price": 118000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6079"
-    },
-    {
       "listing_id": 6075,
       "product_gid": 5853,
       "brand": "Audio Technica",
@@ -136,19 +110,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6075"
-    },
-    {
-      "listing_id": 6074,
-      "product_gid": 5715,
-      "brand": "Fosi Audio",
-      "product_name": "SK02",
-      "category": "엠프,DAC",
-      "grade": "박스훼손품",
-      "current_price": 104300,
-      "original_price": 149000,
-      "discount_percent": 30,
-      "condition": "상태 95% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6074"
     },
     {
       "listing_id": 6070,
@@ -188,32 +149,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6038"
-    },
-    {
-      "listing_id": 6001,
-      "product_gid": 6437,
-      "brand": "SIVGA",
-      "product_name": "SM100",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 31000,
-      "original_price": 62000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6001"
-    },
-    {
-      "listing_id": 5909,
-      "product_gid": 6043,
-      "brand": "FiiO",
-      "product_name": "JF11 Mic [White]",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 6700,
-      "original_price": 16900,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5909"
     },
     {
       "listing_id": 5660,
