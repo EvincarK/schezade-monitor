@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792112628",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792112628",
-    "fetched_at_utc": "2026-10-16T01:03:48.617686+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792133547",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792133547",
+    "fetched_at_utc": "2026-10-16T06:52:27.024206+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 424433,
-    "text_chars": 9297,
-    "link_count": 379,
-    "sha256": "e671944f465130df48e52ad78e639999abdfba55499bafb483f64be1d9636b0a",
+    "html_chars": 422139,
+    "text_chars": 9108,
+    "link_count": 377,
+    "sha256": "baa5943f97c24b72d87c110243dbb17d96c8abb12262b096274177304169d882",
     "response_headers": {
-      "Date": "Fri, 16 Oct 2026 01:03:49 GMT",
+      "Date": "Fri, 16 Oct 2026 06:52:28 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 26,
+  "count": 25,
   "items": [
     {
       "listing_id": 6115,
@@ -71,19 +71,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6089"
-    },
-    {
-      "listing_id": 6075,
-      "product_gid": 5853,
-      "brand": "Audio Technica",
-      "product_name": "ATH-CKS30TW+ [매트블랙]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 79500,
-      "original_price": 159000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6075"
     },
     {
       "listing_id": 6070,
