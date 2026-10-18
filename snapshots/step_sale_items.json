@@ -3,22 +3,22 @@
     "name": "step_sale",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792354784",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792354784",
-    "fetched_at_utc": "2026-10-18T20:19:44.147353+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792363967",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792363967",
+    "fetched_at_utc": "2026-10-18T22:52:47.623804+00:00",
     "status_code": 200,
     "title": "계단식 세일",
-    "html_chars": 892901,
-    "text_chars": 51561,
-    "link_count": 669,
-    "sha256": "63c9c8606ddaa42507a6216df2ed1828adef53c144997dd1763958ca542a61fe",
+    "html_chars": 888406,
+    "text_chars": 51200,
+    "link_count": 666,
+    "sha256": "466c5d881caceced357827a0966f8154a88648786171e89f5920d643e41d48c7",
     "response_headers": {
-      "Date": "Sun, 18 Oct 2026 20:19:47 GMT",
+      "Date": "Sun, 18 Oct 2026 22:52:52 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 114,
+  "count": 113,
   "items": [
     {
       "sale_id": 34542,
@@ -967,18 +967,6 @@
       "discount_amount": 270,
       "start_price": 45800,
       "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=34452"
-    },
-    {
-      "sale_id": 34450,
-      "brand": "KOSS",
-      "product_name": "KPH30i - 화이트",
-      "current_price": 30800,
-      "discount_percent": 33,
-      "start_at": "10/11 00:00",
-      "discount_interval": "4시간",
-      "discount_amount": 300,
-      "start_price": 45800,
-      "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=34450"
     },
     {
       "sale_id": 34449,
