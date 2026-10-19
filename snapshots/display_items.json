@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792389254",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792389254",
-    "fetched_at_utc": "2026-10-19T05:54:14.359132+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792413415",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792413415",
+    "fetched_at_utc": "2026-10-19T12:36:55.926575+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 422139,
-    "text_chars": 9108,
-    "link_count": 377,
-    "sha256": "23422658f810c4e09aa87af67ff2711cc278b332260a5364077c914c6ce37de5",
+    "html_chars": 419865,
+    "text_chars": 8939,
+    "link_count": 375,
+    "sha256": "04769cf8fb65213032a6e932b76c31b87e82c2a9cf603e3e040c01b115568f8d",
     "response_headers": {
-      "Date": "Mon, 19 Oct 2026 05:54:15 GMT",
+      "Date": "Mon, 19 Oct 2026 12:36:57 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 25,
+  "count": 24,
   "items": [
     {
       "listing_id": 6115,
@@ -240,19 +240,6 @@
       "discount_percent": 70,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4269"
-    },
-    {
-      "listing_id": 4268,
-      "product_gid": 4634,
-      "brand": "Effect Audio",
-      "product_name": "EVO 1 [2pin - 2.5mm]",
-      "category": "케이블",
-      "grade": "전시품",
-      "current_price": 174000,
-      "original_price": 580000,
-      "discount_percent": 70,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4268"
     },
     {
       "listing_id": 4233,
