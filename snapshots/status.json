@@ -1,22 +1,22 @@
 {
-  "fetched_at_utc": "2026-10-20T23:02:24.460324+00:00",
+  "fetched_at_utc": "2026-10-21T03:56:33.749490+00:00",
   "ok": true,
   "targets": {
     "display": {
       "name": "display",
       "ok": true,
       "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-      "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792537344",
-      "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792537344",
-      "fetched_at_utc": "2026-10-20T23:02:24.460324+00:00",
+      "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792554993",
+      "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792554993",
+      "fetched_at_utc": "2026-10-21T03:56:33.749490+00:00",
       "status_code": 200,
       "title": "전시 · 개봉품",
       "html_chars": 424625,
       "text_chars": 9405,
       "link_count": 379,
-      "sha256": "f7b9a16b124443bc1db79c2c5c18ad6870186fcb24742fa09a0ea019ae7ce0ac",
+      "sha256": "e5a685e7a775d138792f41c6e10cbe8cc857f2dca165fa569dcaac4c9331e857",
       "response_headers": {
-        "Date": "Tue, 20 Oct 2026 23:02:26 GMT",
+        "Date": "Wed, 21 Oct 2026 03:56:35 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Cache-Control": "no-store, no-cache, must-revalidate"
       },
@@ -26,21 +26,21 @@
       "name": "step_sale",
       "ok": true,
       "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php",
-      "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792537344",
-      "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792537344",
-      "fetched_at_utc": "2026-10-20T23:02:24.460324+00:00",
+      "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792554993",
+      "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792554993",
+      "fetched_at_utc": "2026-10-21T03:56:33.749490+00:00",
       "status_code": 200,
       "title": "계단식 세일",
-      "html_chars": 863377,
-      "text_chars": 48569,
-      "link_count": 651,
-      "sha256": "f964a8543979f7903b522ac73f8625a440ac083a2e90c6e7605686b195547aae",
+      "html_chars": 858950,
+      "text_chars": 48196,
+      "link_count": 648,
+      "sha256": "d7d13bd046dfa4c2e080515ffd4d13fcf5d5dbec1b8d1df58e2abbac1f63a7d1",
       "response_headers": {
-        "Date": "Tue, 20 Oct 2026 23:02:28 GMT",
+        "Date": "Wed, 21 Oct 2026 03:56:37 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Cache-Control": "no-store, no-cache, must-revalidate"
       },
-      "item_count": 108
+      "item_count": 107
     }
   }
 }
