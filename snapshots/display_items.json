@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792926681",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792926681",
-    "fetched_at_utc": "2026-10-25T11:11:21.111513+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792943291",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1792943291",
+    "fetched_at_utc": "2026-10-25T15:48:11.545876+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 424625,
-    "text_chars": 9405,
-    "link_count": 379,
-    "sha256": "485b7b5aa05a0085372859e1eab09e7e1d2b1946850b359f3204367829f6a41d",
+    "html_chars": 422313,
+    "text_chars": 9218,
+    "link_count": 377,
+    "sha256": "7a8da85c1271392c1708a424bf84e03166e65e21e4b0607d9fe35b3e90112f26",
     "response_headers": {
-      "Date": "Sun, 25 Oct 2026 11:11:22 GMT",
+      "Date": "Sun, 25 Oct 2026 15:48:13 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 26,
+  "count": 25,
   "items": [
     {
       "listing_id": 6115,
@@ -71,19 +71,6 @@
       "discount_percent": 60,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6111"
-    },
-    {
-      "listing_id": 6106,
-      "product_gid": 5800,
-      "brand": "Sennheiser",
-      "product_name": "MMCX MICROPHONE CABLE [3.5mm]",
-      "category": "케이블",
-      "grade": "포장개봉품",
-      "current_price": 77400,
-      "original_price": 129000,
-      "discount_percent": 40,
-      "condition": "상태 90% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6106"
     },
     {
       "listing_id": 6089,
