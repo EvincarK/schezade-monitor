@@ -3,22 +3,22 @@
     "name": "step_sale",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792943291",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792943291",
-    "fetched_at_utc": "2026-10-25T15:48:11.545876+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792954086",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/step-sale/index.php?_schezade_monitor_ts=1792954086",
+    "fetched_at_utc": "2026-10-25T18:48:06.237424+00:00",
     "status_code": 200,
     "title": "계단식 세일",
-    "html_chars": 917204,
-    "text_chars": 53954,
-    "link_count": 684,
-    "sha256": "53082fb2778990c669698273c6f3064936e6e6cd91abc9fdfa9bfeb6f87e528e",
+    "html_chars": 912577,
+    "text_chars": 53549,
+    "link_count": 681,
+    "sha256": "cf6da26286fa446ec433dd7a78e40bc77d1cf65a9a8aa35147444188f9ca4bd9",
     "response_headers": {
-      "Date": "Sun, 25 Oct 2026 15:48:15 GMT",
+      "Date": "Sun, 25 Oct 2026 18:48:10 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 119,
+  "count": 118,
   "items": [
     {
       "sale_id": 34612,
@@ -751,18 +751,6 @@
       "discount_amount": 20000,
       "start_price": 5698000,
       "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=34543"
-    },
-    {
-      "sale_id": 34542,
-      "brand": "FiiO",
-      "product_name": "QX13 - Black Carbon",
-      "current_price": 243750,
-      "discount_percent": 24,
-      "start_at": "10/19 00:00",
-      "discount_interval": "4시간",
-      "discount_amount": 1750,
-      "start_price": 319000,
-      "url": "https://www.schezade.co.kr/rauction/g_detail.html?ano=34542"
     },
     {
       "sale_id": 34539,
