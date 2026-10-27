@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793130932",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793130932",
-    "fetched_at_utc": "2026-10-27T19:55:32.041710+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793144287",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793144287",
+    "fetched_at_utc": "2026-10-27T23:38:07.908380+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 422465,
-    "text_chars": 9225,
-    "link_count": 378,
-    "sha256": "65aa23302c19847a4a5f27621ddde0659133f64365e482c01861e143233fea5a",
+    "html_chars": 420249,
+    "text_chars": 9086,
+    "link_count": 376,
+    "sha256": "d3212baf00a797792dec696f38f033a94b1ced3ded776d1124740224d36fdcac",
     "response_headers": {
-      "Date": "Tue, 27 Oct 2026 19:55:33 GMT",
+      "Date": "Tue, 27 Oct 2026 23:38:08 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 25,
+  "count": 24,
   "items": [
     {
       "listing_id": 6115,
@@ -97,19 +97,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6070"
-    },
-    {
-      "listing_id": 6069,
-      "product_gid": 5038,
-      "brand": "Sendy Audio",
-      "product_name": "Apollo",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 260800,
-      "original_price": 652000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6069"
     },
     {
       "listing_id": 6038,
