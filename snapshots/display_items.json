@@ -3,17 +3,17 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793292323",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793292323",
-    "fetched_at_utc": "2026-10-29T16:45:23.573543+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793309991",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793309991",
+    "fetched_at_utc": "2026-10-29T21:39:51.855598+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
     "html_chars": 420249,
     "text_chars": 9086,
     "link_count": 376,
-    "sha256": "0754c9817a9b6780c936c52aa9d50b5eea97d10ba2a911e798175531aae66b98",
+    "sha256": "36184a63d00ee481c6e133907111079395e47e89a340eb24c26eea0b1fcc561d",
     "response_headers": {
-      "Date": "Thu, 29 Oct 2026 16:45:25 GMT",
+      "Date": "Thu, 29 Oct 2026 21:39:53 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
