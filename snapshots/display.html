@@ -6,11 +6,11 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="전시 · 개봉품">
     <meta property="og:image" content="https://www.schezade.co.kr/img/logo.png">
-    <meta property="og:url" content="https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793579675">
+    <meta property="og:url" content="https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793604546">
     <meta property="og:description" content="프리미엄 이어폰,헤드폰 종합 플랫폼 셰에라자드는 국내 최대 규모 청음샵과 온라인 쇼핑몰을 함께 운영하고 있습니다.">
     <meta property="og:site_name" content="셰에라자드" />
     <meta property="og:author" content="셰에라자드" />
-    <link rel="canonical" href="https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793579675">
+    <link rel="canonical" href="https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793604546">
     <link rel="icon" href="/img/favicon.ico?v=20260622" sizes="any">
     <link rel="icon" type="image/svg+xml" href="/img/favicon.svg?v=20260622">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png?v=20260622">
@@ -103,7 +103,7 @@ src="https://www.facebook.com/tr?id=1618559508994571&ev=PageView&noscript=1"
  
 
 <form name="go_loginQQQQQQ" action="https://www.schezade.co.kr/member/member_login.html?" method="get">
-    <input type=hidden name="referer_val" value="http%3A%2F%2Fwww.schezade.co.kr%2Fpagegen%2Fv2%2Fcustom%2Fdisplay%2Findex.php%3F_schezade_monitor_ts%3D1793579675">
+    <input type=hidden name="referer_val" value="http%3A%2F%2Fwww.schezade.co.kr%2Fpagegen%2Fv2%2Fcustom%2Fdisplay%2Findex.php%3F_schezade_monitor_ts%3D1793604546">
 </form>
 <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
 <!-- 시안 폰트(Pretendard) 로드 — 시안과 폰트 100% 일치용 -->
@@ -1360,6 +1360,48 @@ src="https://www.facebook.com/tr?id=1618559508994571&ev=PageView&noscript=1"
         body { padding-bottom: 72px; }
     }
 </style>
+<style id="sche-black-friday-style">
+    /* 메뉴가 하나 늘어난 만큼 상단 두 줄과 SHOP·BRAND 펼침 메뉴의 기준 폭을 1200px에서 1280px로 넓힌다.
+       1200px 이하의 컴팩트 헤더는 기존 규칙을 그대로 쓰도록 넓은 화면에서만 바꾼다. */
+    @media (min-width: 1201px) {
+        .sche-util,
+        .sche-nav { padding: 0 max((100% - 1280px) / 2, 32px); }
+        .sche-mega,
+        .sche-bmega { width: 1280px; }
+    }
+    /* 1280px 폭을 다 쓰지 못하는 노트북 화면에서는 메뉴가 검색창·로고와 겹치므로 메뉴 간격과 검색창 폭을 줄인다.
+       1359px까지 잡은 것은 Windows 크롬 세로 스크롤바(약 17px)만큼 실제 폭이 더 좁기 때문이다.
+       랩 측정(스크롤바 없음): 1201px 좌우 여백 24px, 1279px 63px, 1280px 42px, 1360px 이상은 1280px 배치 그대로. */
+    @media (min-width: 1201px) and (max-width: 1359px) {
+        .sche-nav { gap: 24px; }
+        .sche-nav__links { gap: 20px; padding-left: 0; }
+        .sche-search-pill { width: 200px; }
+    }
+    @media (min-width: 1201px) and (max-width: 1279px) {
+        .sche-nav { gap: 20px; }
+        .sche-nav__links { gap: 16px; }
+        .sche-search-pill { width: 180px; }
+    }
+    /* 디자이너가 정한 글자색과 굵기. 공통 링크 색 규칙(.sche-nav__links a:link)보다 앞서도록 선택자를 한 단계 좁힌다. */
+    .sche-nav__links a.is-black-friday,
+    .sche-nav__links a.is-black-friday:link,
+    .sche-nav__links a.is-black-friday:visited,
+    .sche-nav__links a.is-black-friday:hover,
+    .sche-nav__links a.is-black-friday:active { color: #ff862a; font-weight: 700; }
+    /* 모바일 카테고리 바. 선택된 메뉴의 검은 글자 규칙과 우선순위가 같아서, 뒤에 두어 주황색이 유지되게 한다. */
+    .sche-cat-bar a.sche-cat-bar__item.is-black-friday,
+    .sche-cat-bar a.sche-cat-bar__item.is-black-friday:link,
+    .sche-cat-bar a.sche-cat-bar__item.is-black-friday:visited,
+    .sche-cat-bar a.sche-cat-bar__item.is-black-friday:hover,
+    .sche-cat-bar a.sche-cat-bar__item.is-black-friday:active { color: #ff862a; font-weight: 700; }
+    .sche-cat-bar__item.is-black-friday.is-active::after { background: #ff862a; }
+    /* 태블릿·모바일 메뉴 서랍 맨 위 링크 */
+    .sche-mobile-drawer__nav > a.is-black-friday,
+    .sche-mobile-drawer__nav > a.is-black-friday:link,
+    .sche-mobile-drawer__nav > a.is-black-friday:visited,
+    .sche-mobile-drawer__nav > a.is-black-friday:hover,
+    .sche-mobile-drawer__nav > a.is-black-friday:active { color: #ff862a; font-weight: 700; }
+</style>
 
 <div class="sche-top" id="sche-renewal-top">
     <div class="sche-announce" id="sche-announce">
@@ -1595,6 +1637,7 @@ src="https://www.facebook.com/tr?id=1618559508994571&ev=PageView&noscript=1"
                     </div>
                 </div>
             </span>
+            <a href="/pagegen/v2/pages/render.php?pageId=sz-event-1166" class="is-black-friday">BLACK FRIDAY</a>
             <a href="/pagegen/v2/custom/step-sale/index.php">계단식 세일</a>
             <a href="/pagegen/v2/custom/outlet/index.php" class="is-hot">특가 아울렛</a>
             <a href="/pagegen/v2/custom/display/index.php">전시 · 개봉품</a>
@@ -1625,7 +1668,8 @@ src="https://www.facebook.com/tr?id=1618559508994571&ev=PageView&noscript=1"
 
     <nav class="sche-cat-bar" aria-label="카테고리">
         <div class="sche-cat-bar__track">
-                        <a href="/pagegen/v2/custom/goods-list/index.php" class="sche-cat-bar__item">전체</a>
+                        <a href="/pagegen/v2/pages/render.php?pageId=sz-event-1166" class="sche-cat-bar__item is-black-friday">BLACK FRIDAY</a>
+            <a href="/pagegen/v2/custom/goods-list/index.php" class="sche-cat-bar__item">전체</a>
             <a href="/pagegen/v2/custom/goods-list/index.php?class_id=8" class="sche-cat-bar__item">헤드폰</a>
             <a href="/pagegen/v2/custom/goods-list/index.php?class_id=12" class="sche-cat-bar__item">이어폰</a>
             <a href="/pagegen/v2/custom/goods-list/index.php?class_id=59" class="sche-cat-bar__item">DAC/AMP/DAP</a>
@@ -1713,6 +1757,7 @@ src="https://www.facebook.com/tr?id=1618559508994571&ev=PageView&noscript=1"
             <input id="top_s_key_drawer" name="ts_key" type="text" placeholder="브랜드 · 모델 검색">
         </form>
         <nav class="sche-mobile-drawer__nav" aria-label="모바일 주 메뉴">
+            <a href="/pagegen/v2/pages/render.php?pageId=sz-event-1166" class="is-black-friday">BLACK FRIDAY</a>
             <span class="group-label">SHOP</span>
             <div class="sche-mdrawer-acc is-open">
                 <button class="sche-mdrawer-acc__head" type="button">카테고리</button>
@@ -1781,6 +1826,120 @@ src="https://www.facebook.com/tr?id=1618559508994571&ev=PageView&noscript=1"
     </aside>
 </div>
 
+<script>
+    // 12월 1일 10시가 지나면 화면에 이미 그려진 BLACK FRIDAY 메뉴 세 곳과 넓힌 폭 스타일을 걷어 낸다.
+    // 10시 전에 열어 둔 화면은 그대로 남고, pagegen 행사 페이지는 HTML 캐시에 상단까지 저장되기 때문이다
+    // (5분 유지, 방문이 뜸하면 최대 6시간 된 사본이 한 번 더 나갈 수 있다).
+    // 시각은 기기 시계가 아니라 서버 시각으로 판단한다. 시계가 틀린 기기에서 행사 중에 메뉴가 사라지면 안 된다.
+    // - 서버가 이 상단을 그린 시각에 페이지를 받은 뒤 흐른 시간을 더해 서버 시각을 어림하고, 그 값으로 종료를 예약한다.
+    //   캐시에서 나온 화면은 그린 시각이 실제보다 이르므로 어림값은 실제보다 늦지 않다. 어림값이 종료를 넘으면 바로 걷는다.
+    // - 종료 6시간 전부터는 어느 화면이든 정적 파일 HEAD 응답의 Date 헤더로 서버 시각을 한 번 맞춘다.
+    //   캐시된 사본의 나이를 화면에서는 알 수 없고, pagegen 캐시는 최대 6시간 된 사본이 나갈 수 있기 때문이다.
+    //   실패하면 30초부터 최대 5분 간격으로 다시 시도하고, 그동안에도 어림값으로 계속 지켜본다.
+    // - 다른 탭에 갔다 오거나 절전·뒤로 가기에서 돌아온 화면은 흐른 시간이 어긋날 수 있어 같은 조건으로 다시 맞춘다.
+    (function () {
+        var endsAt = 1796086800000;
+        var renderedAt = 1793604547000;
+        var syncWindow = 6 * 60 * 60 * 1000;
+        var longestWait = 60 * 60 * 1000;
+        if (!window.performance || !performance.now) return;
+
+        var navigation = null;
+        try {
+            navigation = performance.getEntriesByType('navigation')[0] || null;
+        } catch (error) {
+            navigation = null;
+        }
+        var serverBase = renderedAt;
+        var serverBaseAt = navigation && navigation.responseStart > 0 ? navigation.responseStart : performance.now();
+        var needsServerClock = true;
+        var checkTimer = 0;
+        var syncing = false;
+        var retryDelay = 30 * 1000;
+        var retired = false;
+
+        function serverNow() {
+            return serverBase + (performance.now() - serverBaseAt);
+        }
+
+        function retireMenu() {
+            retired = true;
+            clearTimeout(checkTimer);
+            var style = document.getElementById('sche-black-friday-style');
+            if (style) style.parentNode.removeChild(style);
+            var links = document.querySelectorAll('a.is-black-friday');
+            for (var i = 0; i < links.length; i++) {
+                links[i].parentNode.removeChild(links[i]);
+            }
+        }
+
+        // 남은 시간을 다시 계산해 다음 확인을 예약한다. 긴 타이머는 절전 등으로 어긋나기 쉬워 한 시간 단위로 끊는다.
+        function scheduleCheck() {
+            if (retired) return;
+            clearTimeout(checkTimer);
+            var remaining = endsAt - serverNow();
+            if (remaining <= 0) {
+                retireMenu();
+                return;
+            }
+            // 아직 서버 시각을 맞추지 않았으면, 어림값이나 기기 시계 중 하나라도 종료 6시간 안쪽일 때 확인한다.
+            if (needsServerClock && window.fetch && (remaining <= syncWindow || endsAt - Date.now() <= syncWindow)) {
+                syncServerClock();
+                return;
+            }
+            checkTimer = setTimeout(scheduleCheck, Math.min(remaining, longestWait));
+        }
+
+        function syncServerClock() {
+            if (syncing) return;
+            syncing = true;
+            var controller = window.AbortController ? new AbortController() : null;
+            var abortTimer = controller ? setTimeout(function () { controller.abort(); }, 10000) : 0;
+            // PHP를 거치지 않는 작은 정적 파일에 HEAD 요청만 보낸다.
+            fetch('/js/modernizr-2.6.2.min.js?sche_black_friday_clock=' + Date.now(), {
+                method: 'HEAD',
+                cache: 'no-store',
+                credentials: 'omit',
+                redirect: 'error',
+                signal: controller ? controller.signal : undefined
+            }).then(function (response) {
+                var serverDate = Date.parse(response.headers.get('Date'));
+                // 중간 캐시가 돌려준 응답(Age 헤더)은 시각이 지난 값일 수 있어서 실패로 본다.
+                if (!response.ok || isNaN(serverDate) || Number(response.headers.get('Age') || 0) > 0) {
+                    throw new Error('server clock unavailable');
+                }
+                serverBase = serverDate;
+                serverBaseAt = performance.now();
+                needsServerClock = false;
+                retryDelay = 30 * 1000;
+            }).then(function () {
+                clearTimeout(abortTimer);
+                syncing = false;
+                scheduleCheck();
+            }, function () {
+                clearTimeout(abortTimer);
+                syncing = false;
+                if (retired) return;
+                // 다시 시도할 때까지 기다리되, 그 전에 어림값이 종료를 넘으면 그때 걷도록 둘 중 이른 쪽에 확인한다.
+                clearTimeout(checkTimer);
+                checkTimer = setTimeout(scheduleCheck, Math.max(0, Math.min(retryDelay, endsAt - serverNow())));
+                retryDelay = Math.min(retryDelay * 2, 5 * 60 * 1000);
+            });
+        }
+
+        function recheckWithServer() {
+            needsServerClock = true;
+            scheduleCheck();
+        }
+        document.addEventListener('visibilitychange', function () {
+            if (!document.hidden) recheckWithServer();
+        });
+        window.addEventListener('pageshow', function (event) {
+            if (event.persisted) recheckWithServer();
+        });
+        scheduleCheck();
+    })();
+</script>
 <div class="sche-mobile-drawer" id="sche-mobile-brand-drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="브랜드 메뉴">
     <div class="sche-mobile-drawer__scrim" data-drawer-close></div>
     <aside class="sche-mobile-drawer__panel">
