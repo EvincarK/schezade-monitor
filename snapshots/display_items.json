@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793604546",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793604546",
-    "fetched_at_utc": "2026-11-02T07:29:06.528144+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793642448",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793642448",
+    "fetched_at_utc": "2026-11-02T18:00:48.303532+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 427678,
-    "text_chars": 9125,
-    "link_count": 377,
-    "sha256": "e95b573fba82cd8a926d7a21b6e1ee5a3a238d99aaafe3d4f001ea87238e8ae4",
+    "html_chars": 425302,
+    "text_chars": 8894,
+    "link_count": 375,
+    "sha256": "5781358870a0207f6f87b8d0ad1aa3c81a7879d57af565cfa091b7509123559b",
     "response_headers": {
-      "Date": "Mon, 02 Nov 2026 07:29:07 GMT",
+      "Date": "Mon, 02 Nov 2026 18:00:49 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 24,
+  "count": 23,
   "items": [
     {
       "listing_id": 6115,
@@ -58,19 +58,6 @@
       "discount_percent": 60,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6113"
-    },
-    {
-      "listing_id": 6111,
-      "product_gid": 6257,
-      "brand": "BEARBRICK Audio",
-      "product_name": "400% Chrome Metals Collection [Gold]",
-      "category": "기타 액세서리",
-      "grade": "전시품",
-      "current_price": 279600,
-      "original_price": 699000,
-      "discount_percent": 60,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6111"
     },
     {
       "listing_id": 6089,
