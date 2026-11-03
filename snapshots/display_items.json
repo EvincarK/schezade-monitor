@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793667228",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793667228",
-    "fetched_at_utc": "2026-11-03T00:53:48.080193+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793691799",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793691799",
+    "fetched_at_utc": "2026-11-03T07:43:19.062576+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 425302,
-    "text_chars": 8894,
-    "link_count": 375,
-    "sha256": "16e4b9bd9e6b6a1eb5ab91edd07694f309cfe5f843b2cbd5fe5862c7afff7a00",
+    "html_chars": 422966,
+    "text_chars": 8695,
+    "link_count": 373,
+    "sha256": "ad5d9e2dc9c89bb28e17470f401c171df3c191f65e9d92ebc7d2d5f2e53a1719",
     "response_headers": {
-      "Date": "Tue, 03 Nov 2026 00:53:49 GMT",
+      "Date": "Tue, 03 Nov 2026 07:43:20 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 23,
+  "count": 22,
   "items": [
     {
       "listing_id": 6115,
@@ -253,19 +253,6 @@
       "discount_percent": 70,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4207"
-    },
-    {
-      "listing_id": 4144,
-      "product_gid": 2837,
-      "brand": "PlusSound",
-      "product_name": "X8 Series Silver + Gold Type6 [2Pin]",
-      "category": "케이블",
-      "grade": "전시품",
-      "current_price": 339000,
-      "original_price": 1130000,
-      "discount_percent": 70,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=4144"
     },
     {
       "listing_id": 4102,
