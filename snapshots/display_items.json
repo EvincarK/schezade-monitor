@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793961318",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793961318",
-    "fetched_at_utc": "2026-11-06T10:35:18.640833+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793987479",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793987479",
+    "fetched_at_utc": "2026-11-06T17:51:19.617520+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 436474,
-    "text_chars": 9629,
-    "link_count": 385,
-    "sha256": "2c62d1153709352b701dbefb85a44a0757ac184e88f8a806f8a9371de6d62385",
+    "html_chars": 434224,
+    "text_chars": 9472,
+    "link_count": 383,
+    "sha256": "c0fbb6c3fec5c5496408dba8219947473257408d43a33b4476df2664f8cde0aa",
     "response_headers": {
-      "Date": "Fri, 06 Nov 2026 10:35:20 GMT",
+      "Date": "Fri, 06 Nov 2026 17:51:20 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 28,
+  "count": 27,
   "items": [
     {
       "listing_id": 6130,
@@ -136,19 +136,6 @@
       "discount_percent": 60,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6113"
-    },
-    {
-      "listing_id": 6089,
-      "product_gid": 6114,
-      "brand": "SONY",
-      "product_name": "WF-C710N [핑크]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 74500,
-      "original_price": 149000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6089"
     },
     {
       "listing_id": 6070,
