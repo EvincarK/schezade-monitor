@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793913816",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793913816",
-    "fetched_at_utc": "2026-11-05T21:23:36.547794+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793930714",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1793930714",
+    "fetched_at_utc": "2026-11-06T02:05:14.269666+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 438762,
-    "text_chars": 9806,
-    "link_count": 387,
-    "sha256": "4e605357b97c8fc0e9465f82ea20c73ee839f574dba8df16fab58120b95458a1",
+    "html_chars": 436474,
+    "text_chars": 9629,
+    "link_count": 385,
+    "sha256": "42419cc558c9fdedbb54fd40d74de341da3fb4b3a1d608565f169e44070513df",
     "response_headers": {
-      "Date": "Thu, 05 Nov 2026 21:23:37 GMT",
+      "Date": "Fri, 06 Nov 2026 02:05:16 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 29,
+  "count": 28,
   "items": [
     {
       "listing_id": 6130,
@@ -32,19 +32,6 @@
       "discount_percent": 40,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6130"
-    },
-    {
-      "listing_id": 6129,
-      "product_gid": 5249,
-      "brand": "BURSON AUDIO",
-      "product_name": "Cool Stand [GT 용]",
-      "category": "기타 액세서리",
-      "grade": "포장개봉품",
-      "current_price": 150500,
-      "original_price": 215000,
-      "discount_percent": 30,
-      "condition": "상태 90% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6129"
     },
     {
       "listing_id": 6126,
