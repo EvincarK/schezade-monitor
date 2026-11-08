@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794121228",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794121228",
-    "fetched_at_utc": "2026-11-08T07:00:28.857266+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794147286",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794147286",
+    "fetched_at_utc": "2026-11-08T14:14:46.932163+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 431970,
-    "text_chars": 9321,
-    "link_count": 381,
-    "sha256": "6e8ee3af02ba1a6ddc0080abdbe971832126106d916dd3d01915f1e9cb76733a",
+    "html_chars": 429736,
+    "text_chars": 9172,
+    "link_count": 379,
+    "sha256": "f23fd5356c4cc6251161ee0d26b2cfa474f3ded1eef6eb551bbf359e69b2bbd5",
     "response_headers": {
-      "Date": "Sun, 08 Nov 2026 07:00:30 GMT",
+      "Date": "Sun, 08 Nov 2026 14:14:48 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 26,
+  "count": 25,
   "items": [
     {
       "listing_id": 6130,
@@ -136,19 +136,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6070"
-    },
-    {
-      "listing_id": 6038,
-      "product_gid": 6048,
-      "brand": "Lime Ears",
-      "product_name": "INCOGNITA",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 1140000,
-      "original_price": 2850000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6038"
     },
     {
       "listing_id": 5660,
