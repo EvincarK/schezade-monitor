@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794097052",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794097052",
-    "fetched_at_utc": "2026-11-08T00:17:32.322102+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794121228",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794121228",
+    "fetched_at_utc": "2026-11-08T07:00:28.857266+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 434224,
-    "text_chars": 9472,
-    "link_count": 383,
-    "sha256": "b7c87a442219df52c7f5411a19ca456cb0206ac609cf775ebf42d7a8f4945d50",
+    "html_chars": 431970,
+    "text_chars": 9321,
+    "link_count": 381,
+    "sha256": "6e8ee3af02ba1a6ddc0080abdbe971832126106d916dd3d01915f1e9cb76733a",
     "response_headers": {
-      "Date": "Sun, 08 Nov 2026 00:17:34 GMT",
+      "Date": "Sun, 08 Nov 2026 07:00:30 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 27,
+  "count": 26,
   "items": [
     {
       "listing_id": 6130,
@@ -45,19 +45,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6126"
-    },
-    {
-      "listing_id": 6125,
-      "product_gid": 2467,
-      "brand": "MEZE",
-      "product_name": "99 CLASSICS [월넛-골드]",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 182400,
-      "original_price": 456000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6125"
     },
     {
       "listing_id": 6124,
