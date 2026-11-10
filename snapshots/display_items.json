@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794268890",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794268890",
-    "fetched_at_utc": "2026-11-10T00:01:30.117386+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794297948",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794297948",
+    "fetched_at_utc": "2026-11-10T08:05:48.356635+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 427474,
-    "text_chars": 9009,
-    "link_count": 377,
-    "sha256": "4897d3896c62828b80c624f1f478fc2e3916e8261d9baaf73cf9a0cf0eb570b8",
+    "html_chars": 425284,
+    "text_chars": 8890,
+    "link_count": 375,
+    "sha256": "1a91e6aac2f75ccb551702d097d747de8c4b32257dee04ad86911f1c2d62a48d",
     "response_headers": {
-      "Date": "Tue, 10 Nov 2026 00:01:31 GMT",
+      "Date": "Tue, 10 Nov 2026 08:05:49 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 24,
+  "count": 23,
   "items": [
     {
       "listing_id": 6130,
@@ -58,19 +58,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6124"
-    },
-    {
-      "listing_id": 6122,
-      "product_gid": 5643,
-      "brand": "FiiO",
-      "product_name": "FT5",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 227600,
-      "original_price": 569000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6122"
     },
     {
       "listing_id": 6115,
