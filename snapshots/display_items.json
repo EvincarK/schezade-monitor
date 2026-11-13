@@ -3,36 +3,23 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794548911",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794548911",
-    "fetched_at_utc": "2026-11-13T05:48:31.174895+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794579294",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1794579294",
+    "fetched_at_utc": "2026-11-13T14:14:54.774190+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 438744,
-    "text_chars": 9842,
-    "link_count": 387,
-    "sha256": "1071ef78f8792ff99da5a2398fc71d6620615b907a6dd4a10f8a6beab62d24b1",
+    "html_chars": 429692,
+    "text_chars": 9174,
+    "link_count": 379,
+    "sha256": "f65793739ba14ec12b85cbc8c5fd77f2d078e44058e6cb3a35dbfc5ca07db165",
     "response_headers": {
-      "Date": "Fri, 13 Nov 2026 05:48:32 GMT",
+      "Date": "Fri, 13 Nov 2026 14:14:56 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 29,
+  "count": 25,
   "items": [
-    {
-      "listing_id": 6140,
-      "product_gid": 6360,
-      "brand": "FiiO",
-      "product_name": "JT7 [Black]",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 84500,
-      "original_price": 169000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6140"
-    },
     {
       "listing_id": 6138,
       "product_gid": 6107,
@@ -45,19 +32,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6138"
-    },
-    {
-      "listing_id": 6137,
-      "product_gid": 6109,
-      "brand": "SHANLING",
-      "product_name": "EH1 [실버]",
-      "category": "엠프,DAC",
-      "grade": "전시품",
-      "current_price": 99600,
-      "original_price": 249000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6137"
     },
     {
       "listing_id": 6135,
@@ -84,32 +58,6 @@
       "discount_percent": 60,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6134"
-    },
-    {
-      "listing_id": 6133,
-      "product_gid": 6623,
-      "brand": "Questyle Audio",
-      "product_name": "QCC Dongle Pro 2",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 49500,
-      "original_price": 99000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6133"
-    },
-    {
-      "listing_id": 6132,
-      "product_gid": 6623,
-      "brand": "Questyle Audio",
-      "product_name": "QCC Dongle Pro 2",
-      "category": "엠프,DAC",
-      "grade": "리뷰개봉품",
-      "current_price": 49500,
-      "original_price": 99000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6132"
     },
     {
       "listing_id": 6130,
