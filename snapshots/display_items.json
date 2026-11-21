@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795223519",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795223519",
-    "fetched_at_utc": "2026-11-21T01:11:59.375762+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795253077",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795253077",
+    "fetched_at_utc": "2026-11-21T09:24:37.093838+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 434120,
-    "text_chars": 9424,
-    "link_count": 383,
-    "sha256": "967184beeeebbc3c8557e4fd5d0eb1dc27ba07e6104af23a988dd9f646642c25",
+    "html_chars": 431838,
+    "text_chars": 9243,
+    "link_count": 381,
+    "sha256": "4434300c4f61cbd9760c14eba70210ba78ebe20a27f0fcc1a42a24974a47200a",
     "response_headers": {
-      "Date": "Sat, 21 Nov 2026 01:12:01 GMT",
+      "Date": "Sat, 21 Nov 2026 09:24:38 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 27,
+  "count": 26,
   "items": [
     {
       "listing_id": 6149,
@@ -71,19 +71,6 @@
       "discount_percent": 61,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6145"
-    },
-    {
-      "listing_id": 6142,
-      "product_gid": 6380,
-      "brand": "Loewe",
-      "product_name": "LEO [Midnight Blue]",
-      "category": "헤드폰",
-      "grade": "리뷰개봉품",
-      "current_price": 1395000,
-      "original_price": 2790000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6142"
     },
     {
       "listing_id": 6130,
