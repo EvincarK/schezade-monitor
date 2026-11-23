@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795392258",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795392258",
-    "fetched_at_utc": "2026-11-23T00:04:18.311691+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795423414",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795423414",
+    "fetched_at_utc": "2026-11-23T08:43:34.232134+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 431832,
-    "text_chars": 9243,
-    "link_count": 381,
-    "sha256": "73b344a3306fc53b2e8c5aa2211c8fbc360278aa11a9750fae9ca6ddb8ebccf3",
+    "html_chars": 427391,
+    "text_chars": 8939,
+    "link_count": 377,
+    "sha256": "ef2a6fe19e83ef233728a053a5f31d17118114f009bc813ff609c2f4a83d846e",
     "response_headers": {
-      "Date": "Mon, 23 Nov 2026 00:04:19 GMT",
+      "Date": "Mon, 23 Nov 2026 08:43:36 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 26,
+  "count": 24,
   "items": [
     {
       "listing_id": 6149,
@@ -86,19 +86,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6130"
     },
     {
-      "listing_id": 6124,
-      "product_gid": 5842,
-      "brand": "Final",
-      "product_name": "VR3000 Wireless",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 72800,
-      "original_price": 182000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6124"
-    },
-    {
       "listing_id": 6115,
       "product_gid": 6257,
       "brand": "BEARBRICK Audio",
@@ -136,19 +123,6 @@
       "discount_percent": 60,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6113"
-    },
-    {
-      "listing_id": 5831,
-      "product_gid": 4646,
-      "brand": "Final",
-      "product_name": "VR3000 [Black]",
-      "category": "이어폰",
-      "grade": "리뷰개봉품",
-      "current_price": 56000,
-      "original_price": 112000,
-      "discount_percent": 50,
-      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5831"
     },
     {
       "listing_id": 5660,
