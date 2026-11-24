@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795497257",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795497257",
-    "fetched_at_utc": "2026-11-24T05:14:17.986631+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795540432",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795540432",
+    "fetched_at_utc": "2026-11-24T17:13:52.376217+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 436511,
-    "text_chars": 9502,
-    "link_count": 386,
-    "sha256": "493ef591eb2976e666747155f90b34d858ed34596eb57a351d16088c52b22510",
+    "html_chars": 441003,
+    "text_chars": 9808,
+    "link_count": 390,
+    "sha256": "163e962cbad2ae550d3af2a6e42eeac026f6cf6eb3b03d0d24722f0cf59c1381",
     "response_headers": {
-      "Date": "Tue, 24 Nov 2026 05:14:19 GMT",
+      "Date": "Tue, 24 Nov 2026 17:13:54 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 28,
+  "count": 30,
   "items": [
     {
       "listing_id": 6160,
@@ -136,6 +136,32 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6130"
+    },
+    {
+      "listing_id": 6124,
+      "product_gid": 5842,
+      "brand": "Final",
+      "product_name": "VR3000 Wireless",
+      "category": "이어폰",
+      "grade": "전시품",
+      "current_price": 72800,
+      "original_price": 182000,
+      "discount_percent": 60,
+      "condition": "상태 70% · 사용 흔적 있음",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6124"
+    },
+    {
+      "listing_id": 6121,
+      "product_gid": 5840,
+      "brand": "FiiO",
+      "product_name": "K11 R2R [실버]",
+      "category": "엠프,DAC",
+      "grade": "리뷰개봉품",
+      "current_price": 123000,
+      "original_price": 246000,
+      "discount_percent": 50,
+      "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
+      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6121"
     },
     {
       "listing_id": 6115,
