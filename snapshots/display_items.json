@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795467547",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795467547",
-    "fetched_at_utc": "2026-11-23T20:59:07.609330+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795497257",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795497257",
+    "fetched_at_utc": "2026-11-24T05:14:17.986631+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 438498,
-    "text_chars": 9624,
-    "link_count": 387,
-    "sha256": "5538f1cd2d4c3cbe1dc6c0ba332e66f76a8faa9cf51736bbdfbd1374374d0f1d",
+    "html_chars": 436511,
+    "text_chars": 9502,
+    "link_count": 386,
+    "sha256": "493ef591eb2976e666747155f90b34d858ed34596eb57a351d16088c52b22510",
     "response_headers": {
-      "Date": "Mon, 23 Nov 2026 20:59:09 GMT",
+      "Date": "Tue, 24 Nov 2026 05:14:19 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 29,
+  "count": 28,
   "items": [
     {
       "listing_id": 6160,
@@ -84,19 +84,6 @@
       "discount_percent": 30,
       "condition": "상태 95% · 신품과 거의 동일",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6151"
-    },
-    {
-      "listing_id": 6149,
-      "product_gid": 6059,
-      "brand": "Gold Planar",
-      "product_name": "GL2000",
-      "category": "헤드폰",
-      "grade": "전시품",
-      "current_price": 281200,
-      "original_price": 703000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6149"
     },
     {
       "listing_id": 6148,
