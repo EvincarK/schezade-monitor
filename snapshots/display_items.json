@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795609161",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795609161",
-    "fetched_at_utc": "2026-11-25T12:19:21.132971+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795644797",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795644797",
+    "fetched_at_utc": "2026-11-25T22:13:17.209439+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 438742,
-    "text_chars": 9645,
-    "link_count": 388,
-    "sha256": "6c8d0a6854f269d08e306b703b4aff116085fd1669e67b8d1db1e96a45901462",
+    "html_chars": 436484,
+    "text_chars": 9490,
+    "link_count": 386,
+    "sha256": "42b09b765811726111131e818092a8c7aed4f8e2623b82a4734338fff21dc021",
     "response_headers": {
-      "Date": "Wed, 25 Nov 2026 12:19:22 GMT",
+      "Date": "Wed, 25 Nov 2026 22:13:18 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 29,
+  "count": 28,
   "items": [
     {
       "listing_id": 6160,
@@ -58,19 +58,6 @@
       "discount_percent": 60,
       "condition": "상태 70% · 사용 흔적 있음",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6155"
-    },
-    {
-      "listing_id": 6154,
-      "product_gid": 5855,
-      "brand": "FIIO",
-      "product_name": "FT1 [Black Walnut]",
-      "category": "헤드폰",
-      "grade": "박스훼손품",
-      "current_price": 161000,
-      "original_price": 230000,
-      "discount_percent": 30,
-      "condition": "상태 95% · 신품과 거의 동일",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6154"
     },
     {
       "listing_id": 6151,
