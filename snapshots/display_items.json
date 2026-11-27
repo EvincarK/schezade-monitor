@@ -3,22 +3,22 @@
     "name": "display",
     "ok": true,
     "source_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php",
-    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795736043",
-    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795736043",
-    "fetched_at_utc": "2026-11-26T23:34:03.849508+00:00",
+    "request_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795764671",
+    "final_url": "https://www.schezade.co.kr/pagegen/v2/custom/display/index.php?_schezade_monitor_ts=1795764671",
+    "fetched_at_utc": "2026-11-27T07:31:11.251166+00:00",
     "status_code": 200,
     "title": "전시 · 개봉품",
-    "html_chars": 434250,
-    "text_chars": 9349,
-    "link_count": 384,
-    "sha256": "ff831a99ab91c6c81a6f5526626bd62b7513eb1c7d747af69bce3600ef01c07e",
+    "html_chars": 429706,
+    "text_chars": 9013,
+    "link_count": 380,
+    "sha256": "d2c396965e4aaff4d5c43e36641a636110e4b47d818321c80a2c3b701718f582",
     "response_headers": {
-      "Date": "Thu, 26 Nov 2026 23:34:04 GMT",
+      "Date": "Fri, 27 Nov 2026 07:31:13 GMT",
       "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
       "Cache-Control": "no-store, no-cache, must-revalidate"
     }
   },
-  "count": 27,
+  "count": 25,
   "items": [
     {
       "listing_id": 6160,
@@ -112,19 +112,6 @@
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6130"
     },
     {
-      "listing_id": 6124,
-      "product_gid": 5842,
-      "brand": "Final",
-      "product_name": "VR3000 Wireless",
-      "category": "이어폰",
-      "grade": "전시품",
-      "current_price": 72800,
-      "original_price": 182000,
-      "discount_percent": 60,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=6124"
-    },
-    {
       "listing_id": 6115,
       "product_gid": 6257,
       "brand": "BEARBRICK Audio",
@@ -175,19 +162,6 @@
       "discount_percent": 50,
       "condition": "상태 80% · 양호 · 약간의 스크래치 가능",
       "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5660"
-    },
-    {
-      "listing_id": 5603,
-      "product_gid": 3651,
-      "brand": "Crystal Cable",
-      "product_name": "Duet IEM - 1.2M[MMCX - 2.5mm]",
-      "category": "케이블",
-      "grade": "전시품",
-      "current_price": 429000,
-      "original_price": 1430000,
-      "discount_percent": 70,
-      "condition": "상태 70% · 사용 흔적 있음",
-      "url": "https://www.schezade.co.kr/board/old_goods/g_detail2.html?no=5603"
     },
     {
       "listing_id": 5602,
